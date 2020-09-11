@@ -177,6 +177,9 @@
                 <!-- Mega Menus Style 6 -->
                 <t t-snippet="theme_clarico.megamenu_style_6"
                    t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/snippet5.jpg"/>
+                <!-- Mega Menus Style 7 -->
+                <t t-snippet="theme_clarico.megamenu_style_7"
+                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/snippet3.jpg"/>
             </div>
             <!-- === Employee And Customers Snippet === -->
             <div class="o_panel_header">
@@ -1950,6 +1953,200 @@
             </div>
         </section>
     </template>
+
+    <template id="megamenu_style_7" name="Style 7">
+        <section class="te_menu_style_5 container-fluid py-3 px-3 te_catalog_menu_main te_img_hide_small_devices">
+            <div class="row">
+                <section class="col-lg-2 col-md-4 col-sm-6">
+                    <section class="py-lg-3 py-md-3 py-sm-3 py-2">
+                        <a class="te_menu_ctg_main" href="#">Lorem + ipsum</a>
+                        <ul>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="col-lg-2 col-md-4 col-sm-6">
+                    <section class="py-lg-3 py-md-3 py-sm-3 py-2">
+                        <a class="te_menu_ctg_main" href="#">Lorem + ipsum</a>
+                        <ul>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="col-lg-2 col-md-4 col-sm-6">
+                    <section class="py-lg-3 py-md-3 py-sm-3 py-2">
+                        <a class="te_menu_ctg_main" href="#">Lorem + ipsum</a>
+                        <ul>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="col-lg-2 col-md-4 col-sm-6">
+                    <section class="py-lg-3 py-md-3 py-sm-3 py-2">
+                        <a class="te_menu_ctg_main" href="#">Lorem + ipsum</a>
+                        <ul>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="col-lg-2 col-md-4 col-sm-6">
+                    <section class="py-lg-3 py-md-3 py-sm-3 py-2">
+                        <a class="te_menu_ctg_main" href="#">Lorem + ipsum</a>
+                        <ul>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="col-lg-2 col-md-4 col-sm-6">
+                    <section class="py-lg-3 py-md-3 py-sm-3 py-2">
+                        <a class="te_menu_ctg_main" href="#">Lorem + ipsum</a>
+                        <ul>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem ipsum</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                            <li>
+                                <a class="te_menu_sub" href="#">Lorem</a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+            </div>
+        </section>
+    </template>
+
     <!--=====================  Expertise Snippet  ======================================-->
     <template id="expertise_snippet" name="Expertise">
         <div class="oe_structure"/>

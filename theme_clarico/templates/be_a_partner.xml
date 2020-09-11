@@ -1,0 +1,1116 @@
+<odoo>
+
+    <template id="be_a_partner_template" name="Be A Partner">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <section>
+                <div class="row bg-black pt64 pb64">
+                    <div class="col-md-12 col-sm-12">
+                        <h3 class="text-white font-weight-bold text-center mb-0">
+                            BE A PARTNER
+                        </h3>
+                        <p class="text-white text-center" style="font-size: 12px;">
+                            <i class="fa fa-home"/>
+                            <a href="/" class="text-white">Home</a>
+                            >
+                            <a href="/contactus" style="color:#b4b1b1 !important">ContactUs</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="oe_structure"/>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-1 col-sm-1"/>
+                        <div class="col-md-10 col-sm-10">
+                            <div class="row pb64">
+                                <div class="col-md-8 col-sm-8">
+                                    <div class="row">
+                                        <h5 class="te_slider_title o_default_snippet_text text-black pt64 pb40 font-weight-bold">
+                                            BE A PARTNER
+                                        </h5>
+                                        <p class="pb56 m-0" style="font-size: 12px;">Submit your inquiry for an offer or
+                                            for
+                                            general
+                                            information about our services. We look forword to welcome you!
+                                        </p>
+                                    </div>
+                                    <div class="row" style="background:#f7da45">
+                                        <div class="col-md-12 col-sm-12 pt32" style="display:flex">
+                                            <div class="col-md-4 col-sm-4">
+                                                <input type="text" class="control-form border-0" style="height: 35px;"
+                                                       name="name" placeholder="Your Name*"/>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4">
+                                                <input type="text" class="control-form border-0" style="height: 35px;"
+                                                       name="email" placeholder="Your Email*"/>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4">
+                                                <input type="text" class="control-form border-0" style="height: 35px;"
+                                                       name="phone" placeholder="Your Phone Number*"/>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 mx-3 pt16">
+                                            <textarea name="message" rows="10" class="border-0" placeholder="Message"
+                                                      cols="70"/>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 mx-3 pt24 pb48">
+                                            <a href="#" class="btn btn-block bg-black" style="width:95%;">SEND MESSAGE
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="row pl-5">
+                                        <h4 class="text-black pt96 pb16">
+                                            Offices
+                                        </h4>
+                                    </div>
+                                    <div class="row pl-5">
+                                        <p class="text-black m-0">M&amp;R Europe GMBH - Munich</p>
+                                        <p class="m-0" style="font-size: 12px;">Gollierstr. 70C3 - 80339 Munich -
+                                            Germany
+                                        </p>
+                                        <p class="m-0" style="font-size: 12px;">Local Phone +49 89 520566-0</p>
+                                        <p class="m-0" style="font-size: 12px;">Fax +49 89 520566-70</p>
+                                        <p class="m-0 pb16" style="font-size: 12px;">mrcuropa@mr-group.com</p>
+                                    </div>
+                                    <div class="row pl-5">
+                                        <p class="text-black m-0">M&amp;R Europe GMBH - Munich</p>
+                                        <p class="m-0" style="font-size: 12px;">Gollierstr. 70C3 - 80339 Munich -
+                                            Germany
+                                        </p>
+                                        <p class="m-0" style="font-size: 12px;">Local Phone +49 89 520566-0</p>
+                                        <p class="m-0" style="font-size: 12px;">Fax +49 89 520566-70</p>
+                                        <p class="m-0 pb16" style="font-size: 12px;">mrcuropa@mr-group.com</p>
+                                    </div>
+                                    <div class="row pl-5">
+                                        <p class="text-black m-0">M&amp;R Europe GMBH - Munich</p>
+                                        <p class="m-0" style="font-size: 12px;">Gollierstr. 70C3 - 80339 Munich -
+                                            Germany
+                                        </p>
+                                        <p class="m-0" style="font-size: 12px;">Local Phone +49 89 520566-0</p>
+                                        <p class="m-0" style="font-size: 12px;">Fax +49 89 520566-70</p>
+                                        <p class="m-0 pb16" style="font-size: 12px;">mrcuropa@mr-group.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+        </t>
+    </template>
+
+    <template id="service_template" name="Services">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <div class="row bg-black pt64 pb64">
+                <div class="col-md-12 col-sm-12">
+                    <h3 class="text-white font-weight-bold text-center mb-0">
+                        SERVICES
+                    </h3>
+                    <p class="text-white text-center" style="font-size: 12px;">
+                        <i class="fa fa-home"/>
+                        <a href="/" class="text-white">Home</a>
+                        >
+                        <a href="/services" class="text-white">Services</a>
+                        >
+                        <a href="#" class="text-white">International Procurement Services</a>
+                    </p>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt64">
+                        <div class="col-md-4 col-sm-4">
+                            <h4 class="font-weight-bold text-black pb24">SERVICES MENU</h4>
+                            <h6 class="pb16" style="border-bottom: 2px solid #f1f1f1;">GLOBAL PURCHASING</h6>
+                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">OUTSOURCING</h6>
+                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">INTERNATIONAL PROCUREMENT
+                                SERVICES
+                            </h6>
+                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">SMALL DOLLAR ORDERS</h6>
+                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">URGENT ORDERS</h6>
+                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">SYSTEM ENGINEERING</h6>
+                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">KEY BENIFITS</h6>
+
+                            <h4 class="font-weight-bold text-black pt24 pb24">FEATURED WORK</h4>
+                            <div class="row pb16" style="border-bottom: 2px solid #f1f1f1;">
+                                <div class="col-md-4 col-sm-4">
+                                    <img src="/theme_clarico/static/src/img/Layer 14.jpg" width="100%"/>
+                                </div>
+                                <div class="col-md-6 col-sm-6 p-0">
+                                    <h6 class="font-weight-bold text-black" style="font-size: 12px;">CARLTON LUXURY
+                                        HOTEL
+                                    </h6>
+                                    <h6>Industry</h6>
+                                </div>
+                            </div>
+                            <div class="row pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">
+                                <div class="col-md-4 col-sm-4">
+                                    <img src="/theme_clarico/static/src/img/Layer 14.jpg" width="100%"/>
+                                </div>
+                                <div class="col-md-6 col-sm-6 p-0">
+                                    <h6 class="font-weight-bold text-black" style="font-size: 12px;">CARLTON LUXURY
+                                        HOTEL
+                                    </h6>
+                                    <h6>Industry</h6>
+                                </div>
+                            </div>
+                            <div class="row pt16 pb48">
+                                <div class="col-md-4 col-sm-4">
+                                    <img src="/theme_clarico/static/src/img/Layer 14.jpg" width="100%"/>
+                                </div>
+                                <div class="col-md-6 col-sm-6 p-0">
+                                    <h6 class="font-weight-bold text-black" style="font-size: 12px;">CARLTON LUXURY
+                                        HOTEL
+                                    </h6>
+                                    <h6>Industry</h6>
+                                </div>
+                            </div>
+                            <div class="row pt16 pb16 bg-black">
+                                <div class="col-md-12 col-sm-12 mt16 mb16"
+                                     style="padding-left: 30px;padding-right: 30px;">
+                                    <h5 class="font-weight-bold" style="color:#fdd642">DOWNLOAD BROCHURES</h5>
+                                    <h6 class="pt8 text-white">Get to know about the internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </h6>
+                                    <button class="btn btn-block pt8 pb8 mt40 mb24" style="background:#fdd642"><i
+                                            class="fa fa-user pr-3"/>INFO COMPANY
+                                    </button>
+                                    <button class="btn btn-block pt8 pb8" style="background:#fdd642"><i
+                                            class="fa fa-user pr-3"/>BROCHURE NEWST
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row pt16 pb16 mt48 mb88"
+                                 style="box-shadow: 0px 0px 15px rgba(172, 175, 174, 0.5)">
+                                <div class="col-md-12 col-sm-12 mt16 mb16"
+                                     style="padding-left: 30px;padding-right: 30px;">
+                                    <h6 class="font-weight-bold">WE CAN HELP YOU</h6>
+                                    <h6 style="color:gray">
+                                        <i class="fa fa-phone"/>
+                                        <span class="pl-2">+49(0)89 520566-0</span>
+                                    </h6>
+                                    <h6 style="color:gray">
+                                        <i class="fa fa-envelope"/>
+                                        <span class="pl-2">info@mr-group.com</span>
+                                    </h6>
+                                    <h6 style="color:gray">
+                                        <i class="fa fa-map-marker"/>
+                                        <span class="pl-2">Gollierstr. 70C3 80339 Munich</span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-8 pl-5">
+                            <div class="row">
+                                <h4 class="font-weight-bold text-black pb24">
+                                    INTERNATIONAL PROCUREMENT SERVICES
+                                </h4>
+                                <p class="pt8 text-black" style="font-size: 11px;">Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                                <p class="pt16 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                    internationa procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 pt8 p-0">
+                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                        internationa procurement and
+                                        global
+                                        outsourcing services rendered by M&amp;R Group.Get to know about the
+                                        internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-sm-6 pt8 p-0">
+                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                        internationa procurement and
+                                        global
+                                        outsourcing services rendered by M&amp;R Group.Get to know about the
+                                        internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+        </t>
+    </template>
+
+    <template id="privacy_policy_template" name="Privacy Policy">
+        <t t-call="website.layout">
+            <div class="row bg-black pt64 pb64">
+                <div class="col-md-12 col-sm-12">
+                    <h3 class="text-white font-weight-bold text-center mb-0">
+                        PRIVACY POLICY
+                    </h3>
+                    <p class="text-white text-center" style="font-size: 12px;">
+                        <i class="fa fa-home"/>
+                        <a href="/" class="text-white">Home</a>
+                        >
+                        <a href="/privacy-policy" class="text-white">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 col-sm-1"/>
+                    <div class="col-md-10 col-sm-10">
+                        <div class="row pb64 pt64">
+                            <p class="pb64 font-weight-bold text-center mb-0" style="font-size: 26px;">
+                                PRIVACY POCILY
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                conditions that the item, product, or service must not be used and should remain in
+                                their
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16 pb16 font-weight-bold" style="fonr-size:16px;">Sources of Data
+                                Collection
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                conditions that the item, product, or service must not be used and should remain in
+                                their
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                            </p>
+                            <p class="text-center pt16 pb16 font-weight-bold" style="fonr-size:16px;">Usage Of Data</p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                conditions that the item, product, or service must not be used and should remain in
+                                their
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                            </p>
+                            <p class="text-center pt16 pb16 font-weight-bold" style="fonr-size:16px;">Data Security
+                                Measures
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="term_condition_template" name="Tearm &amp; Condition">
+        <t t-call="website.layout">
+            <div class="row bg-black pt64 pb64">
+                <div class="col-md-12 col-sm-12">
+                    <h3 class="text-white font-weight-bold text-center mb-0">
+                        TERM &amp; CONDTION
+                    </h3>
+                    <p class="text-white text-center" style="font-size: 12px;">
+                        <i class="fa fa-home"/>
+                        <a href="/" class="text-white">Home</a>
+                        >
+                        <a href="/term-condition" class="text-white">Term &amp; Condition</a>
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 col-sm-1"/>
+                    <div class="col-md-10 col-sm-10">
+                        <div class="row pb64 pt64">
+                            <p class="pb64 font-weight-bold text-center mb-0" style="font-size: 26px;">
+                                TERM &amp; CONDTION
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                conditions that the item, product, or service must not be used and should remain in
+                                their
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16 pb16 font-weight-bold" style="fonr-size:16px;">Validity Of
+                                Quotation
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                conditions that the item, product, or service must not be used and should remain in
+                                their
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16 pb16 font-weight-bold" style="fonr-size:16px;">Setting Up Legal
+                                Contract
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                conditions that the item, product, or service must not be used and should remain in
+                                their
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16 pb16 font-weight-bold" style="fonr-size:16px;">Return Od Goods
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16 pb16 font-weight-bold" style="fonr-size:16px;">DATA RETANTION
+                                POLICES
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+
+                            <style>
+                                .te_title_3 .te_title_sub_div {
+                                position: relative;
+                                display: inline-block;
+                                padding-left: 70px;
+                                }
+                                .te_title_3 .te_title_sub_div:before {
+                                width: 50px;
+                                margin-top: 6px;
+                                left: 20px;
+                                }
+                                .te_title_3 .te_title_sub_div:before, .te_title_3 .te_title_sub_div:after {
+                                content: '';
+                                background: #000000;
+                                position: absolute;
+                                top: 15px;
+                                left: 0;
+                                height: 2px;
+                                }
+                                .te_title_3 .te_title_style3 {
+                                position: relative;
+                                display: inline-block;
+                                padding-bottom: 10px;
+                                padding-right: 70px;
+                                background: -webkit-gradient(linear, left top, right top, from(var(--delta)),
+                                to(var(--epsilon)));
+                                background: linear-gradient(90deg, var(--delta), var(--epsilon));
+                                background-clip: border-box;
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                -webkit-box-decoration-break: clone;
+                                }
+                                .te_s_title_default {
+                                text-transform: capitalize;
+                                font-weight: bold;
+                                }
+                                .te_title_3 .te_title_style3:before {
+                                width: 50px;
+                                margin-top: 6px;
+                                right: 20px;
+                                }
+                                .te_title_3 .te_title_style3:before, .te_title_3 .te_title_style3:after {
+                                content: '';
+                                background: #000000;
+                                position: absolute;
+                                top: 15px;
+                                right: 0;
+                                height: 2px;
+                                }
+                                .te_title_3 .te_title_style3:after {
+                                width: 30px;
+                                }
+                                .te_title_3 .te_title_style3:before, .te_title_3 .te_title_style3:after {
+                                content: '';
+                                background: #000000;
+                                position: absolute;
+                                top: 15px;
+                                right: 0;
+                                height: 2px;
+                                }
+                                .te_title_3 .te_title_sub_div:after {
+                                width: 30px;
+                                }
+                                .te_title_3 .te_title_sub_div:before, .te_title_3 .te_title_sub_div:after {
+                                content: '';
+                                background: #000000;
+                                position: absolute;
+                                top: 15px;
+                                left: 0;
+                                height: 2px;
+                                }
+                            </style>
+
+                            <div class="col-lg-12 te_title_3 pt32">
+                                <div class="te_title_sub_div">
+                                    <h4 class="te_s_title_default te_title_style3">Shop By Category</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="career_template" name="Career">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <div class="row bg-black pt64 pb64">
+                <div class="col-md-12 col-sm-12">
+                    <h3 class="text-white font-weight-bold text-center mb-0">
+                        CAREERS
+                    </h3>
+                    <p class="text-white text-center" style="font-size: 12px;">
+                        <i class="fa fa-home"/>
+                        <a href="/" class="text-white">Home</a>
+                        >
+                        <a href="/career" class="text-white">Career</a>
+                    </p>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt64">
+                        <div class="col-md-4 col-sm-4 pr-0">
+                            <img src="/theme_clarico/static/src/img/Layer 14.jpg" width="100%"/>
+                        </div>
+                        <div class="col-md-8 col-sm-8 pl-5 pr-5" style="background:#f1f1f1">
+                            <div class="row">
+                                <h4 class="font-weight-bold pt40 text-black">
+                                    BECOMMING A COLLEAGUE OF INDUSTRY EXPERTS IS AN HONOUR
+                                </h4>
+                                <p class="pt8 pb24" style="font-size: 11px;letter-spacing: 0.8px;">Get to know about the
+                                    internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                                <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8"
+                                   style="background:#fdd642;font-size: 12px;">APPLY NOW
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt48 pb32 pl-3">
+                        <span class="text-black font-weiht-bold">
+                            Career-Oriented Program
+                        </span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8">
+                            <style>
+                                .accordion a {
+                                position: relative;
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: flex;
+                                -webkit-box-orient: vertical;
+                                -webkit-box-direction: normal;
+                                -webkit-flex-direction: column;
+                                flex-direction: column;
+                                width: 100%;
+                                padding: 1rem 3rem 1rem 1rem;
+                                color: #7288a2;
+                                font-size: 1.15rem;
+                                font-weight: 400;
+                                }
+
+                                .accordion a:hover,
+                                .accordion a:hover::after {
+                                cursor: pointer;
+                                color: #03b5d2;
+                                }
+
+                                .accordion a:hover::after {
+                                background: #fdd642;
+                                }
+
+                                .accordion a.active {
+                                color: black;
+                                }
+
+                                .accordion a::after {
+                                content: '\f106';
+                                position: absolute;
+                                float: right;
+                                right: 1rem;
+                                font-size: 1rem;
+                                color: #7288a2;
+                                padding: 0px;
+                                width: 25px;
+                                height: 25px;
+                                -webkit-border-radius: 50%;
+                                -moz-border-radius: 50%;
+                                border-radius: 50%;
+                                text-align: center;
+                                background: #fdd642;
+                                }
+
+                                .accordion a.active::after {
+                                content: '\f107';
+                                color: white;
+                                background: #fdd642;
+                                }
+
+                                .accordion .content {
+                                display: none;
+                                padding: 1rem;
+                                overflow: hidden;
+                                }
+
+                                .accordion .content p {
+                                font-size: 12px;
+                                padding-right: 40px;
+                                font-weight: 300;
+                                }
+                            </style>
+                            <script>
+                                $(document).ready(function() {
+                                $('.accordion a').click(function(){
+                                $(this).toggleClass('active');
+                                $(this).next('.content').slideToggle(400);
+                                });
+                                });
+                            </script>
+                            <div class="row">
+                                <div class="accordion" style="width:100%">
+                                    <div class="card pt8 pb8 mb24" style="border: 1px solid #f1f1f1;">
+                                        <div class="accordion-item">
+                                            <a class="font-weight-bold" style="font-size:12px">HOW MUCH DOES THE EARTH
+                                                WEIGH?
+                                            </a>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+                                                    suspendisse potenti.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card pt8 pb8 mb24" style="border: 1px solid #f1f1f1;">
+                                        <div class="accordion-item">
+                                            <a class="font-weight-bold" style="font-size:12px">HOW DO AIRPLANES STAY
+                                                UP?
+                                            </a>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+                                                    suspendisse potenti.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card pt8 pb8 mb24" style="border: 1px solid #f1f1f1;">
+                                        <div class="accordion-item">
+                                            <a class="font-weight-bold" style="font-size:12px">HOW MUCH DOES THE EARTH
+                                                WEIGH?
+                                            </a>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+                                                    suspendisse potenti.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card pt8 pb8 mb24" style="border: 1px solid #f1f1f1;">
+                                        <div class="accordion-item">
+                                            <a class="font-weight-bold" style="font-size:12px">HOW DO AIRPLANES STAY
+                                                UP?
+                                            </a>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+                                                    suspendisse potenti.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 pr-0">
+                            <ul>
+                                <li class="pb16" style="font-size: 12px;">
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </li>
+                                <li class="pb16" style="font-size: 12px;">
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </li>
+                                <li style="font-size: 12px;">
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt32 pb48">
+                        <style>
+                            .panel,
+                            .panel-body {
+                            box-shadow: none;
+                            }
+                            .panel-group .panel-heading {
+                            padding: 0;
+                            }
+                            .panel-group .panel-heading a {
+                            display: block;
+                            padding: 10px 15px;
+                            text-decoration: none;
+                            position: relative;
+                            }
+                            .panel-group .panel-heading a:after {
+                            content: '-';
+                            float: right;
+                            }
+                            .panel-group .panel-heading a.collapsed:after {
+                            content: '+';
+                            }
+                        </style>
+                        <span class="text-black font-weiht-bold pb16">
+                            Open Positions
+                        </span>
+
+
+                        <div class="panel-group" id="accordionSingleOpen" role="tablist"
+                             style="width: 100%;border: 1px solid lightgray;" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" style="background:#f1f1f1;" role="tab" id="headingOne">
+                                    <h4 class="panel-title mb0">
+                                        <a role="button" class="pt16 text-black pb16 collapsed" style="font-size:13px;"
+                                           data-toggle="collapse" href="#collapseItemOpenOne"
+                                           aria-expanded="true" aria-controls="collapseItemOpenOne">
+                                            Collapsible Single Item Open on Load
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseItemOpenOne" class="panel-collapse collapse in" role="tabpanel"
+                                     aria-labelledby="headingOne">
+                                    <div class="panel-body pt16 pb16"
+                                         style="padding-left: 12px;padding-right: 12px;font-size:12px">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-group" id="accordionSingleClosed"
+                             style="width: 100%;border: 1px solid lightgray;" role="tablist"
+                             aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" style="background:#f1f1f1;" role="tab" id="headingOne">
+                                    <h4 class="panel-title mb0">
+                                        <a class="collapsed text-black pt16 pb16" style="font-size:13px;" role="button"
+                                           data-toggle="collapse"
+                                           href="#collapseItemCloseOne" aria-expanded="true"
+                                           aria-controls="collapseItemCloseOne">
+                                            Collapsible Single Item Closed on Load
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseItemCloseOne" class="panel-collapse collapse" role="tabpanel"
+                                     aria-labelledby="headingOne">
+                                    <div class="panel-body pt16 pb16"
+                                         style="padding-left: 12px;padding-right: 12px;font-size:12px">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-group" id="accordionSingleClosed1"
+                             style="width: 100%;border: 1px solid lightgray;" role="tablist"
+                             aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" style="background:#f1f1f1;" role="tab" id="headingOne">
+                                    <h4 class="panel-title mb0">
+                                        <a class="collapsed text-black pt16 pb16" style="font-size:13px;" role="button"
+                                           data-toggle="collapse"
+                                           href="#collapseItemCloseOne1" aria-expanded="true"
+                                           aria-controls="collapseItemCloseOne1">
+                                            Collapsible Single Item Closed on Load
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseItemCloseOne1" class="panel-collapse collapse" role="tabpanel"
+                                     aria-labelledby="headingOne">
+                                    <div class="panel-body pt16 pb16"
+                                         style="padding-left: 12px;padding-right: 12px;font-size:12px">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row" style="background:#f1f1f1;">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-5 col-sm-5 pt112 pb112">
+                    <span class="text-black font-weiht-bold">
+                        Working With Us
+                    </span>
+                    <h4 class="text-black font-weight-bold">WHERE YOUR DREAMS ARE BUILT</h4>
+                    <p class="pt32 pb32" style="letter-spacing: .8px;">
+                        If you have the motivation, we have great opportunity for you. Come work with us!
+                    </p>
+                    <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8"
+                       style="background:#fdd642;font-size: 12px;">
+                        SEE MORE JOB OPPORTUNITIES
+                    </a>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8 pt64 pb64">
+                    <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8"
+                       style="background:#fdd642;font-size: 12px;">
+                        CONTACT US
+                    </a>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+        </t>
+    </template>
+
+    <template id="about_template" name="About">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <div class="row bg-black pt64 pb64">
+                <div class="col-md-12 col-sm-12">
+                    <h3 class="text-white font-weight-bold text-center mb-0">
+                        ABOUT
+                    </h3>
+                    <p class="text-white text-center" style="font-size: 12px;">
+                        <i class="fa fa-home"/>
+                        <a href="/" class="text-white">Home</a>
+                        >
+                        <a href="/career" class="text-white">About</a>
+                    </p>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt64">
+                        <div class="col-md-6 col-sm-6 pr-5">
+                            <h4 class="pb32 text-black font-weight-bold">ABOUT M&amp;R</h4>
+                            <p class="pb16 text-black font-weight-bold" style="font-size:12px;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut
+                                tortor pretium viverra suspendisse potenti.
+                            </p>
+                            <p class="pb16 text-black font-weight-bold" style="font-size:12px;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut
+                                tortor pretium viverra suspendisse potenti.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut
+                                tortor pretium viverra suspendisse potenti.
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 pl-5">
+                            <iframe src="https://www.youtube.com/embed/DuF-p27Zfe8?rel=0&amp;showinfo=0&amp;vq=720"
+                                    width="100%" height="80%" frameborder="0" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row bg-black mt32">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt64 pb64">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4" style="border-right:1px solid gray">
+                                    <i class="fa fa-smile-o pt8" style="color:#fdd642;font-size: 55px;"/>
+                                </div>
+                                <div class="col-md-8 col-sm-8">
+                                    <p class="text-white font-weight-bold" style="font-size:13px;margin-bottom: -8px;">
+                                        PRODUCTS
+                                    </p>
+                                    <p class="font-weight-bold"
+                                       style="font-size:30px;color:#fdd642;margin-bottom: -8px;">
+                                        30000+
+                                    </p>
+                                    <p class="text-white" style="font-size:10px">
+                                        In-Depth Experience
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4" style="border-right:1px solid gray">
+                                    <i class="fas fa-smile-o pt8" style="color:#fdd642;font-size: 55px;"></i>
+                                </div>
+                                <div class="col-md-8 col-sm-8">
+                                    <p class="text-white font-weight-bold" style="font-size:13px;margin-bottom: -8px;">
+                                        SUPPLIERS
+                                    </p>
+                                    <p class="font-weight-bold"
+                                       style="font-size:30px;color:#fdd642;margin-bottom: -8px;">
+                                        10,000+
+                                    </p>
+                                    <p class="text-white" style="font-size:10px">
+                                        Bussiness Daily Growth
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4" style="border-right:1px solid gray">
+                                    <i class="fa fa-smile-o pt8" style="color:#fdd642;font-size: 55px;"/>
+                                </div>
+                                <div class="col-md-8 col-sm-8">
+                                    <p class="text-white font-weight-bold" style="font-size:13px;margin-bottom: -8px;">
+                                        CLINETS
+                                    </p>
+                                    <p class="font-weight-bold"
+                                       style="font-size:30px;color:#fdd642;margin-bottom: -8px;">
+                                        1200
+                                    </p>
+                                    <p class="text-white" style="font-size:10px">
+                                        Clients We Helped
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4" style="border-right:1px solid gray">
+                                    <i class="fas fa-smile-o pt8" style="color:#fdd642;font-size: 55px;"></i>
+                                </div>
+                                <div class="col-md-8 col-sm-8">
+                                    <p class="text-white font-weight-bold" style="font-size:13px;margin-bottom: -8px;">
+                                        PROJECTS
+                                    </p>
+                                    <p class="font-weight-bold"
+                                       style="font-size:30px;color:#fdd642;margin-bottom: -8px;">
+                                        3000
+                                    </p>
+                                    <p class="text-white" style="font-size:10px">
+                                        Number Of Projects
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row pt64 pb64" style="background:#f1f1f1;">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="bg-white pl-3 pr-3 hover_bg_clr">
+                                <h6 class="text-black hover_clr pt16 pb8 font-weight-bold">
+                                    GLOBAL SOURCING
+                                </h6>
+                                <p class="pb24 hover_clr" style="font-size:12px">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut laborere magna aliqua.
+                                </p>
+                                <p class="pb16 font-weight-bold hover_clr_more" style="font-size:12px">
+                                    <a href="#"> LEARN MORE </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="bg-white pl-3 pr-3 hover_bg_clr">
+                                <h6 class="text-black hover_clr pt16 pb8 font-weight-bold">
+                                    INTERNATIONAL PROCUREMENT
+                                </h6>
+                                <p class="pb24 hover_clr" style="font-size:12px">
+                                    Lorem ipsum dolor sit amet, c adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                <p class="pb16 font-weight-bold hover_clr_more" style="font-size:12px">
+                                    <a href="#">LEARN MORE</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="bg-white pl-3 pr-3 hover_bg_clr">
+                                <h6 class="text-black hover_clr pt16 pb8 font-weight-bold">
+                                    SYSTEM ENGINEERING
+                                </h6>
+                                <p class="pb24 hover_clr" style="font-size:12px">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolorequa.
+                                </p>
+                                <p class="pb16 font-weight-bold hover_clr_more" style="font-size:12px">
+                                    <a href="#">LEARN MORE</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt32">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="bg-white pl-3 pr-3 hover_bg_clr">
+                                <h6 class="text-black hover_clr pt16 pb8 font-weight-bold">
+                                    GLOBAL SOURCING
+                                </h6>
+                                <p class="pb24 hover_clr" style="font-size:12px">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut laborere magna aliqua.
+                                </p>
+                                <p class="pb16 font-weight-bold hover_clr_more" style="font-size:12px">
+                                    <a href="#"> LEARN MORE </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="bg-white pl-3 pr-3 hover_bg_clr">
+                                <h6 class="text-black hover_clr pt16 pb8 font-weight-bold">
+                                    INTERNATIONAL PROCUREMENT
+                                </h6>
+                                <p class="pb24 hover_clr" style="font-size:12px">
+                                    Lorem ipsum dolor sit amet, c adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                <p class="pb16 font-weight-bold hover_clr_more" style="font-size:12px">
+                                    <a href="#">LEARN MORE</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="bg-white pl-3 pr-3 hover_bg_clr">
+                                <h6 class="text-black hover_clr pt16 pb8 font-weight-bold">
+                                    SYSTEM ENGINEERING
+                                </h6>
+                                <p class="pb24 hover_clr" style="font-size:12px">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolorequa.
+                                </p>
+                                <p class="pb16 font-weight-bold hover_clr_more" style="font-size:12px">
+                                    <a href="#">LEARN MORE</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+
+</odoo>

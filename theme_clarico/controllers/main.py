@@ -4,9 +4,21 @@ from odoo.http import request
 
 class StaticContent(http.Controller):
 
+    @http.route(["/be-a-partner"], type='http', auth="public", website=True)
+    def be_a_partner_page(self, **kwargs):
+        return request.render('theme_clarico.be_a_partner_template', {})
+
+    @http.route(["/services"], type='http', auth="public", website=True)
+    def services_page(self, **kwargs):
+        return request.render('theme_clarico.service_template', {})
+
+    @http.route(["/career"], type='http', auth="public", website=True)
+    def career_page(self, **kwargs):
+        return request.render('theme_clarico.career_template', {})
+
     @http.route(["/about-us"], type='http', auth="public", website=True)
     def about_us_page(self, **kwargs):
-        return request.render('theme_clarico.about_us_template', {})
+        return request.render('theme_clarico.about_template', {})
 
     @http.route(["/privacy-policy"], type='http', auth="public", website=True)
     def privacy_policy_page(self, **kwargs):
