@@ -143,10 +143,11 @@
         <xpath expr="//ul[@id='top_menu']/li[hasclass('dropdown')]"
                position="replace">
         </xpath>
-        <xpath expr="//li[@id='my_cart']" position="replace">
-        </xpath>
-        <xpath expr="//li[@id='my_wish']" position="replace">
-        </xpath>
+
+<!--        <xpath expr="//li[@id='my_cart']" position="replace">-->
+<!--        </xpath>-->
+<!--        <xpath expr="//li[@id='my_wish']" position="replace">-->
+<!--        </xpath>-->
     </template>
     <!-- ======================= Header style option 6========================= -->
 
@@ -174,20 +175,20 @@
         </t>
     </template>
     <!-- To Replace Default Cart In Navbar -->
-    <template id="header_ept_cart" inherit_id="website_sale.header" name="Header Shop Wishlist Link">
-        <xpath expr="//li[@id='my_cart']" position="replace">
-            <li id="my_cart"
-                t-attf-class="te_cart_icon_head nav-item#{'' if website_sale_order and website_sale_order.cart_quantity else ' d-none'}">
-            </li>
-        </xpath>
-    </template>
+<!--    <template id="header_ept_cart" inherit_id="website_sale.header" name="Header Shop Wishlist Link">-->
+<!--        <xpath expr="//li[@id='my_cart']" position="replace">-->
+<!--            <li id="my_cart"-->
+<!--                t-attf-class="te_cart_icon_head nav-item#{'' if website_sale_order and website_sale_order.cart_quantity else ' d-none'}">-->
+<!--            </li>-->
+<!--        </xpath>-->
+<!--    </template>-->
 
     <!-- To Repace Default Whishlist In Navbar -->
-    <template id="header_ept_wishlist" inherit_id="website_sale_wishlist.header" name="Header Shop Wishlist Link">
-        <xpath expr="//li[@id='my_wish']" position="replace">
-            <li id="my_wish" class="nav-item te_wish_icon_head" t-att-style="not wishcount and 'display:none;'"></li>
-        </xpath>
-    </template>
+<!--    <template id="header_ept_wishlist" inherit_id="website_sale_wishlist.header" name="Header Shop Wishlist Link">-->
+<!--        <xpath expr="//li[@id='my_wish']" position="replace">-->
+<!--            <li id="my_wish" class="nav-item te_wish_icon_head" t-att-style="not wishcount and 'display:none;'"></li>-->
+<!--        </xpath>-->
+<!--    </template>-->
 
     <!-- Replaced signin from header -->
     <template id="portal_show_sign_in_ept" inherit_id="portal.portal_show_sign_in"
@@ -198,16 +199,16 @@
         </xpath>
     </template>
 
-    <template id="pricelist_list_ept" inherit_id="website_sale.pricelist_list">
-        <xpath expr="//a[hasclass('dropdown-toggle')]" position="replace">
-            <a role="button" href="#" class="dropdown-toggle btn btn-link te_currency_name" data-toggle="dropdown">
-                <t t-esc="curr_pl and curr_pl.name or ' - '"/>
-            </a>
-            <a role="button" href="#" class="dropdown-toggle btn btn-link te_currency_symbol" data-toggle="dropdown">
-                <t t-esc="curr_pl.currency_id.symbol"></t>
-            </a>
-        </xpath>
-    </template>
+<!--    <template id="pricelist_list_ept" inherit_id="website_sale.pricelist_list">-->
+<!--        <xpath expr="//a[hasclass('dropdown-toggle')]" position="replace">-->
+<!--            <a role="button" href="#" class="dropdown-toggle btn btn-link te_currency_name" data-toggle="dropdown">-->
+<!--                <t t-esc="curr_pl and curr_pl.name or ' - '"/>-->
+<!--            </a>-->
+<!--            <a role="button" href="#" class="dropdown-toggle btn btn-link te_currency_symbol" data-toggle="dropdown">-->
+<!--                <t t-esc="curr_pl.currency_id.symbol"></t>-->
+<!--            </a>-->
+<!--        </xpath>-->
+<!--    </template>-->
     <template id="theme_submenu" inherit_id="website.submenu">
         <xpath expr="//li[@t-if='submenu.is_visible and not has_visible_submenu']" position="replace">
             <li t-if="submenu.is_visible and not has_visible_submenu"

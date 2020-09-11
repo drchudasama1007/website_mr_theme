@@ -9,27 +9,27 @@
 				title="Choose your Header styles">
 				<more data-depends="">
 					<list>
-						<opt
-							data-xmlid="theme_clarico.option_header_01_assets,theme_clarico.customize_header_style_1"
-							data-icon="/theme_clarico/static/src/img/customise_option/h_1.jpg" />
-						<opt
-							data-xmlid="theme_clarico.option_header_02_assets,theme_clarico.customize_header_style_2"
-							data-icon="/theme_clarico/static/src/img/customise_option/h_2.jpg" />
-						<opt
-							data-xmlid="theme_clarico.option_header_03_assets,theme_clarico.customize_header_style_3"
-							data-icon="/theme_clarico/static/src/img/customise_option/h_3.jpg" />
-						<opt
-							data-xmlid="theme_clarico.option_header_04_assets,theme_clarico.customize_header_style_4"
-							data-icon="/theme_clarico/static/src/img/customise_option/h_4.jpg" />
+<!--						<opt-->
+<!--							data-xmlid="theme_clarico.option_header_01_assets,theme_clarico.customize_header_style_1"-->
+<!--							data-icon="/theme_clarico/static/src/img/customise_option/h_1.jpg" />-->
+<!--						<opt-->
+<!--							data-xmlid="theme_clarico.option_header_02_assets,theme_clarico.customize_header_style_2"-->
+<!--							data-icon="/theme_clarico/static/src/img/customise_option/h_2.jpg" />-->
+<!--						<opt-->
+<!--							data-xmlid="theme_clarico.option_header_03_assets,theme_clarico.customize_header_style_3"-->
+<!--							data-icon="/theme_clarico/static/src/img/customise_option/h_3.jpg" />-->
+<!--						<opt-->
+<!--							data-xmlid="theme_clarico.option_header_04_assets,theme_clarico.customize_header_style_4"-->
+<!--							data-icon="/theme_clarico/static/src/img/customise_option/h_4.jpg" />-->
 						<opt
 							data-xmlid="theme_clarico.option_header_05_assets,theme_clarico.customize_header_style_5"
 							data-icon="/theme_clarico/static/src/img/customise_option/h_5.jpg" />
-						<opt
-							data-xmlid="theme_clarico.option_header_06_assets,theme_clarico.customize_header_style_6"
-							data-icon="/theme_clarico/static/src/img/customise_option/h_6.jpg" />
-						<opt
-							data-xmlid="theme_clarico.option_header_07_assets,theme_clarico.customize_header_style_7"
-							data-icon="/theme_clarico/static/src/img/customise_option/h_7.jpg" />
+<!--						<opt-->
+<!--							data-xmlid="theme_clarico.option_header_06_assets,theme_clarico.customize_header_style_6"-->
+<!--							data-icon="/theme_clarico/static/src/img/customise_option/h_6.jpg" />-->
+<!--						<opt-->
+<!--							data-xmlid="theme_clarico.option_header_07_assets,theme_clarico.customize_header_style_7"-->
+<!--							data-icon="/theme_clarico/static/src/img/customise_option/h_7.jpg" />-->
 					</list>
 				</more>
 			</content>

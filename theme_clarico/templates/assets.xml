@@ -12,10 +12,6 @@
             <link rel="stylesheet" type="text/scss"
 				href="/theme_clarico/static/src/scss/blog.scss" />
             <link rel="stylesheet" type="text/scss"
-				href="/theme_clarico/static/src/scss/ecommerce.scss" />
-              <!-- <link rel="stylesheet" type="text/scss"
-				href="/theme_clarico/static/src/scss/ecommerce_responsive.scss" /> -->
-            <link rel="stylesheet" type="text/scss"
 				href="/theme_clarico/static/src/scss/portal.scss" />
             <link rel="stylesheet" type="text/scss"
 				href="/theme_clarico/static/src/scss/layout.scss" />
