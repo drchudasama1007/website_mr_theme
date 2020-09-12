@@ -1,0 +1,87 @@
+<odoo>
+
+    <template id="privacy_policy_template" name="Privacy Policy">
+        <t t-call="website.layout">
+            <div class="row bg-black pt64 pb64">
+                <div class="col-md-12 col-sm-12">
+                    <h3 class="text-white font-weight-bold text-center mb-0">
+                        PRIVACY POLICY
+                    </h3>
+                    <p class="text-white text-center" style="font-size: 12px;">
+                        <i class="fa fa-home"/>
+                        <a href="/" class="text-white">Home</a>
+                        >
+                        <a href="/privacy-policy" class="text-white">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 col-sm-1"/>
+                    <div class="col-md-10 col-sm-10">
+                        <div class="row pb64 pt64">
+                            <p class="pb64 font-weight-bold text-center mb-0" style="font-size: 26px;">
+                                PRIVACY POCILY
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                conditions that the item, product, or service must not be used and should remain in
+                                their
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16 pb16 font-weight-bold" style="fonr-size:16px;">Sources of Data
+                                Collection
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                conditions that the item, product, or service must not be used and should remain in
+                                their
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                            </p>
+                            <p class="text-center pt16 pb16 font-weight-bold" style="fonr-size:16px;">Usage Of Data</p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                conditions that the item, product, or service must not be used and should remain in
+                                their
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                            </p>
+                            <p class="text-center pt16 pb16 font-weight-bold" style="fonr-size:16px;">Data Security
+                                Measures
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+</odoo>

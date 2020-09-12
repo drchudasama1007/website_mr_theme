@@ -1,0 +1,182 @@
+<odoo>
+
+    <template id="partner_brands_template" name="Partner &amp; Brands">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <section>
+                <div class="row bg-black pt64 pb64">
+                    <div class="col-md-12 col-sm-12">
+                        <h3 class="text-white font-weight-bold text-center mb-0">
+                            PARTNER &amp; BRANDS
+                        </h3>
+                        <p class="text-white text-center" style="font-size: 12px;">
+                            <i class="fa fa-home"/>
+                            <a href="/" class="text-white">Home</a>
+                            >
+                            <a href="/contactus" style="color:#b4b1b1 !important">PARTNER &amp; BRANDS</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="oe_structure"/>
+
+                <div class="row">
+                    <div class="col-md-2 col-sm-2"/>
+                    <div class="col-md-8 col-sm-8">
+
+                        <div class="row">
+                            <div class="col-md-8 col-sm-8">
+                                <div class="row">
+                                    <h5 class="te_slider_title o_default_snippet_text text-black pt64 pl-3 font-weight-bold">
+                                        PARTNERSHIPS
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row pt32">
+
+                            <div class="col-md-6 col-sm-6">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-5">
+                                        <img class="img-fluid"
+                                             src="/theme_clarico/static/src/img/footer/partner.png"/>
+                                    </div>
+                                    <div class="col-md-7 col-sm-7">
+                                        <p class="font-weight-bold">Brand 1</p>
+                                        <p style="font-size:12px">Roof manufacturing company</p>
+                                        <p style="font-size:12px" class="pt8">Vivamus a hendrerit diam. Sed
+                                            ultricies est et sapien sollicitudin viverra. Praesent viverra est quis
+                                            eros congue, ut efficitur massa mattis. Etiam risus metus, feugiat
+                                            varius neque nec.
+                                        </p>
+                                        <a>
+                                            <p style="font-size:12px;color:black" class="pt8">OPEN WEBSITE</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-5">
+                                        <img class="img-fluid"
+                                             src="/theme_clarico/static/src/img/footer/partner.png"/>
+                                    </div>
+                                    <div class="col-md-7 col-sm-7">
+                                        <p class="font-weight-bold">Brand 2</p>
+                                        <p style="font-size:12px">Building materials company</p>
+                                        <p style="font-size:12px" class="pt8">Ut dolor purus, iaculis quis leo a,
+                                            volutpat porttitor purus. Nulla vel dolor quis elit varius mollis.
+                                            Integer id ipsum ac est tempus ullamcorper. Etiam venenatis odio sed
+                                            augue feugiat malesuada.
+                                        </p>
+                                        <a>
+                                            <p style="font-size:12px;color:black" class="pt8">OPEN WEBSITE</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row pt32">
+
+                            <div class="col-md-6 col-sm-6">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-5">
+                                        <img class="img-fluid"
+                                             src="/theme_clarico/static/src/img/footer/partner.png"/>
+                                    </div>
+                                    <div class="col-md-7 col-sm-7">
+                                        <p class="font-weight-bold">Brand 3</p>
+                                        <p style="font-size:12px">Company roofing and furniture</p>
+                                        <p style="font-size:12px" class="pt8">Vivamus a hendrerit diam. Sed
+                                            ultricies est et sapien sollicitudin viverra. Praesent viverra est quis
+                                            eros congue, ut efficitur massa mattis. Etiam risus metus, feugiat
+                                            varius neque nec.
+                                        </p>
+                                        <a>
+                                            <p style="font-size:12px;color:black" class="pt8">OPEN WEBSITE</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-5">
+                                        <img class="img-fluid"
+                                             src="/theme_clarico/static/src/img/footer/partner.png"/>
+                                    </div>
+                                    <div class="col-md-7 col-sm-7">
+                                        <p class="font-weight-bold">Brand 4</p>
+                                        <p style="font-size:12px">Interior and exterior design companies</p>
+                                        <p style="font-size:12px" class="pt8">Ut dolor purus, iaculis quis leo a,
+                                            volutpat porttitor purus. Nulla vel dolor quis elit varius mollis.
+                                            Integer id ipsum ac est tempus ullamcorper. Etiam venenatis odio sed
+                                            augue feugiat malesuada.
+                                        </p>
+                                        <a>
+                                            <p style="font-size:12px;color:black" class="pt8">OPEN WEBSITE</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row pt32 pb64">
+
+                            <div class="col-md-6 col-sm-6">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-5">
+                                        <img class="img-fluid"
+                                             src="/theme_clarico/static/src/img/footer/partner.png"/>
+                                    </div>
+                                    <div class="col-md-7 col-sm-7">
+                                        <p class="font-weight-bold">Brand 5</p>
+                                        <p style="font-size:12px">Company producing high quality paints</p>
+                                        <p style="font-size:12px" class="pt8">Vivamus a hendrerit diam. Sed
+                                            ultricies est et sapien sollicitudin viverra. Praesent viverra est quis
+                                            eros congue, ut efficitur massa mattis. Etiam risus metus, feugiat
+                                            varius neque nec.
+                                        </p>
+                                        <a>
+                                            <p style="font-size:12px;color:black" class="pt8">OPEN WEBSITE</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="oe_structure"/>
+                <section style="background:#FEE000">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2"/>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="row pt32 pb32 text-center">
+                                <div class="col-md-6 col-sm-6">
+                                    <h5 class="te_slider_title o_default_snippet_text text-black pl-3 font-weight-bold">
+                                        Support: +49 (0) 89 520566-0
+                                    </h5>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <h5 class="te_slider_title o_default_snippet_text text-black pl-3 font-weight-bold">
+                                        Email: info@buildcos.com
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </section>
+        </t>
+    </template>
+
+</odoo>

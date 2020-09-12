@@ -14,6 +14,99 @@
 .hover_bg_clr:hover .hover_clr{
     color: white !important
 }
-.hover_bg_clr:hover .hover_clr_more{
+.hover_bg_clr:hover .hover_clr_more a{
     color: #fdd642 !important;
 }
+.about_img{
+    width: 70px;
+    position: absolute;
+    top: 100px;
+    right: 15px;
+}
+.hover_bg_clr:hover .about_img{
+    display:none !important;
+}
+.testi_content{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.testi_content:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	box-shadow: 0px 0px 15px rgba(172, 175, 174, 0.5);
+	z-index: 999;
+	background: white;
+    width: 77%;
+    margin-left: 22px;
+}
+.testi_content:hover h4{
+    font-size:10px !important;
+}
+.testi_content:hover .testi_rate{
+    font-size: 13px !important;
+    padding-top: 3px;
+}
+.testi_content:hover .p_content{
+    font-size: 10px !important;
+}
+.testi_content:hover .testi_rate{
+    display: block !important;
+}
+.s_carousel.s_carousel_default .carousel-control-prev-icon:before, .s_carousel.s_carousel_default .carousel-control-next-icon:before, .s_quotes_carousel.s_carousel_default .carousel-control-prev-icon:before, .s_quotes_carousel.s_carousel_default .carousel-control-next-icon:before {
+    background-color: black !important;
+    font-size: 12px !important;
+    color: gray !important;
+    opacity: 0.5 !important;
+    height: 70px !important;
+    padding-top: 28px !important;
+    width: 20px !important;
+}
+/*
+.te_ts_style_7_inner .carousel-item{
+    height: 400px !important;
+}*/
+.te_carousel-control_left {
+    position: absolute;
+    top: 45%;
+    left: -2% !important;
+}
+.te_carousel-control_right {
+    position: absolute;
+    top: 45%;
+    right: -5% !important;
+}
+.img_pro{
+    height: 180px !important;
+    width: 60%;
+    margin-left: 54px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.quote_1{
+    position: absolute;
+    top: -33px;
+}
+.quote_2{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    height: 20px;
+}
+.contact_input{
+    background: transparent !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-bottom: 2px solid #EDEDED !important;
+}
+.contact_newsleter{
+    background: black;
+    color: darkgray;
+    padding: 8px;
+    border: 3px solid white;
+    padding-right: 24px;
+    padding-left: 24px;
+ }

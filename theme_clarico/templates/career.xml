@@ -1,0 +1,361 @@
+<odoo>
+
+    <template id="career_template" name="Career">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <div class="row bg-black pt64 pb64">
+                <div class="col-md-12 col-sm-12">
+                    <h3 class="text-white font-weight-bold text-center mb-0">
+                        CAREERS
+                    </h3>
+                    <p class="text-white text-center" style="font-size: 12px;">
+                        <i class="fa fa-home"/>
+                        <a href="/" class="text-white">Home</a>
+                        >
+                        <a href="/career" class="text-white">Career</a>
+                    </p>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt64">
+                        <div class="col-md-4 col-sm-4 pr-0">
+                            <img src="/theme_clarico/static/src/img/Layer 14.jpg" width="100%"/>
+                        </div>
+                        <div class="col-md-8 col-sm-8 pl-5 pr-5" style="background:#f1f1f1">
+                            <div class="row">
+                                <h4 class="font-weight-bold pt40 text-black">
+                                    BECOMMING A COLLEAGUE OF INDUSTRY EXPERTS IS AN HONOUR
+                                </h4>
+                                <p class="pt8 pb24" style="font-size: 11px;letter-spacing: 0.8px;">Get to know about the
+                                    internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                                <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8"
+                                   style="background:#fdd642;font-size: 12px;">APPLY NOW
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt48 pb32 pl-3">
+                        <span class="text-black font-weiht-bold">
+                            Career-Oriented Program
+                        </span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8">
+                            <style>
+                                .accordion a {
+                                position: relative;
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: flex;
+                                -webkit-box-orient: vertical;
+                                -webkit-box-direction: normal;
+                                -webkit-flex-direction: column;
+                                flex-direction: column;
+                                width: 100%;
+                                padding: 1rem 3rem 1rem 1rem;
+                                color: #7288a2;
+                                font-size: 1.15rem;
+                                font-weight: 400;
+                                }
+
+                                .accordion a:hover,
+                                .accordion a:hover::after {
+                                cursor: pointer;
+                                color: #03b5d2;
+                                }
+
+                                .accordion a:hover::after {
+                                background: #fdd642;
+                                }
+
+                                .accordion a.active {
+                                color: black;
+                                }
+
+                                .accordion a::after {
+                                content: '\f106';
+                                position: absolute;
+                                float: right;
+                                right: 1rem;
+                                font-size: 1rem;
+                                color: #7288a2;
+                                padding: 0px;
+                                width: 25px;
+                                height: 25px;
+                                -webkit-border-radius: 50%;
+                                -moz-border-radius: 50%;
+                                border-radius: 50%;
+                                text-align: center;
+                                background: #fdd642;
+                                }
+
+                                .accordion a.active::after {
+                                content: '\f107';
+                                color: white;
+                                background: #fdd642;
+                                }
+
+                                .accordion .content {
+                                display: none;
+                                padding: 1rem;
+                                overflow: hidden;
+                                }
+
+                                .accordion .content p {
+                                font-size: 12px;
+                                padding-right: 40px;
+                                font-weight: 300;
+                                }
+                            </style>
+                            <script>
+                                $(document).ready(function() {
+                                $('.accordion a').click(function(){
+                                $(this).toggleClass('active');
+                                $(this).next('.content').slideToggle(400);
+                                });
+                                });
+                            </script>
+                            <div class="row">
+                                <div class="accordion" style="width:100%">
+                                    <div class="card pt8 pb8 mb24" style="border: 1px solid #f1f1f1;">
+                                        <div class="accordion-item">
+                                            <a class="font-weight-bold" style="font-size:12px">HOW MUCH DOES THE EARTH
+                                                WEIGH?
+                                            </a>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+                                                    suspendisse potenti.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card pt8 pb8 mb24" style="border: 1px solid #f1f1f1;">
+                                        <div class="accordion-item">
+                                            <a class="font-weight-bold" style="font-size:12px">HOW DO AIRPLANES STAY
+                                                UP?
+                                            </a>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+                                                    suspendisse potenti.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card pt8 pb8 mb24" style="border: 1px solid #f1f1f1;">
+                                        <div class="accordion-item">
+                                            <a class="font-weight-bold" style="font-size:12px">HOW MUCH DOES THE EARTH
+                                                WEIGH?
+                                            </a>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+                                                    suspendisse potenti.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card pt8 pb8 mb24" style="border: 1px solid #f1f1f1;">
+                                        <div class="accordion-item">
+                                            <a class="font-weight-bold" style="font-size:12px">HOW DO AIRPLANES STAY
+                                                UP?
+                                            </a>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+                                                    suspendisse potenti.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 pr-0">
+                            <ul>
+                                <li class="pb16" style="font-size: 12px;">
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </li>
+                                <li class="pb16" style="font-size: 12px;">
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </li>
+                                <li style="font-size: 12px;">
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt32 pb48">
+                        <style>
+                            .panel,
+                            .panel-body {
+                            box-shadow: none;
+                            }
+                            .panel-group .panel-heading {
+                            padding: 0;
+                            }
+                            .panel-group .panel-heading a {
+                            display: block;
+                            padding: 10px 15px;
+                            text-decoration: none;
+                            position: relative;
+                            }
+                            .panel-group .panel-heading a:after {
+                            content: '-';
+                            float: right;
+                            }
+                            .panel-group .panel-heading a.collapsed:after {
+                            content: '+';
+                            }
+                        </style>
+                        <span class="text-black font-weiht-bold pb16">
+                            Open Positions
+                        </span>
+
+
+                        <div class="panel-group" id="accordionSingleOpen" role="tablist"
+                             style="width: 100%;border: 1px solid lightgray;" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" style="background:#f1f1f1;" role="tab" id="headingOne">
+                                    <h4 class="panel-title mb0">
+                                        <a role="button" class="pt16 text-black pb16 collapsed" style="font-size:13px;"
+                                           data-toggle="collapse" href="#collapseItemOpenOne"
+                                           aria-expanded="true" aria-controls="collapseItemOpenOne">
+                                            Collapsible Single Item Open on Load
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseItemOpenOne" class="panel-collapse collapse in" role="tabpanel"
+                                     aria-labelledby="headingOne">
+                                    <div class="panel-body pt16 pb16"
+                                         style="padding-left: 12px;padding-right: 12px;font-size:12px">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-group" id="accordionSingleClosed"
+                             style="width: 100%;border: 1px solid lightgray;" role="tablist"
+                             aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" style="background:#f1f1f1;" role="tab" id="headingOne">
+                                    <h4 class="panel-title mb0">
+                                        <a class="collapsed text-black pt16 pb16" style="font-size:13px;" role="button"
+                                           data-toggle="collapse"
+                                           href="#collapseItemCloseOne" aria-expanded="true"
+                                           aria-controls="collapseItemCloseOne">
+                                            Collapsible Single Item Closed on Load
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseItemCloseOne" class="panel-collapse collapse" role="tabpanel"
+                                     aria-labelledby="headingOne">
+                                    <div class="panel-body pt16 pb16"
+                                         style="padding-left: 12px;padding-right: 12px;font-size:12px">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-group" id="accordionSingleClosed1"
+                             style="width: 100%;border: 1px solid lightgray;" role="tablist"
+                             aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" style="background:#f1f1f1;" role="tab" id="headingOne">
+                                    <h4 class="panel-title mb0">
+                                        <a class="collapsed text-black pt16 pb16" style="font-size:13px;" role="button"
+                                           data-toggle="collapse"
+                                           href="#collapseItemCloseOne1" aria-expanded="true"
+                                           aria-controls="collapseItemCloseOne1">
+                                            Collapsible Single Item Closed on Load
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseItemCloseOne1" class="panel-collapse collapse" role="tabpanel"
+                                     aria-labelledby="headingOne">
+                                    <div class="panel-body pt16 pb16"
+                                         style="padding-left: 12px;padding-right: 12px;font-size:12px">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row" style="background:#f1f1f1;">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-5 col-sm-5 pt112 pb112">
+                    <span class="text-black font-weiht-bold">
+                        Working With Us
+                    </span>
+                    <h4 class="text-black font-weight-bold">WHERE YOUR DREAMS ARE BUILT</h4>
+                    <p class="pt32 pb32" style="letter-spacing: .8px;">
+                        If you have the motivation, we have great opportunity for you. Come work with us!
+                    </p>
+                    <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8"
+                       style="background:#fdd642;font-size: 12px;">
+                        SEE MORE JOB OPPORTUNITIES
+                    </a>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8 pt64 pb64">
+                    <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8"
+                       style="background:#fdd642;font-size: 12px;">
+                        CONTACT US
+                    </a>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+        </t>
+    </template>
+
+</odoo>

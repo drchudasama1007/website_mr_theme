@@ -1,0 +1,239 @@
+<odoo>
+
+    <template id="theme_clarico_custom" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <!--==== STRUCTURE SNIPPET ====-->
+            <t t-snippet="theme_clarico.brand_mr"
+               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+            <t t-snippet="theme_clarico.about_mr"
+               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+            <t t-snippet="theme_clarico.opportunities_mr"
+               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+            <t t-snippet="theme_clarico.contact_mr"
+               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+            <t t-snippet="theme_clarico.req_mr"
+               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+            <t t-snippet="theme_clarico.services_mr"
+               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+        </xpath>
+    </template>
+
+    <template id="services_mr" name="Services">
+        <div class="oe_structure"/>
+        <section>
+            <div class="row pt8 pb8" style="background:#f1f1f1;border-bottom:1px solid lightgray;">
+                <div style="color:#f1f1f1;border-right:1px solid lightgray;">
+                    aaa
+                </div>
+                <div class="bg-white" style="border-right:1px solid lightgray;">
+                    <span class="text-center">PROCUREMENT SERVICES</span>
+                </div>
+                <div style="border-right:1px solid lightgray;color:#f1f1f1;">bbbb</div>
+                <div style="border-right:1px solid lightgray;color:#f1f1f1;">cccc</div>
+                <div style="border-right:1px solid lightgray;color:#f1f1f1;">dddd</div>
+            </div>
+        </section>
+    </template>
+
+    <template id="req_mr" name="Request Quote">
+        <div class="oe_structure"/>
+        <section>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt64 pb64">
+                        <div class="col-md-3 col-sm-3 pb32">
+                            <p class="text-center" style="font-size:12px">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut laboretae
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <p class="text-center" style="font-size:12px">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut laboretae
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <p class="text-center" style="font-size:12px">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut laboretae
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <p class="text-center" style="font-size:12px">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut laboretae
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+                style="background-image: url('/theme_clarico/static/src/img/Layer 2.jpg');background-size: cover;height:400px">
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8 pl-5">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3 pt40 bg-black quote_1">
+                            <h4 class="text-white font-weight-bold pb8">
+                                REQUEST A QUOTE
+                            </h4>
+                            <p class="text-white pb16" style="font-size:12px">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing
+                            </p>
+                            <p class="text-white pb8" style="font-size:12px">
+                                Your Name*
+                                <input type="text" name="name" class="form-control quote_2"/>
+                            </p>
+                            <p class="text-white pb8" style="font-size:12px">
+                                Your Email*
+                                <input type="text" name="email" class="form-control quote_2"/>
+                            </p>
+                            <p class="text-white pb24" style="font-size:12px">
+                                Your Message*
+                                <textarea class="form-control quote_2" name="message" rows="2" cols="6"/>
+                            </p>
+                            <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8 mb40"
+                               style="background:#fdd642;font-size: 12px;">SEND
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="contact_mr" name="Locations MR">
+        <div class="oe_structure"/>
+        <section style="background-image: url('/theme_clarico/static/src/img/Layer 711.jpg');background-size: cover;">
+<!--            <div class="row">-->
+<!--                <iframe src="https://maps.google.com/maps?q=22.2736307,70.7510838&amp;z=15&amp;output=embed"-->
+<!--                        width="100%" height="350" frameborder="0" style="border:0"></iframe>-->
+<!--            </div>-->
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt64 pb88">
+                        <h4 class="text-black col-md-12 text-center pb32">
+                            WE ARE EXCATLY LOCATED WHERE YOU NEES US
+                        </h4>
+                        <div class="bg-black-50 pt32 pb32 pl-4 pr-4 text-center">
+                            <p class="text-white pb8">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor
+                                pretium
+                                viverra suspendisse potenti.
+                            </p>
+                            <p class="text-white">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor
+                                pretium
+                                viverra suspendisse potenti.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="opportunities_mr" name="More Opportunities">
+        <div class="oe_structure"/>
+        <section style="background-image: url('/theme_clarico/static/src/img/Layer 711.jpg');background-size: cover;">
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt64 pb64">
+                        <div class="col-md-4 col-sm-4"/>
+                        <div class="col-md-8 col-sm-8 bg-black-50 pt32 pb32" style="padding-left: 35px;">
+                            <h6 class="mb0 text-white">Enguage in a Professional</h6>
+                            <h4 class="text-white font-weight-bold pb8">
+                                WORKING RELATIONSHIP WITH US!
+                            </h4>
+                            <p class="text-white pb16" style="font-size:12px">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Elementum sagittis vita
+                            </p>
+                            <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8"
+                               style="background:#fdd642;font-size: 12px;">SEE MORE OPPORTUNITIES
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="brand_mr" name="Brand">
+        <div class="oe_structure"/>
+        <section>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt32 pb32">
+                        <div class="brand_img col-md-2 col-sm-2" style="border-right:1px solid #f1f1f1;">
+                            <img src="/theme_clarico/static/src/img/logo.png" width="100%"/>
+                        </div>
+                        <div class="brand_img col-md-2 col-sm-2" style="border-right:1px solid #f1f1f1;">
+                            <img src="/theme_clarico/static/src/img/logo.png" width="100%"/>
+                        </div>
+                        <div class="brand_img col-md-2 col-sm-2" style="border-right:1px solid #f1f1f1;">
+                            <img src="/theme_clarico/static/src/img/logo.png" width="100%"/>
+                        </div>
+                        <div class="brand_img col-md-2 col-sm-2" style="border-right:1px solid #f1f1f1;">
+                            <img src="/theme_clarico/static/src/img/logo.png" width="100%"/>
+                        </div>
+                        <div class="brand_img col-md-2 col-sm-2" style="border-right:1px solid #f1f1f1;">
+                            <img src="/theme_clarico/static/src/img/logo.png" width="100%"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="about_mr" name="Know About">
+        <div class="oe_structure"/>
+        <section>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt64">
+                        <div class="col-md-7 col-sm-7">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <h4 class="mb0">Get To Know About</h4>
+                                    <h4 class="text-black pb8 font-weight-bold">M&amp;R GROUP</h4>
+                                    <p class="pb16" style="font-size:12px">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo
+                                        duis
+                                        ut. Ut tortor pretium viverra suspendisse potenti. incididunt ut labore et
+                                        dolore magna aliqua. Elementum sagittis vitae et leo duis
+                                        ut. Ut tortor pretium viverra suspendisse potenti.
+                                    </p>
+                                    <p style="font-size:12px">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo
+                                        duis
+                                    </p>
+                                    <h6 class="pt64">CLAUDIO MULLER
+                                        <span style="font-size:12px">CDO &amp; Founder</span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-5">
+                            <img src="/theme_clarico/static/src/img/Layer 725.jpg" height="300px" width="100%"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+</odoo>

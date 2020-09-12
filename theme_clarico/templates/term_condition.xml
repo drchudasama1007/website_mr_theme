@@ -1,0 +1,194 @@
+<odoo>
+
+    <template id="term_condition_template" name="Tearm &amp; Condition">
+        <t t-call="website.layout">
+            <div class="row bg-black pt64 pb64">
+                <div class="col-md-12 col-sm-12">
+                    <h3 class="text-white font-weight-bold text-center mb-0">
+                        TERM &amp; CONDTION
+                    </h3>
+                    <p class="text-white text-center" style="font-size: 12px;">
+                        <i class="fa fa-home"/>
+                        <a href="/" class="text-white">Home</a>
+                        >
+                        <a href="/term-condition" class="text-white">Term &amp; Condition</a>
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 col-sm-1"/>
+                    <div class="col-md-10 col-sm-10">
+                        <div class="row pb64 pt64">
+                            <p class="pb64 font-weight-bold text-center mb-0" style="font-size: 26px;">
+                                TERM &amp; CONDTION
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                conditions that the item, product, or service must not be used and should remain in
+                                their
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16 pb16 font-weight-bold" style="fonr-size:16px;">Validity Of
+                                Quotation
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                conditions that the item, product, or service must not be used and should remain in
+                                their
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16 pb16 font-weight-bold" style="fonr-size:16px;">Setting Up Legal
+                                Contract
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                conditions that the item, product, or service must not be used and should remain in
+                                their
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16 pb16 font-weight-bold" style="fonr-size:16px;">Return Od Goods
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16 pb16 font-weight-bold" style="fonr-size:16px;">DATA RETANTION
+                                POLICES
+                            </p>
+                            <p class="text-center">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+                            <p class="text-center pt16">
+                                You can easily return or exchange any unwanted or
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                unsuited items, products, or services up to 40 days after purchasing the same. There are
+                                original condition inclusive of all the tags and labels remaining in the correct
+                                position.
+                                In case of the electronic gadgets like phones
+                            </p>
+
+                            <style>
+                                .te_title_3 .te_title_sub_div {
+                                position: relative;
+                                display: inline-block;
+                                padding-left: 70px;
+                                }
+                                .te_title_3 .te_title_sub_div:before {
+                                width: 50px;
+                                margin-top: 6px;
+                                left: 20px;
+                                }
+                                .te_title_3 .te_title_sub_div:before, .te_title_3 .te_title_sub_div:after {
+                                content: '';
+                                background: #000000;
+                                position: absolute;
+                                top: 15px;
+                                left: 0;
+                                height: 2px;
+                                }
+                                .te_title_3 .te_title_style3 {
+                                position: relative;
+                                display: inline-block;
+                                padding-bottom: 10px;
+                                padding-right: 70px;
+                                background: -webkit-gradient(linear, left top, right top, from(var(--delta)),
+                                to(var(--epsilon)));
+                                background: linear-gradient(90deg, var(--delta), var(--epsilon));
+                                background-clip: border-box;
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                -webkit-box-decoration-break: clone;
+                                }
+                                .te_s_title_default {
+                                text-transform: capitalize;
+                                font-weight: bold;
+                                }
+                                .te_title_3 .te_title_style3:before {
+                                width: 50px;
+                                margin-top: 6px;
+                                right: 20px;
+                                }
+                                .te_title_3 .te_title_style3:before, .te_title_3 .te_title_style3:after {
+                                content: '';
+                                background: #000000;
+                                position: absolute;
+                                top: 15px;
+                                right: 0;
+                                height: 2px;
+                                }
+                                .te_title_3 .te_title_style3:after {
+                                width: 30px;
+                                }
+                                .te_title_3 .te_title_style3:before, .te_title_3 .te_title_style3:after {
+                                content: '';
+                                background: #000000;
+                                position: absolute;
+                                top: 15px;
+                                right: 0;
+                                height: 2px;
+                                }
+                                .te_title_3 .te_title_sub_div:after {
+                                width: 30px;
+                                }
+                                .te_title_3 .te_title_sub_div:before, .te_title_3 .te_title_sub_div:after {
+                                content: '';
+                                background: #000000;
+                                position: absolute;
+                                top: 15px;
+                                left: 0;
+                                height: 2px;
+                                }
+                            </style>
+
+                            <div class="col-lg-12 te_title_3 pt32">
+                                <div class="te_title_sub_div">
+                                    <h4 class="te_s_title_default te_title_style3">Shop By Category</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+</odoo>

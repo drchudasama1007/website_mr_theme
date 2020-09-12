@@ -1087,17 +1087,19 @@
                          data-name="Slide">
                         <div class="container">
                             <div class="row content">
-                                <section class="carousel-content col-lg-5 col-md-8 te_t_slider_sm_content"
+                                <div class="col-lg-2"/>
+                                <section class="carousel-content col-lg-4 col-md-8 te_t_slider_sm_content"
                                          style="animation: animatezoom 0.8s ease-in both;animation-delay: 1s;">
                                     <div class="s_title pb8" data-name="Title">
-                                        <h2 class="carousel_heading te_t_slider_7_title">My Heading 2</h2>
+                                        <h2 class="carousel_heading font-weight-bold te_t_slider_7_title">YOUR RELIABLE PARTNER FOR ALL SUPPLY CHAIN</h2>
                                     </div>
-                                    <p class="carousel_content">
+                                    <p class="carousel_content" style="font-size: 13px !important;">
                                         Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
                                         adipisci velit abil mutoi sovali uomil mitum.
                                     </p>
-                                    <div class="s_btn text-left pt16 pb16 mt32" data-name="Buttons">
-                                        <a href="/contactus" class="btn btn-primary te_theme_button">Know more</a>
+                                    <div class="s_btn text-left pt8 pb16 mt32" data-name="Buttons">
+                                        <a href="#" class="btn btn-primary te_theme_button text-black" style="font-size:13px;">View Services <i class="pl-1 text-black fa fa-arrow-right"/></a>
+                                        <a href="#" class="btn btn-primary bg-black text-white" style="font-size:13px;">Get a Quote <i class="pl-1 text-white fa fa-arrow-right"/></a>
                                     </div>
                                 </section>
                             </div>
@@ -1108,17 +1110,19 @@
                          data-name="Slide">
                         <div class="container">
                             <div class="row content">
+                                <div class="col-lg-2"/>
                                 <section class="carousel-content col-lg-4 te_t_slider_sm_content"
                                          style="animation: animatezoom 0.8s ease-in both;animation-delay: 1s;">
                                     <div class="s_title pb8" data-name="Title">
-                                        <h2 class="carousel_heading te_t_slider_7_title">My Heading 2</h2>
+                                        <h2 class="carousel_heading font-weight-bold te_t_slider_7_title">My Heading 2</h2>
                                     </div>
-                                    <p class="carousel_content">
+                                    <p class="carousel_content" style="font-size: 13px !important;">
                                         Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
                                         adipisci velit abil mutoi sovali uomil mitum.
                                     </p>
-                                    <div class="s_btn text-left pt16 pb16 mt32" data-name="Buttons">
-                                        <a href="/contactus" class="btn btn-primary te_theme_button">Know more</a>
+                                    <div class="s_btn text-left pt8 pb16 mt32" data-name="Buttons">
+                                        <a href="#" class="btn btn-primary te_theme_button text-black" style="font-size:13px;">View Services <i class="text-black fa fa-arrow-right pl-1"/></a>
+                                        <a href="#" class="btn btn-primary bg-black text-white" style="font-size:13px;">Get a Quote <i class="text-white fa fa-arrow-right pl-1"/></a>
                                     </div>
                                 </section>
                             </div>

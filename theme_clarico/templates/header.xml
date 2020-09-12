@@ -29,7 +29,7 @@
                                     <div t-attf-class="s_share te_header_w_share #{_classes or ''}">
                                         <a t-if="website.social_facebook" t-att-href="website.social_facebook"
                                            class="btn btn-link" style="border-left: 1px solid #ededed !important;">
-                                            <i class="fa fa-facebook" style="color:gray;"/>
+                                            <i class="fa fa-facebook" style="color:#FEE000;"/>
                                         </a>
                                         <a t-if="website.social_twitter" t-att-href="website.social_twitter"
                                            class="btn btn-link">
@@ -41,7 +41,7 @@
                                         </a>
                                         <a t-if="website.social_youtube" t-att-href="website.social_youtube"
                                            class="btn btn-link" style="border-right: 1px solid #ededed !important;">
-                                            <i class="fa fa-youtube-play" style="color:gray;"/>
+                                            <i class="fa fa-pinterest" style="color:gray;"/>
                                         </a>
                                     </div>
                                 </div>
@@ -49,13 +49,13 @@
                         </div>
                         <div class="col-lg-8 te_header_before_right">
                             <div class="timeline pl-3 pr-3" style="border-left: 1px solid #ededed !important;">
-                                <span style="color:gray;"><i class="fa fa-clock-o"/>Mon-Fri: 7:00-17:00</span>
+                                <span style="color:gray;"><i class="fa fa-clock-o pr-2"/>Mon-Fri: 7:00-17:00</span>
                             </div>
                             <div class="timeline pl-3 pr-3">
-                                <span style="color:gray;"><i class="fa fa-phone"/>+49(0) 895205660</span>
+                                <span style="color:gray;"><i class="fa fa-phone pr-2"/>+49(0) 895205660</span>
                             </div>
                             <div class="timeline pl-3 pr-3">
-                                <span style="color:gray;"><i class="fa fa-envelope-o"/>info@mr-group.com</span>
+                                <span style="color:gray;"><i class="fa fa-envelope-o pr-2"/>info@mr-group.com</span>
                             </div>
 <!--                            <div class="te_header_5_search te_header_search">-->
 <!--                                <div class="te_search_icon_header">-->
@@ -137,11 +137,15 @@
                 py-1 px-0
             </attribute>
         </xpath>
-        <xpath expr="//ul[@id='top_menu']/li[hasclass('divider')][last()]"
-               position="replace">
-        </xpath>
+<!--        <xpath expr="//ul[@id='top_menu']/li[hasclass('divider')][last()]"-->
+<!--               position="replace">-->
+<!--        </xpath>-->
         <xpath expr="//ul[@id='top_menu']/li[hasclass('dropdown')]"
                position="replace">
+            <li class="nav-item ">
+                 <i class="fa fa-shopping-bag te_search_icon_5 te_srch_icon" style="margin:15px"/>
+                 <i class="fa fa-search te_search_icon_5 te_srch_icon" style="margin:15px"/>
+            </li>
         </xpath>
 
 <!--        <xpath expr="//li[@id='my_cart']" position="replace">-->

@@ -133,8 +133,8 @@
                 <t t-snippet="theme_clarico.p_slider"
                    t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/product_carousel.jpg"/>
                 <!-- Expertise Snippet -->
-<!--                <t t-snippet="theme_clarico.expertise_snippet"-->
-<!--                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/expertise.jpg"/>-->
+                <!--                <t t-snippet="theme_clarico.expertise_snippet"-->
+                <!--                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/expertise.jpg"/>-->
             </div>
             <!--==== Inner Snippets =======-->
             <div class="o_panel_header">
@@ -148,8 +148,8 @@
                 <t t-snippet="theme_clarico.header_website_share"
                    t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/website-share.jpg"/>
                 <!-- Payment Icons -->
-<!--                <t t-snippet="theme_clarico.payment"-->
-<!--                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/Payment.jpg"/>-->
+                <!--                <t t-snippet="theme_clarico.payment"-->
+                <!--                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/Payment.jpg"/>-->
                 <!-- Vertical Menu -->
                 <t t-snippet="theme_clarico.menu_vertical"
                    t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/vertical_menu.jpg"/>
@@ -207,14 +207,14 @@
         <!-- ========================= STRUCTURE SNIPPET ================== -->
     </template>
 
-<!--    <template id="snippet_options_ept" inherit_id="website.snippet_options">-->
-<!--        <xpath expr="//div[@id='so_snippet_addition']" position="after">-->
-<!--            <div-->
-<!--                    data-selector=".s_payment"-->
-<!--                    data-drop-in=".o_footer,.te_footer_text_img,.te_footer_copyright_text,.te_footer_payment_img">-->
-<!--            </div>-->
-<!--        </xpath>-->
-<!--    </template>-->
+    <!--    <template id="snippet_options_ept" inherit_id="website.snippet_options">-->
+    <!--        <xpath expr="//div[@id='so_snippet_addition']" position="after">-->
+    <!--            <div-->
+    <!--                    data-selector=".s_payment"-->
+    <!--                    data-drop-in=".o_footer,.te_footer_text_img,.te_footer_copyright_text,.te_footer_payment_img">-->
+    <!--            </div>-->
+    <!--        </xpath>-->
+    <!--    </template>-->
     <!--============== Space =================-->
     <template id="s_space" name="Space">
         <section class="py-3 py-sm-5 te_space_style"></section>
@@ -700,32 +700,80 @@
             <ol class="carousel-indicators d-none">
                 <li data-target="#myCarousel" data-slide-to="0"/>
             </ol>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="col-md-12 pl-0 pt16 pb16">
+                        <h6 class="mb0">Explour Our</h6>
+                        <h4 class="font-weight-bold">
+                            PROCUREMENT SERVICES
+                        </h4>
+                    </div>
+                </div>
+            </div>
             <!-- Content -->
             <div class="carousel-inner te_arrow_small">
                 <!-- #02 -->
-                <div class="carousel-item oe_custom_bg oe_img_bg pt96 pb96 active"
-                     style="background-image: url('/theme_clarico/static/src/img/snippets/slider_styles/style_1/1920_800.jpg');"
+                <div class="carousel-item oe_custom_bg oe_img_bg active"
                      data-name="Slide">
-                    <div class="container">
+                    <div class="">
                         <div class="row content">
-                            <section
-                                    class="carousel-content col-lg-8 offset-lg-2 bg-black-50 text-center pt48 pb40">
-                                <h2 class="text-white">My Heading 2</h2>
-                                <div class="s_hr pt8 pb32">
-                                    <hr
-                                            class="s_hr_5px s_hr_dotted border-600 w-25 border-epsilon mx-auto text-center"/>
+                            <div class="col-md-2 col-sm-2"/>
+                            <div class="col-md-8 col-sm-8">
+                                <div class="row">
+                                    <section
+                                            class="carousel-content col-md-4 col-sm-4">
+                                        <div class="" style="background:#f1f1f1">
+                                            <img src="/theme_clarico/static/src/img/Layer 14.jpg" class="img_pro"/>
+                                        </div>
+                                        <h6 class="text-black pt24 pb8 font-weight-bold">
+                                            GLOBAL SOURCING
+                                        </h6>
+                                        <p style="font-size:12px;height: 126px">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut
+                                        </p>
+                                        <p class="pt16" style="font-size:12px">
+                                            <a href="#">READ MORE</a>
+                                        </p>
+                                    </section>
+                                    <section
+                                            class="carousel-content col-md-4 col-sm-4">
+                                        <div class="" style="background:#f1f1f1">
+                                            <img src="/theme_clarico/static/src/img/Layer 14.jpg" class="img_pro"/>
+                                        </div>
+                                        <h6 class="text-black pt24 pb8 font-weight-bold">
+                                            INTERNATIONAL PROCUREMENT
+                                        </h6>
+                                        <p style="font-size:12px;height: 126px">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo
+                                            duis
+                                            ut. Ut tortor pretium viverra suspendisse potenti.
+                                        </p>
+                                        <p class="pt16" style="font-size:12px">
+                                            <a href="#">READ MORE</a>
+                                        </p>
+                                    </section>
+                                    <section
+                                            class="carousel-content col-md-4 col-sm-4">
+                                        <div class="" style="background:#f1f1f1">
+                                            <img src="/theme_clarico/static/src/img/Layer 14.jpg" class="img_pro"/>
+                                        </div>
+                                        <h6 class="text-black pt24 pb8 font-weight-bold">
+                                            GLOBAL SOURCING
+                                        </h6>
+                                        <p style="font-size:12px;height: 126px">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut
+                                        </p>
+                                        <p class="pt16" style="font-size:12px">
+                                            <a href="#">READ MORE</a>
+                                        </p>
+                                    </section>
                                 </div>
-                                <p class="lead text-white">
-                                    nec falli percipit petentium ut.
-
-                                    <br/>
-                                    te utamur voluptatibus mei
-
-                                </p>
-                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
-                                    <a href="/start" class="btn btn-primary te_theme_button">Know more</a>
-                                </div>
-                            </section>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1187,18 +1235,18 @@
         </div>
     </template>
     <!--======================== Payment =============================-->
-<!--    <template id="payment" name="Footer Payment">-->
-<!--        <div class="s_payment te_payment_list">-->
-<!--            <t t-set="icons"-->
-<!--               t-value="request.env['payment.acquirer'].sudo().search([('website_published', '=', True),('website_id','in',(False,website.id))]).mapped('payment_icon_ids')"></t>-->
-<!--            <t t-foreach="icons" t-as="icon">-->
-<!--                <li>-->
-<!--                    <span t-field="icon.image"-->
-<!--                          t-options="{&quot;widget&quot;: &quot;image&quot;, &quot;alt-field&quot;: &quot;name&quot;}"/>-->
-<!--                </li>-->
-<!--            </t>-->
-<!--        </div>-->
-<!--    </template>-->
+    <!--    <template id="payment" name="Footer Payment">-->
+    <!--        <div class="s_payment te_payment_list">-->
+    <!--            <t t-set="icons"-->
+    <!--               t-value="request.env['payment.acquirer'].sudo().search([('website_published', '=', True),('website_id','in',(False,website.id))]).mapped('payment_icon_ids')"></t>-->
+    <!--            <t t-foreach="icons" t-as="icon">-->
+    <!--                <li>-->
+    <!--                    <span t-field="icon.image"-->
+    <!--                          t-options="{&quot;widget&quot;: &quot;image&quot;, &quot;alt-field&quot;: &quot;name&quot;}"/>-->
+    <!--                </li>-->
+    <!--            </t>-->
+    <!--        </div>-->
+    <!--    </template>-->
     <!--================= Mega Menus Style 1 =============================-->
     <template id="megamenu_style_1" name="Style 1">
         <section class="te_menu_style_1 container-fluid py-3 px-3 te_img_hide_small_devices">
@@ -2148,65 +2196,65 @@
     </template>
 
     <!--=====================  Expertise Snippet  ======================================-->
-<!--    <template id="expertise_snippet" name="Expertise">-->
-<!--        <div class="oe_structure"/>-->
-<!--        <section>-->
-<!--            <div class="container">-->
-<!--                <div class="row align-items-center">-->
-<!--                    <section class="col-md-6 align-self-center">-->
-<!--                        <section class="about_content_sub">-->
-<!--                            <h5 class="te_title_t">My Heading 5</h5>-->
-<!--                            <h2 class="te_bold_text te_h_bottom_s">My Heading 2-->
-<!--                            </h2>-->
-<!--                            <p class="te_content_text">-->
-<!--                                Lorem ipsum dolor s it amet, consectetur adipisicing elit, sed-->
-<!--                                do-->
-<!--                                eiusmod-->
+    <!--    <template id="expertise_snippet" name="Expertise">-->
+    <!--        <div class="oe_structure"/>-->
+    <!--        <section>-->
+    <!--            <div class="container">-->
+    <!--                <div class="row align-items-center">-->
+    <!--                    <section class="col-md-6 align-self-center">-->
+    <!--                        <section class="about_content_sub">-->
+    <!--                            <h5 class="te_title_t">My Heading 5</h5>-->
+    <!--                            <h2 class="te_bold_text te_h_bottom_s">My Heading 2-->
+    <!--                            </h2>-->
+    <!--                            <p class="te_content_text">-->
+    <!--                                Lorem ipsum dolor s it amet, consectetur adipisicing elit, sed-->
+    <!--                                do-->
+    <!--                                eiusmod-->
 
-<!--                                <br/>-->
-<!--                                tempor incididunt ut labore et dolore magna ipsum dolor sit-->
-<!--                                amet,-->
+    <!--                                <br/>-->
+    <!--                                tempor incididunt ut labore et dolore magna ipsum dolor sit-->
+    <!--                                amet,-->
 
-<!--                            </p>-->
-<!--                            <p class="te_content_text mt16">-->
-<!--                                Lorem ipsum dolor s it amet, consectetur adipisicing elit, sed-->
-<!--                                do-->
-<!--                                eiusmod-->
+    <!--                            </p>-->
+    <!--                            <p class="te_content_text mt16">-->
+    <!--                                Lorem ipsum dolor s it amet, consectetur adipisicing elit, sed-->
+    <!--                                do-->
+    <!--                                eiusmod-->
 
-<!--                                <br/>-->
-<!--                                tempor incididunt-->
+    <!--                                <br/>-->
+    <!--                                tempor incididunt-->
 
-<!--                            </p>-->
-<!--                            <section>-->
-<!--                                <a href="#" class="btn btn-primary te_theme_button mt16">-->
-<!--                                    Know more-->
-<!--                                </a>-->
-<!--                            </section>-->
-<!--                        </section>-->
-<!--                    </section>-->
-<!--                    <section class="col-md-6">-->
-<!--                        <ul class='list-unstyled' id="te_progress">-->
-<!--                            <t t-foreach="res_company.expertise_ids" t-as="expertise_data">-->
-<!--                                <div class="progress ">-->
-<!--                                    <div class="progress-bar" role="progressbar"-->
-<!--                                         t-att-aria-valuenow="expertise_data.expertise" aria-valuemin="0"-->
-<!--                                         t-att-aria-valuemax="expertise_data.expertise">-->
-<!--                                        <span class="skill">-->
-<!--                                            <i class="val te_reang">-->
-<!--                                                <t t-esc="expertise_data.expertise"></t>-->
-<!--                                            </i>-->
-<!--                                        </span>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </t>-->
-<!--                        </ul>-->
-<!--                        <div class="oe_structure"/>-->
-<!--                        <section></section>-->
-<!--                    </section>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </section>-->
-<!--    </template>-->
+    <!--                            </p>-->
+    <!--                            <section>-->
+    <!--                                <a href="#" class="btn btn-primary te_theme_button mt16">-->
+    <!--                                    Know more-->
+    <!--                                </a>-->
+    <!--                            </section>-->
+    <!--                        </section>-->
+    <!--                    </section>-->
+    <!--                    <section class="col-md-6">-->
+    <!--                        <ul class='list-unstyled' id="te_progress">-->
+    <!--                            <t t-foreach="res_company.expertise_ids" t-as="expertise_data">-->
+    <!--                                <div class="progress ">-->
+    <!--                                    <div class="progress-bar" role="progressbar"-->
+    <!--                                         t-att-aria-valuenow="expertise_data.expertise" aria-valuemin="0"-->
+    <!--                                         t-att-aria-valuemax="expertise_data.expertise">-->
+    <!--                                        <span class="skill">-->
+    <!--                                            <i class="val te_reang">-->
+    <!--                                                <t t-esc="expertise_data.expertise"></t>-->
+    <!--                                            </i>-->
+    <!--                                        </span>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </t>-->
+    <!--                        </ul>-->
+    <!--                        <div class="oe_structure"/>-->
+    <!--                        <section></section>-->
+    <!--                    </section>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </section>-->
+    <!--    </template>-->
     <!--=================== Team-1 =============================-->
     <template id="employee_team_1" name="Team 1">
         <section id="carouselTeam_1" data-type="multi"
@@ -2945,131 +2993,154 @@
     <!--========================= Customer-1 =====================================-->
     <template id="customers_carousel_1" name="Customer 1">
         <section id="carouselcarousel_1" data-type="multi"
-                 class="container carousel slide carousel-showmanymoveone common_carousel_emp" data-ride="carousel"
+                 class="carousel slide carousel-showmanymoveone common_carousel_emp" data-ride="carousel"
                  data-interval="10000">
-            <div class="carousel-inner row mx-auto" role="listbox">
-                <div class="carousel-item active col-sm-6 col-md-6 col-lg-3">
-                    <div class="s_col_no_bgcolor text-center te_left_right">
-                        <div class="card rounded-0">
-                            <div>
-                                <img alt="Clarico-Customer-1"
-                                     src="/theme_clarico/static/src/img/snippets/employee_and_customers/customer_1/110_125.jpg"
-                                     class="mt16 mb16 col-lg-4 col-4 te_emp_img"/>
-                            </div>
-                            <div>
-                                <h5 class="te_emp_name">My Heading 5</h5>
-                            </div>
-                            <p class="px-2 py-1 te_emp_content">Lorem ipsum dolor sit amet, eam et reque justo quidam,
-                                te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia.
-                                Ornatus
-                            </p>
-                            <div>
-                                <p class="px-2 text-right mb32 te_emp_content">-Lorem</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item col-sm-6 col-md-6 col-lg-3">
-                    <div class="s_col_no_bgcolor text-center te_left_right">
-                        <div class="card rounded-0">
-                            <div>
-                                <img alt="Clarico-Customer-1"
-                                     src="/theme_clarico/static/src/img/snippets/employee_and_customers/customer_1/110_125.jpg"
-                                     class="mt16 mb16 col-lg-4 col-4 te_emp_img"/>
-                            </div>
-                            <div>
-                                <h5 class="te_emp_name">My Heading 5</h5>
-                            </div>
-                            <p class="px-2 py-1 te_emp_content">Lorem ipsum dolor sit amet, eam et reque justo quidam,
-                                te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia.
-                                Ornatus
-                            </p>
-                            <div>
-                                <p class="px-2 text-right mb32 te_emp_content">-Lorem</p>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <h4 class="pt16">
+                        Exlour Our
+                    </h4>
+                    <h4 class="font-weight-bold text-black pb16">
+                        PROCUREMENT SERVICES
+                    </h4>
+                    <div class="carousel-inner row mx-auto" role="listbox">
+                        <div class="carousel-item active col-sm-6 col-md-6 col-lg-4">
+                            <div class="s_col_no_bgcolor text-center te_left_right">
+                                <div class="card rounded-0">
+                                    <div>
+                                        <img alt="Clarico-Customer-1"
+                                             src="/theme_clarico/static/src/img/snippets/employee_and_customers/customer_1/110_125.jpg"
+                                             class="mt16 mb16 col-lg-4 col-4 te_emp_img"/>
+                                    </div>
+                                    <div>
+                                        <h5 class="te_emp_name">My Heading 5</h5>
+                                    </div>
+                                    <p class="px-2 py-1 te_emp_content">Lorem ipsum dolor sit amet, eam et reque justo
+                                        quidam,
+                                        te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum
+                                        pertinacia.
+                                        Ornatus
+                                    </p>
+                                    <div>
+                                        <p class="px-2 text-right mb32 te_emp_content">-Lorem</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="carousel-item col-sm-6 col-md-6 col-lg-3">
-                    <div class="s_col_no_bgcolor text-center te_left_right">
-                        <div class="card rounded-0">
-                            <div>
-                                <img alt="Clarico-Customer-1"
-                                     src="/theme_clarico/static/src/img/snippets/employee_and_customers/customer_1/110_125.jpg"
-                                     class="mt16 mb16 col-lg-4 col-4 te_emp_img"/>
-                            </div>
-                            <div>
-                                <h5 class="te_emp_name">My Heading 5</h5>
-                            </div>
-                            <p class="px-2 py-1 te_emp_content">Lorem ipsum dolor sit amet, eam et reque justo quidam,
-                                te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia.
-                                Ornatus
-                            </p>
-                            <div>
-                                <p class="px-2 text-right mb32 te_emp_content">-Lorem</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item col-sm-6 col-md-6 col-lg-3">
-                    <div class="s_col_no_bgcolor text-center te_left_right">
-                        <div class="card rounded-0">
-                            <div>
-                                <img alt="Clarico-Customer-1"
-                                     src="/theme_clarico/static/src/img/snippets/employee_and_customers/customer_1/110_125.jpg"
-                                     class="mt16 mb16 col-lg-4 col-4 te_emp_img"/>
-                            </div>
-                            <div>
-                                <h5 class="te_emp_name">My Heading 5</h5>
-                            </div>
-                            <p class="px-2 py-1 te_emp_content">Lorem ipsum dolor sit amet, eam et reque justo quidam,
-                                te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia.
-                                Ornatus
-                            </p>
-                            <div>
-                                <p class="px-2 text-right mb32 te_emp_content">-Lorem</p>
+                        <div class="carousel-item col-sm-6 col-md-6 col-lg-4">
+                            <div class="s_col_no_bgcolor text-center te_left_right">
+                                <div class="card rounded-0">
+                                    <div>
+                                        <img alt="Clarico-Customer-1"
+                                             src="/theme_clarico/static/src/img/snippets/employee_and_customers/customer_1/110_125.jpg"
+                                             class="mt16 mb16 col-lg-4 col-4 te_emp_img"/>
+                                    </div>
+                                    <div>
+                                        <h5 class="te_emp_name">My Heading 5</h5>
+                                    </div>
+                                    <p class="px-2 py-1 te_emp_content">Lorem ipsum dolor sit amet, eam et reque justo
+                                        quidam,
+                                        te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum
+                                        pertinacia.
+                                        Ornatus
+                                    </p>
+                                    <div>
+                                        <p class="px-2 text-right mb32 te_emp_content">-Lorem</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="carousel-item col-sm-6 col-md-6 col-lg-3">
-                    <div class="s_col_no_bgcolor text-center te_left_right">
-                        <div class="card rounded-0">
-                            <div>
-                                <img alt="Clarico-Customer-1"
-                                     src="/theme_clarico/static/src/img/snippets/employee_and_customers/customer_1/110_125.jpg"
-                                     class="mt16 mb16 col-lg-4 col-4 te_emp_img"/>
-                            </div>
-                            <div>
-                                <h5 class="te_emp_name">My Heading 5</h5>
-                            </div>
-                            <p class="px-2 py-1 te_emp_content">Lorem ipsum dolor sit amet, eam et reque justo quidam,
-                                te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia.
-                                Ornatus
-                            </p>
-                            <div>
-                                <p class="px-2 text-right mb32 te_emp_content">-Lorem</p>
+                        <div class="carousel-item col-sm-6 col-md-6 col-lg-4">
+                            <div class="s_col_no_bgcolor text-center te_left_right">
+                                <div class="card rounded-0">
+                                    <div>
+                                        <img alt="Clarico-Customer-1"
+                                             src="/theme_clarico/static/src/img/snippets/employee_and_customers/customer_1/110_125.jpg"
+                                             class="mt16 mb16 col-lg-4 col-4 te_emp_img"/>
+                                    </div>
+                                    <div>
+                                        <h5 class="te_emp_name">My Heading 5</h5>
+                                    </div>
+                                    <p class="px-2 py-1 te_emp_content">Lorem ipsum dolor sit amet, eam et reque justo
+                                        quidam,
+                                        te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum
+                                        pertinacia.
+                                        Ornatus
+                                    </p>
+                                    <div>
+                                        <p class="px-2 text-right mb32 te_emp_content">-Lorem</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="carousel-item col-sm-6 col-md-6 col-lg-3">
-                    <div class="s_col_no_bgcolor text-center te_left_right">
-                        <div class="card rounded-0">
-                            <div>
-                                <img alt="Clarico-Customer-1"
-                                     src="/theme_clarico/static/src/img/snippets/employee_and_customers/customer_1/110_125.jpg"
-                                     class="mt16 mb16 col-lg-4 col-4 te_emp_img"/>
+                        <div class="carousel-item col-sm-6 col-md-6 col-lg-4">
+                            <div class="s_col_no_bgcolor text-center te_left_right">
+                                <div class="card rounded-0">
+                                    <div>
+                                        <img alt="Clarico-Customer-1"
+                                             src="/theme_clarico/static/src/img/snippets/employee_and_customers/customer_1/110_125.jpg"
+                                             class="mt16 mb16 col-lg-4 col-4 te_emp_img"/>
+                                    </div>
+                                    <div>
+                                        <h5 class="te_emp_name">My Heading 5</h5>
+                                    </div>
+                                    <p class="px-2 py-1 te_emp_content">Lorem ipsum dolor sit amet, eam et reque justo
+                                        quidam,
+                                        te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum
+                                        pertinacia.
+                                        Ornatus
+                                    </p>
+                                    <div>
+                                        <p class="px-2 text-right mb32 te_emp_content">-Lorem</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <h5 class="te_emp_name">My Heading 5</h5>
+                        </div>
+                        <div class="carousel-item col-sm-6 col-md-6 col-lg-4">
+                            <div class="s_col_no_bgcolor text-center te_left_right">
+                                <div class="card rounded-0">
+                                    <div>
+                                        <img alt="Clarico-Customer-1"
+                                             src="/theme_clarico/static/src/img/snippets/employee_and_customers/customer_1/110_125.jpg"
+                                             class="mt16 mb16 col-lg-4 col-4 te_emp_img"/>
+                                    </div>
+                                    <div>
+                                        <h5 class="te_emp_name">My Heading 5</h5>
+                                    </div>
+                                    <p class="px-2 py-1 te_emp_content">Lorem ipsum dolor sit amet, eam et reque justo
+                                        quidam,
+                                        te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum
+                                        pertinacia.
+                                        Ornatus
+                                    </p>
+                                    <div>
+                                        <p class="px-2 text-right mb32 te_emp_content">-Lorem</p>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="px-2 py-1 te_emp_content">Lorem ipsum dolor sit amet, eam et reque justo quidam,
-                                te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia.
-                                Ornatus
-                            </p>
-                            <div>
-                                <p class="px-2 text-right mb32 te_emp_content">-Lorem</p>
+                        </div>
+                        <div class="carousel-item col-sm-6 col-md-6 col-lg-4">
+                            <div class="s_col_no_bgcolor text-center te_left_right">
+                                <div class="card rounded-0">
+                                    <div>
+                                        <img alt="Clarico-Customer-1"
+                                             src="/theme_clarico/static/src/img/snippets/employee_and_customers/customer_1/110_125.jpg"
+                                             class="mt16 mb16 col-lg-4 col-4 te_emp_img"/>
+                                    </div>
+                                    <div>
+                                        <h5 class="te_emp_name">My Heading 5</h5>
+                                    </div>
+                                    <p class="px-2 py-1 te_emp_content">Lorem ipsum dolor sit amet, eam et reque justo
+                                        quidam,
+                                        te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum
+                                        pertinacia.
+                                        Ornatus
+                                    </p>
+                                    <div>
+                                        <p class="px-2 text-right mb32 te_emp_content">-Lorem</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -3089,43 +3160,47 @@
     <template id="customers_carousel_2" name="Customer 2">
         <div class="oe_structure"/>
         <section>
-            <div class="container">
+            <div class="">
                 <div class="row te_carousel_arrow_set">
                     <div id="myCarousel" class="carousel slide w-100" data-interval="5000">
                         <div>
                             <a class="te_carousel-control_left" href="#myCarousel"
                                data-slide="prev" data-target="#myCarousel">
-                                <i class="fa fa-angle-left te_left_arrow"></i>
+                                <i class="fa fa-angle-left te_left_arrow" style="font-size: 30px;"></i>
                             </a>
                             <a class="te_carousel-control_right" href="#myCarousel"
                                data-slide="next" data-target="#myCarousel">
-                                <i class="fa fa-angle-right te_right_arrow"></i>
+                                <i class="fa fa-angle-right te_right_arrow" style="font-size: 30px;"></i>
                             </a>
                         </div>
-                        <div class="carousel-inner container te_arrow_set">
+                        <div class="row pl-4">
+                            <h4 class="font-weight-bold text-black pt32 pb32 pl-2">
+                                LETEST NEWS
+                            </h4>
+                        </div>
+                        <div class="carousel-inner te_arrow_set pl-3">
                             <div class="">
                                 <div class="carousel-item active">
                                     <div class="row align-items-center">
                                         <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
-                                            <div class="row align-items-center">
-                                                <div class="col-lg-3">
-                                                    <img alt="Clarico-Customer-2"
-                                                         src="/theme_clarico/static/src/img/snippets/employee_and_customers/customer_2/110_125.jpg"
-                                                         class="te_cust_img"/>
-                                                </div>
-                                                <div class="col-lg-9">
-                                                    <h4 class="te_c_employee_name">My Heading 4</h4>
-                                                    <h6 class="te_designation_name">My Heading 6</h6>
-                                                </div>
-                                            </div>
+                                            <img alt="Clarico-Customer-2"
+                                                 src="/theme_clarico/static/src/img/074u4zdYFr.jpg" width="100%"/>
+                                            <h6 class="text-black pt24 pb8">
+                                                COMPREHENSIVE COOPERATION WITH CON-STRUCTION MATERIAL COMPANIES
+                                            </h6>
+                                            <p style="font-size:12px">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            </p>
                                         </section>
-                                        <section class="col-lg-6 col-sm-8 te_employee_main">
-                                            <span class="te_icon_content">
-                                                <i class="fa fa-2x fa-quote-left pr16 te_quotes_icon"></i>
-                                                <p>Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire
-                                                    persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia.
-                                                </p>
-                                            </span>
+                                        <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                            <img alt="Clarico-Customer-2"
+                                                 src="/theme_clarico/static/src/img/074u4zdYFr.jpg" width="100%"/>
+                                            <h6 class="text-black pt24 pb8">
+                                                COMPREHENSIVE COOPERATION WITH CON-STRUCTION MATERIAL COMPANIES
+                                            </h6>
+                                            <p style="font-size:12px">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            </p>
                                         </section>
                                     </div>
                                 </div>

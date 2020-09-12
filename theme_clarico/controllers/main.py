@@ -28,6 +28,10 @@ class StaticContent(http.Controller):
     def term_condition_page(self, **kwargs):
         return request.render('theme_clarico.term_condition_template', {})
 
-    @http.route(["/return-exchange"], type='http', auth="public", website=True)
-    def return_exchange_page(self, **kwargs):
-        return request.render('theme_clarico.return_exchange_template', {})
+    @http.route(["/contact-us"], type='http', auth="public", website=True)
+    def contactus_page(self, **kwargs):
+        return request.render('theme_clarico.contactus_template', {})
+
+    @http.route(["/partner-brands"], type='http', auth="public", website=True)
+    def partner_brand_page(self, **kwargs):
+        return request.render('theme_clarico.partner_brands_template', {})

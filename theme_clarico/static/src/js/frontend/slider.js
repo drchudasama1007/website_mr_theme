@@ -65,7 +65,7 @@ odoo.define('website_slider.front_js', function (require) {
                                 var self = $(this).attr("id", "myCarousel_filter_product" + index + "_" + id_val);
                                 var f_slides = $(this).find(".carousel-item").length;
 								
-                                if (f_slides > 4) {
+                                if (f_slides > 2) {
                                     $(this).find(".carousel-item").first().addClass("active");
                                     var s_id = $(self).attr("id");
                                     $(this).find(".carousel-control-prev").attr("data-target", "#" + s_id)
@@ -114,7 +114,7 @@ odoo.define('website_slider.front_js', function (require) {
                                         var itemsPerSlide = 2;    
                                     }
                                     else {
-                        		      var itemsPerSlide = 4;
+                        		      var itemsPerSlide = 2;
                         		    }
                                     var totalItems = self.find('.carousel-item').length;
                         		    if (idx >= totalItems-(itemsPerSlide-1)) {

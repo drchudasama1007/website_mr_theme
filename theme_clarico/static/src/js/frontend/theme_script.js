@@ -1108,6 +1108,7 @@ function quickview(){
                     var itemsPerSlide = 2;
                 } else {
                     var itemsPerSlide = 4;
+                    console.log("------itemsPerSlide----", itemsPerSlide)
                 }
                 var totalItems = $('#' + carousel_id).find('.carousel-item').length;
                 if (idx >= totalItems - (itemsPerSlide - 1)) {
