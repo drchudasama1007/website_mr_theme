@@ -35,3 +35,7 @@ class StaticContent(http.Controller):
     @http.route(["/partner-brands"], type='http', auth="public", website=True)
     def partner_brand_page(self, **kwargs):
         return request.render('theme_clarico.partner_brands_template', {})
+
+    @http.route(["/key-benefits"], type='http', auth="public", website=True)
+    def key_benefits_page(self, **kwargs):
+        return request.render('theme_clarico.key_benefits_template', {})

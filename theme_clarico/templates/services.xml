@@ -14,7 +14,13 @@
                         >
                         <a href="/services" class="text-white">Services</a>
                         >
-                        <a href="#" class="text-white">International Procurement Services</a>
+                        <a href="#" id="globle_sourcing_header" class="text-white globle_header">Globle Sourcing</a>
+                        <a href="#" id="outsourcing_header" class="text-white globle_header d-none">Outsourcing</a>
+                        <a href="#" id="international_service_header" class="text-white globle_header d-none">International Procurement Services</a>
+                        <a href="#" id="small_orders_header" class="text-white globle_header d-none">Small Dollar Orders</a>
+                        <a href="#" id="urgent_orders_header" class="text-white globle_header d-none">Urgent Orders</a>
+                        <a href="#" id="system_engineering_header" class="text-white globle_header d-none">System Engineering</a>
+                        <a href="#" id="key_benefits_header" class="text-white globle_header d-none">Key Benefits</a>
                     </p>
                 </div>
             </div>
@@ -25,15 +31,15 @@
                     <div class="row pt64">
                         <div class="col-md-4 col-sm-4">
                             <h4 class="font-weight-bold text-black pb24">SERVICES MENU</h4>
-                            <h6 class="pb16" style="border-bottom: 2px solid #f1f1f1;">GLOBAL PURCHASING</h6>
-                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">OUTSOURCING</h6>
-                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">INTERNATIONAL PROCUREMENT
+                            <h6 class="pb16 service_a globle_a" id="globle_sourcing_a" style="border-bottom: 2px solid #f1f1f1;">GLOBAL PURCHASING</h6>
+                            <h6 class="pt16 pb16 globle_a" id="outsourcing_a" style="border-bottom: 2px solid #f1f1f1;">OUTSOURCING</h6>
+                            <h6 class="pt16 pb16 globle_a" id="international_service_a" style="border-bottom: 2px solid #f1f1f1;">INTERNATIONAL PROCUREMENT
                                 SERVICES
                             </h6>
-                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">SMALL DOLLAR ORDERS</h6>
-                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">URGENT ORDERS</h6>
-                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">SYSTEM ENGINEERING</h6>
-                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">KEY BENIFITS</h6>
+                            <h6 class="pt16 pb16 globle_a" id="small_orders_a" style="border-bottom: 2px solid #f1f1f1;">SMALL DOLLAR ORDERS</h6>
+                            <h6 class="pt16 pb16 globle_a" id="urgent_orders_a" style="border-bottom: 2px solid #f1f1f1;">URGENT ORDERS</h6>
+                            <h6 class="pt16 pb16 globle_a"  id="system_engineering_a" style="border-bottom: 2px solid #f1f1f1;">SYSTEM ENGINEERING</h6>
+                            <h6 class="pt16 pb16 globle_a" id="key_benefits_a" style="border-bottom: 2px solid #f1f1f1;">KEY BENIFITS</h6>
 
                             <h4 class="font-weight-bold text-black pt24 pb24">FEATURED WORK</h4>
                             <div class="row pb16" style="border-bottom: 2px solid #f1f1f1;">
@@ -104,7 +110,101 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-8 col-sm-8 pl-5">
+
+
+                        <div id="globle_sourcing_div" class="col-md-8 col-sm-8 pl-5 globle_div">
+                            <div class="row">
+                                <h4 class="font-weight-bold text-black pb24">
+                                    GLOBAL PURCHASING
+                                </h4>
+                                <p class="pt8 text-black" style="font-size: 11px;">Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                                <p class="pt16 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                    internationa procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 pt8 p-0">
+                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                        internationa procurement and
+                                        global
+                                        outsourcing services rendered by M&amp;R Group.Get to know about the
+                                        internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-sm-6 pt8 p-0">
+                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                        internationa procurement and
+                                        global
+                                        outsourcing services rendered by M&amp;R Group.Get to know about the
+                                        internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <t t-call="theme_clarico.customers_carousel_2"/>
+                            </div>
+                        </div>
+
+
+                        <div id="outsourcing_div" class="col-md-8 col-sm-8 pl-5 globle_div d-none">
+                            <div class="row">
+                                <h4 class="font-weight-bold text-black pb24">
+                                    OUTSOURCING
+                                </h4>
+                                <p class="pt8 text-black" style="font-size: 11px;">Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                                <p class="pt16 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                    internationa procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 pt8 p-0">
+                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                        internationa procurement and
+                                        global
+                                        outsourcing services rendered by M&amp;R Group.Get to know about the
+                                        internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-sm-6 pt8 p-0">
+                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                        internationa procurement and
+                                        global
+                                        outsourcing services rendered by M&amp;R Group.Get to know about the
+                                        internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <t t-call="theme_clarico.customers_carousel_2"/>
+                            </div>
+                        </div>
+
+
+                        <div id="international_service_div" class="col-md-8 col-sm-8 pl-5 globle_div d-none">
                             <div class="row">
                                 <h4 class="font-weight-bold text-black pb24">
                                     INTERNATIONAL PROCUREMENT SERVICES
@@ -144,6 +244,232 @@
                                     </p>
                                 </div>
                             </div>
+                            <div class="row">
+                                <t t-call="theme_clarico.customers_carousel_2"/>
+                            </div>
+                        </div>
+
+
+                        <div id="small_orders_div" class="col-md-8 col-sm-8 pl-5 globle_div d-none">
+                            <div class="row">
+                                <h4 class="font-weight-bold text-black pb24">
+                                    SMALL DOLLAR ORDERS
+                                </h4>
+                                <p class="pt8 text-black" style="font-size: 11px;">Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                                <p class="pt16 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                    internationa procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 pt8 p-0">
+                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                        internationa procurement and
+                                        global
+                                        outsourcing services rendered by M&amp;R Group.Get to know about the
+                                        internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-sm-6 pt8 p-0">
+                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                        internationa procurement and
+                                        global
+                                        outsourcing services rendered by M&amp;R Group.Get to know about the
+                                        internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <t t-call="theme_clarico.customers_carousel_2"/>
+                            </div>
+                        </div>
+
+
+                        <div id="urgent_orders_div" class="col-md-8 col-sm-8 pl-5 globle_div d-none">
+                            <div class="row">
+                                <h4 class="font-weight-bold text-black pb24">
+                                    URGENT ORDERS
+                                </h4>
+                                <p class="pt8 text-black" style="font-size: 11px;">Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                                <p class="pt16 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                    internationa procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 pt8 p-0">
+                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                        internationa procurement and
+                                        global
+                                        outsourcing services rendered by M&amp;R Group.Get to know about the
+                                        internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-sm-6 pt8 p-0">
+                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                        internationa procurement and
+                                        global
+                                        outsourcing services rendered by M&amp;R Group.Get to know about the
+                                        internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <t t-call="theme_clarico.customers_carousel_2"/>
+                            </div>
+                        </div>
+
+
+                        <div id="system_engineering_div" class="col-md-8 col-sm-8 pl-5 globle_div d-none">
+                            <div class="row">
+                                <h4 class="font-weight-bold text-black pb24">
+                                    SYSTEM ENGINEERING
+                                </h4>
+                                <p class="pt8 text-black" style="font-size: 11px;">Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                                <p class="pt16 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                    internationa procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 pt8 p-0">
+                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                        internationa procurement and
+                                        global
+                                        outsourcing services rendered by M&amp;R Group.Get to know about the
+                                        internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-sm-6 pt8 p-0">
+                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                        internationa procurement and
+                                        global
+                                        outsourcing services rendered by M&amp;R Group.Get to know about the
+                                        internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <t t-call="theme_clarico.customers_carousel_2"/>
+                            </div>
+                        </div>
+                        
+
+                        <div id="key_benefits_div" class="col-md-8 col-sm-8 pl-5 globle_div d-none">
+                            <div class="row">
+                                <h4 class="font-weight-bold text-black pb24">
+                                    KEY BENIFITS
+                                </h4>
+                                <p class="pt8 text-black" style="font-size: 11px;">
+                                    M &amp; R - The Best Global Procurement Network where we deal with all kinds of International Purchasing and Materials Procurements needs. With over 31 years of global presence,  we’ve developed undeniable unique propositions that our clients can get benefit from.
+                                </p>
+                            </div>
+                            <div class="row pt24">
+                                <h6 class="pb8 font-weight-bold text-black">In-House Procurement Specialists</h6>
+                                <p class="text-black" style="font-size: 11px;">
+                                    Our In-House Procurement specialists are professional in their approach and get
+                                    things done with smooth workflows giving no stress to our clients.
+                                </p>
+                            </div>
+
+                             <div class="row pt24">
+                                <h6 class="pb8 font-weight-bold text-black">Extraordinary Relationship Building and Teamwork</h6>
+                                <p class="text-black" style="font-size: 11px;">
+                                    Hassle-free procurement is ensured by remarkable relationship development and work done through teams who are dedicated to their domain-related tasks.
+                                </p>
+                             </div>
+
+                            <div class="row pt24">
+                                <h6 class="pb8 font-weight-bold text-black">Unmatchable Quality Standards Assured</h6>
+                                <p class="text-black" style="font-size: 11px;">
+                                    No low-quality product and supplies are dealt with by M &amp; R so you can always rely on our Quality Assurance team and vendors are procured after legal paperwork.
+                                </p>
+                             </div>
+
+                            <div class="row pt24">
+                                <h6 class="pb8 font-weight-bold text-black">Unmatched price due to extensive network of Suppliers and Clients.</h6>
+                                <p class="text-black" style="font-size: 11px;">
+                                    Our clients always love the pricing quotations we are able to create for them because of stellar relationship with vendors.
+                                </p>
+                             </div>
+
+                            <div class="row pt24">
+                                <h6 class="pb8 font-weight-bold text-black">Ease of work with Single Vendor Contact concept</h6>
+                                <p class="text-black" style="font-size: 11px;">
+                                    M &amp; R is to provide complete Vending Solutions your business needs. You don't need to experience hassle while dealing with various entities.
+                                </p>
+                             </div>
+
+                            <div class="row pt24">
+                                <h6 class="pb8 font-weight-bold text-black">Flexibilities on payment Terms</h6>
+                                <p class="text-black" style="font-size: 11px;">
+                                    You can set your own preferred payment terms while working with M &amp; R. We will be responsible to deal with the third party vendors <meanwhile class=""></meanwhile>
+                                </p>
+                             </div>
+
+                             <div class="row mt80 pb16 bg-black">
+                                <div class="col-md-12 col-sm-12 mt16 mb16">
+                                    <h5 class="font-weight-bold pt16" style="color:#fdd642;padding-left: 30px;">YOUR BENEFITS</h5>
+                                    <ul class="service_ul ml-2">
+                                        <li class="pt16 service_li" style="font-size: 11px;">
+                                            You have only one contact that takes care of all agreements, negotiations and transactions on your behalf. You save money and an enormous amount of time.
+                                        </li>
+                                        <li class="pt16 service_li" style="font-size: 11px;">
+                                            You benefit directly from our expertise of 31 years’ experience- a global network, and established workflows, guaranteeing maximum synergies, minimum costs, the fastest possible delivery, and optimal results.
+
+                                        </li>
+                                        <li class="pt16 service_li" style="font-size: 11px;">
+                                            You get the assurance and certainty that your delivery will arrive on time with the most suitable terms and conditions.
+
+                                        </li>
+                                        <li class="pt16 service_li" style="font-size: 11px;">
+                                            Uncomplicated, low-cost, and flexible payment and billing methods which allows you all the flexibility you need.
+
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+
                             <div class="row">
                                 <t t-call="theme_clarico.customers_carousel_2"/>
                             </div>

@@ -1,0 +1,158 @@
+<odoo>
+
+    <template id="key_benefits_template" name="Key Benefits">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <div class="row bg-black pt64 pb64">
+                <div class="col-md-12 col-sm-12">
+                    <h3 class="text-white font-weight-bold text-center mb-0">
+                        SERVICES
+                    </h3>
+                    <p class="text-white text-center" style="font-size: 12px;">
+                        <i class="fa fa-home"/>
+                        <a href="/" class="text-white">Home</a>
+                        >
+                        <a href="/services" class="text-white">Services</a>
+                        >
+                        <a href="#" class="text-white">Key Benefits</a>
+                    </p>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="row pt64">
+                        <div class="col-md-4 col-sm-4">
+                            <h4 class="font-weight-bold text-black pb24">SERVICES MENU</h4>
+                            <h6 class="pb16" style="border-bottom: 2px solid #f1f1f1;">GLOBAL PURCHASING</h6>
+                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">OUTSOURCING</h6>
+                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">INTERNATIONAL PROCUREMENT
+                                SERVICES
+                            </h6>
+                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">SMALL DOLLAR ORDERS</h6>
+                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">URGENT ORDERS</h6>
+                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">SYSTEM ENGINEERING</h6>
+                            <h6 class="pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">KEY BENIFITS</h6>
+
+                            <h4 class="font-weight-bold text-black pt24 pb24">FEATURED WORK</h4>
+                            <div class="row pb16" style="border-bottom: 2px solid #f1f1f1;">
+                                <div class="col-md-4 col-sm-4">
+                                    <img src="/theme_clarico/static/src/img/Layer 14.jpg" width="100%"/>
+                                </div>
+                                <div class="col-md-6 col-sm-6 p-0">
+                                    <h6 class="font-weight-bold text-black" style="font-size: 12px;">CARLTON LUXURY
+                                        HOTEL
+                                    </h6>
+                                    <h6>Industry</h6>
+                                </div>
+                            </div>
+                            <div class="row pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">
+                                <div class="col-md-4 col-sm-4">
+                                    <img src="/theme_clarico/static/src/img/Layer 14.jpg" width="100%"/>
+                                </div>
+                                <div class="col-md-6 col-sm-6 p-0">
+                                    <h6 class="font-weight-bold text-black" style="font-size: 12px;">CARLTON LUXURY
+                                        HOTEL
+                                    </h6>
+                                    <h6>Industry</h6>
+                                </div>
+                            </div>
+                            <div class="row pt16 pb48">
+                                <div class="col-md-4 col-sm-4">
+                                    <img src="/theme_clarico/static/src/img/Layer 14.jpg" width="100%"/>
+                                </div>
+                                <div class="col-md-6 col-sm-6 p-0">
+                                    <h6 class="font-weight-bold text-black" style="font-size: 12px;">CARLTON LUXURY
+                                        HOTEL
+                                    </h6>
+                                    <h6>Industry</h6>
+                                </div>
+                            </div>
+                            <div class="row pt16 pb16 bg-black">
+                                <div class="col-md-12 col-sm-12 mt16 mb16"
+                                     style="padding-left: 30px;padding-right: 30px;">
+                                    <h5 class="font-weight-bold" style="color:#fdd642">DOWNLOAD BROCHURES</h5>
+                                    <h6 class="pt8 text-white">Get to know about the internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </h6>
+                                    <button class="btn btn-block pt8 pb8 mt40 mb24" style="background:#fdd642"><i
+                                            class="fa fa-user pr-3"/>INFO COMPANY
+                                    </button>
+                                    <button class="btn btn-block pt8 pb8" style="background:#fdd642"><i
+                                            class="fa fa-user pr-3"/>BROCHURE NEWST
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row pt16 pb16 mt48 mb88"
+                                 style="box-shadow: 0px 0px 15px rgba(172, 175, 174, 0.5)">
+                                <div class="col-md-12 col-sm-12 mt16 mb16"
+                                     style="padding-left: 30px;padding-right: 30px;">
+                                    <h6 class="font-weight-bold">WE CAN HELP YOU</h6>
+                                    <h6 style="color:gray">
+                                        <i class="fa fa-phone"/>
+                                        <span class="pl-2">+49(0)89 520566-0</span>
+                                    </h6>
+                                    <h6 style="color:gray">
+                                        <i class="fa fa-envelope"/>
+                                        <span class="pl-2">info@mr-group.com</span>
+                                    </h6>
+                                    <h6 style="color:gray">
+                                        <i class="fa fa-map-marker"/>
+                                        <span class="pl-2">Gollierstr. 70C3 80339 Munich</span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-8 pl-5">
+                            <div class="row">
+                                <h4 class="font-weight-bold text-black pb24">
+                                    INTERNATIONAL PROCUREMENT SERVICES
+                                </h4>
+                                <p class="pt8 text-black" style="font-size: 11px;">Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                                <p class="pt16 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                    internationa procurement and global
+                                    outsourcing services rendered by M&amp;R Group.Get to know about the internationa
+                                    procurement and global
+                                    outsourcing services rendered by M&amp;R Group.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 pt8 p-0">
+                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                        internationa procurement and
+                                        global
+                                        outsourcing services rendered by M&amp;R Group.Get to know about the
+                                        internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-sm-6 pt8 p-0">
+                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
+                                        internationa procurement and
+                                        global
+                                        outsourcing services rendered by M&amp;R Group.Get to know about the
+                                        internationa procurement and global
+                                        outsourcing services rendered by M&amp;R Group.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <t t-call="theme_clarico.customers_carousel_2"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="oe_structure"/>
+        </t>
+    </template>
+
+</odoo>
