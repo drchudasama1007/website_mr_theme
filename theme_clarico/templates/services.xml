@@ -26,8 +26,8 @@
             </div>
             <div class="oe_structure"/>
             <div class="row">
-                <div class="col-md-2 col-sm-2"/>
-                <div class="col-md-8 col-sm-8">
+                <div class="col-md-2 col-sm-2 col-1"/>
+                <div class="col-md-8 col-sm-8 col-10">
                     <div class="row pt64">
                         <div class="col-md-4 col-sm-4">
                             <h4 class="font-weight-bold text-black pb24">SERVICES MENU</h4>
@@ -43,10 +43,10 @@
 
                             <h4 class="font-weight-bold text-black pt24 pb24">FEATURED WORK</h4>
                             <div class="row pb16" style="border-bottom: 2px solid #f1f1f1;">
-                                <div class="col-md-4 col-sm-4">
+                                <div class="col-md-4 col-sm-4 col-4">
                                     <img src="/theme_clarico/static/src/img/Layer 14.jpg" width="100%"/>
                                 </div>
-                                <div class="col-md-6 col-sm-6 p-0">
+                                <div class="col-md-6 col-sm-6 p-0 col-6">
                                     <h6 class="font-weight-bold text-black" style="font-size: 12px;">CARLTON LUXURY
                                         HOTEL
                                     </h6>
@@ -54,10 +54,10 @@
                                 </div>
                             </div>
                             <div class="row pt16 pb16" style="border-bottom: 2px solid #f1f1f1;">
-                                <div class="col-md-4 col-sm-4">
+                                <div class="col-md-4 col-sm-4 col-4">
                                     <img src="/theme_clarico/static/src/img/Layer 14.jpg" width="100%"/>
                                 </div>
-                                <div class="col-md-6 col-sm-6 p-0">
+                                <div class="col-md-6 col-sm-6 col-6 p-0">
                                     <h6 class="font-weight-bold text-black" style="font-size: 12px;">CARLTON LUXURY
                                         HOTEL
                                     </h6>
@@ -65,10 +65,10 @@
                                 </div>
                             </div>
                             <div class="row pt16 pb48">
-                                <div class="col-md-4 col-sm-4">
+                                <div class="col-md-4 col-sm-4 col-4">
                                     <img src="/theme_clarico/static/src/img/Layer 14.jpg" width="100%"/>
                                 </div>
-                                <div class="col-md-6 col-sm-6 p-0">
+                                <div class="col-md-6 col-sm-6 col-6 p-0">
                                     <h6 class="font-weight-bold text-black" style="font-size: 12px;">CARLTON LUXURY
                                         HOTEL
                                     </h6>
@@ -83,10 +83,10 @@
                                         outsourcing services rendered by M&amp;R Group.
                                     </h6>
                                     <button class="btn btn-block pt8 pb8 mt40 mb24" style="background:#fdd642"><i
-                                            class="fa fa-user pr-3"/>INFO COMPANY
+                                            class="fa fa-code-fork" style="border:1px solid;padding: 2px;"/><span class="pl-3">INFO COMPANY</span>
                                     </button>
                                     <button class="btn btn-block pt8 pb8" style="background:#fdd642"><i
-                                            class="fa fa-user pr-3"/>BROCHURE NEWST
+                                            class="fa fa-code-fork" style="border:1px solid;padding: 2px;"/><span class="pl-3">BROCHURE NEWST</span>
                                     </button>
                                 </div>
                             </div>
@@ -132,7 +132,8 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
                                         global
@@ -142,7 +143,8 @@
                                     </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
                                         global
@@ -178,7 +180,8 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
                                         global
@@ -188,7 +191,8 @@
                                     </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
                                         global
@@ -224,7 +228,8 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
                                         global
@@ -234,7 +239,8 @@
                                     </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
                                         global
@@ -270,7 +276,8 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
                                         global
@@ -280,7 +287,8 @@
                                     </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
                                         global
@@ -316,7 +324,8 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
                                         global
@@ -326,7 +335,8 @@
                                     </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
                                         global
@@ -362,7 +372,8 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
                                         global
@@ -372,7 +383,8 @@
                                     </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="pb16 font-weight-bold text-black">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
                                         global
@@ -386,7 +398,7 @@
                                 <t t-call="theme_clarico.customers_carousel_2"/>
                             </div>
                         </div>
-                        
+
 
                         <div id="key_benefits_div" class="col-md-8 col-sm-8 pl-5 globle_div d-none">
                             <div class="row">
@@ -398,7 +410,10 @@
                                 </p>
                             </div>
                             <div class="row pt24">
-                                <h6 class="pb8 font-weight-bold text-black">In-House Procurement Specialists</h6>
+                                <div class="pb16">
+                                <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">In-House Procurement Specialists</h6>
+                                    <p class="border_bottom"/>
+                                </div>
                                 <p class="text-black" style="font-size: 11px;">
                                     Our In-House Procurement specialists are professional in their approach and get
                                     things done with smooth workflows giving no stress to our clients.
@@ -406,35 +421,50 @@
                             </div>
 
                              <div class="row pt24">
-                                <h6 class="pb8 font-weight-bold text-black">Extraordinary Relationship Building and Teamwork</h6>
+                                 <div class="pb16">
+                                <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Extraordinary Relationship Building and Teamwork</h6>
+                                 <p class="border_bottom"/>
+                                 </div>
                                 <p class="text-black" style="font-size: 11px;">
                                     Hassle-free procurement is ensured by remarkable relationship development and work done through teams who are dedicated to their domain-related tasks.
                                 </p>
                              </div>
 
                             <div class="row pt24">
-                                <h6 class="pb8 font-weight-bold text-black">Unmatchable Quality Standards Assured</h6>
+                                <div class="pb16">
+                                <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Unmatchable Quality Standards Assured</h6>
+                                 <p class="border_bottom"/>
+                                 </div>
                                 <p class="text-black" style="font-size: 11px;">
                                     No low-quality product and supplies are dealt with by M &amp; R so you can always rely on our Quality Assurance team and vendors are procured after legal paperwork.
                                 </p>
                              </div>
 
                             <div class="row pt24">
-                                <h6 class="pb8 font-weight-bold text-black">Unmatched price due to extensive network of Suppliers and Clients.</h6>
+                                <div class="pb16">
+                                <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Unmatched price due to extensive network of Suppliers and Clients.</h6>
+                                 <p class="border_bottom"/>
+                                 </div>
                                 <p class="text-black" style="font-size: 11px;">
                                     Our clients always love the pricing quotations we are able to create for them because of stellar relationship with vendors.
                                 </p>
                              </div>
 
                             <div class="row pt24">
-                                <h6 class="pb8 font-weight-bold text-black">Ease of work with Single Vendor Contact concept</h6>
+                                <div class="pb16">
+                                <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Ease of work with Single Vendor Contact concept</h6>
+                                 <p class="border_bottom"/>
+                                 </div>
                                 <p class="text-black" style="font-size: 11px;">
                                     M &amp; R is to provide complete Vending Solutions your business needs. You don't need to experience hassle while dealing with various entities.
                                 </p>
                              </div>
 
                             <div class="row pt24">
-                                <h6 class="pb8 font-weight-bold text-black">Flexibilities on payment Terms</h6>
+                                <div class="pb16">
+                                <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Flexibilities on payment Terms</h6>
+                                 <p class="border_bottom"/>
+                                 </div>
                                 <p class="text-black" style="font-size: 11px;">
                                     You can set your own preferred payment terms while working with M &amp; R. We will be responsible to deal with the third party vendors <meanwhile class=""></meanwhile>
                                 </p>

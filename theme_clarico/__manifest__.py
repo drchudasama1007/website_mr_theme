@@ -6,7 +6,7 @@
     'version': '12.0.0.52',
     'license': 'OPL-1',	
     'depends': [
-      'base','website','website_theme_install','snailmail_account'
+      'base','website','website_theme_install','snailmail_account','website_crm'
     ],
 
     'data': [
@@ -19,6 +19,7 @@
         'templates/career.xml',
         'templates/privacy_policy.xml',
         'templates/term_condition.xml',
+        'templates/cookie_policy.xml',
         'templates/services.xml',
         'templates/partner_brand.xml',
         'templates/login.xml',

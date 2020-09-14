@@ -27,21 +27,21 @@
                                 <div>
                                     <p></p>
                                     <div t-attf-class="s_share te_header_w_share #{_classes or ''}">
-                                        <a t-if="website.social_facebook" t-att-href="website.social_facebook"
+                                        <a href="#"
                                            class="btn btn-link" style="border-left: 1px solid #ededed !important;">
                                             <i class="fa fa-facebook" style="color:#FEE000;"/>
                                         </a>
-                                        <a t-if="website.social_twitter" t-att-href="website.social_twitter"
+                                        <a href="#"
                                            class="btn btn-link">
                                             <i class="fa fa-twitter" style="color:gray;"/>
                                         </a>
-                                        <a t-if="website.social_linkedin" t-att-href="website.social_linkedin"
+                                        <a href="#"
                                            class="btn btn-link">
                                             <i class="fa fa-linkedin" style="color:gray;"/>
                                         </a>
-                                        <a t-if="website.social_youtube" t-att-href="website.social_youtube"
+                                        <a href="#"
                                            class="btn btn-link" style="border-right: 1px solid #ededed !important;">
-                                            <i class="fa fa-pinterest" style="color:gray;"/>
+                                            <i class="fa fa-pinterest-p" style="color:gray;"/>
                                         </a>
                                     </div>
                                 </div>

@@ -6,6 +6,16 @@ class StaticContent(http.Controller):
 
     @http.route(["/be-a-partner"], type='http', auth="public", website=True)
     def be_a_partner_page(self, **kwargs):
+        print("-------hhhhhhhhh------", kwargs)
+        print("-------hhhhhhhhh------", kwargs.get('name'))
+        if kwargs.get('name'):
+            lead = request.env['crm.lead'].sudo().create({
+                'contact_name': kwargs.get('Be A Partner'),
+                'name': kwargs.get('name'),
+                'phone' : kwargs.get('phone'),
+                'email_from' : kwargs.get('email'),
+                'description' : kwargs.get('message'),
+            })
         return request.render('theme_clarico.be_a_partner_template', {})
 
     @http.route(["/services"], type='http', auth="public", website=True)
@@ -27,6 +37,10 @@ class StaticContent(http.Controller):
     @http.route(["/term-condition"], type='http', auth="public", website=True)
     def term_condition_page(self, **kwargs):
         return request.render('theme_clarico.term_condition_template', {})
+
+    @http.route(["/cookie"], type='http', auth="public", website=True)
+    def cookie_page(self, **kwargs):
+        return request.render('theme_clarico.cookie_policy_template', {})
 
     @http.route(["/contact-us"], type='http', auth="public", website=True)
     def contactus_page(self, **kwargs):

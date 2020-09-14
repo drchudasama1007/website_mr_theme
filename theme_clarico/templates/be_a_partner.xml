@@ -18,23 +18,30 @@
                     </div>
                 </div>
                 <div class="oe_structure"/>
-                    <div class="row">
-                        <div class="col-md-2 col-sm-2"/>
-                        <div class="col-md-8 col-sm-8">
-                            <div class="row pb64">
-                                <div class="col-md-8 col-sm-8">
-                                    <div class="row">
-                                        <h5 class="te_slider_title o_default_snippet_text text-black pt64 pb40 font-weight-bold">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2"/>
+                    <div class="col-md-8 col-sm-8">
+                        <div class="row pb64">
+                            <div class="col-md-8 col-sm-8">
+                                <div class="row be_a_partner_head">
+                                    <div class="title_style">
+                                        <h2 class="font-weight-bold text-black pt64 pb40 pl-0" style="font-size: 17px;">
                                             BE A PARTNER
-                                        </h5>
-                                        <p class="pb56 m-0" style="font-size: 12px;">Submit your inquiry for an offer or
-                                            for
-                                            general
-                                            information about our services. We look forword to welcome you!
-                                        </p>
+                                        </h2>
+                                        <div class="border_right"></div>
                                     </div>
-                                    <div class="row" style="background:#f7da45">
-                                        <div class="col-md-12 col-sm-12 pl-4 pt32" style="display:flex">
+                                    <p class="pb56 m-0" style="font-size: 12px;">Submit your inquiry for an offer or
+                                        for
+                                        general
+                                        information about our services. We look forword to welcome you!
+                                    </p>
+                                </div>
+                                <div class="row" style="background:#f7da45">
+                                    <form action="/be-a-partner" method="post" data-model_name="crm.lead"
+                                          class="s_website_form container-fluid mt32" enctype="multipart/form-data"
+                                          data-editable-form="false">
+                                        <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                        <div class="col-md-12 col-sm-12 pl-4" style="display:flex">
                                             <div class="col-md-4 col-sm-4 pl-0">
                                                 <input type="text" class="form-control border-0" style="height: 35px;"
                                                        name="name" placeholder="Your Name*"/>
@@ -43,57 +50,59 @@
                                                 <input type="text" class="form-control border-0" style="height: 35px;"
                                                        name="email" placeholder="Your Email*"/>
                                             </div>
-                                            <div class="col-md-4 col-sm-4 pl-0">
+                                            <div class="col-md-4 col-sm-4 pl-0 pr-2">
                                                 <input type="text" class="form-control border-0" style="height: 35px;"
                                                        name="phone" placeholder="Your Phone Number*"/>
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-sm-12 pt16 pl-4 pr-4">
-                                            <textarea name="message" rows="10" class="form-control border-0" placeholder="Message"/>
+                                            <textarea name="message" rows="8" class="form-control border-0"
+                                                      placeholder="Message"/>
                                         </div>
                                         <div class="col-md-12 col-sm-12 pl-4 pr-4 pt24 pb48">
-                                            <a href="#" class="btn btn-block bg-black">SEND MESSAGE
-                                            </a>
+                                            <button  type="submit" class="btn btn-block bg-black">SEND MESSAGE
+                                            </button>
                                         </div>
-                                    </div>
+                                    </form>
                                 </div>
-                                <div class="col-md-4 col-sm-4">
-                                    <div class="row pl-5">
-                                        <h4 class="text-black pt96 pb16">
-                                            Offices
-                                        </h4>
-                                    </div>
-                                    <div class="row pl-5">
-                                        <p class="text-black m-0">M&amp;R Europe GMBH - Munich</p>
-                                        <p class="m-0" style="font-size: 12px;">Gollierstr. 70C3 - 80339 Munich -
-                                            Germany
-                                        </p>
-                                        <p class="m-0" style="font-size: 12px;">Local Phone +49 89 520566-0</p>
-                                        <p class="m-0" style="font-size: 12px;">Fax +49 89 520566-70</p>
-                                        <p class="m-0 pb16" style="font-size: 12px;">mrcuropa@mr-group.com</p>
-                                    </div>
-                                    <div class="row pl-5">
-                                        <p class="text-black m-0">M&amp;R Europe GMBH - Munich</p>
-                                        <p class="m-0" style="font-size: 12px;">Gollierstr. 70C3 - 80339 Munich -
-                                            Germany
-                                        </p>
-                                        <p class="m-0" style="font-size: 12px;">Local Phone +49 89 520566-0</p>
-                                        <p class="m-0" style="font-size: 12px;">Fax +49 89 520566-70</p>
-                                        <p class="m-0 pb16" style="font-size: 12px;">mrcuropa@mr-group.com</p>
-                                    </div>
-                                    <div class="row pl-5">
-                                        <p class="text-black m-0">M&amp;R Europe GMBH - Munich</p>
-                                        <p class="m-0" style="font-size: 12px;">Gollierstr. 70C3 - 80339 Munich -
-                                            Germany
-                                        </p>
-                                        <p class="m-0" style="font-size: 12px;">Local Phone +49 89 520566-0</p>
-                                        <p class="m-0" style="font-size: 12px;">Fax +49 89 520566-70</p>
-                                        <p class="m-0 pb16" style="font-size: 12px;">mrcuropa@mr-group.com</p>
-                                    </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="pl-5">
+                                    <h4 class="text-black pt96 mb16 border_bottom">
+                                        Offices
+                                    </h4>
+                                </div>
+                                <div class="pl-5 be_partner_p">
+                                    <p class="text-black m-0">M&amp;R Europe GMBH - Munich</p>
+                                    <p class="m-0" style="font-size: 12px;">Gollierstr. 70C3 - 80339 Munich -
+                                        Germany
+                                    </p>
+                                    <p class="m-0" style="font-size: 12px;">Local Phone +49 89 520566-0</p>
+                                    <p class="m-0" style="font-size: 12px;">Fax +49 89 520566-70</p>
+                                    <p class="m-0 pb16" style="font-size: 12px;">mrcuropa@mr-group.com</p>
+                                </div>
+                                <div class="pl-5">
+                                    <p class="text-black m-0">M&amp;R Europe GMBH - Munich</p>
+                                    <p class="m-0" style="font-size: 12px;">Gollierstr. 70C3 - 80339 Munich -
+                                        Germany
+                                    </p>
+                                    <p class="m-0" style="font-size: 12px;">Local Phone +49 89 520566-0</p>
+                                    <p class="m-0" style="font-size: 12px;">Fax +49 89 520566-70</p>
+                                    <p class="m-0 pb16" style="font-size: 12px;">mrcuropa@mr-group.com</p>
+                                </div>
+                                <div class="pl-5">
+                                    <p class="text-black m-0">M&amp;R Europe GMBH - Munich</p>
+                                    <p class="m-0" style="font-size: 12px;">Gollierstr. 70C3 - 80339 Munich -
+                                        Germany
+                                    </p>
+                                    <p class="m-0" style="font-size: 12px;">Local Phone +49 89 520566-0</p>
+                                    <p class="m-0" style="font-size: 12px;">Fax +49 89 520566-70</p>
+                                    <p class="m-0 pb16" style="font-size: 12px;">mrcuropa@mr-group.com</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
             </section>
             <div class="oe_structure"/>
         </t>

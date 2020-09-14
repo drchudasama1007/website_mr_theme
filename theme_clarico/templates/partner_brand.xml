@@ -21,22 +21,24 @@
                 <div class="oe_structure"/>
 
                 <div class="row">
-                    <div class="col-md-2 col-sm-2"/>
-                    <div class="col-md-8 col-sm-8">
+                    <div class="col-md-2 col-sm-2 col-1"/>
+                    <div class="col-md-8 col-sm-8 col-10">
 
                         <div class="row">
                             <div class="col-md-8 col-sm-8">
                                 <div class="row">
-                                    <h5 class="te_slider_title o_default_snippet_text text-black pt64 pl-3 font-weight-bold">
-                                        PARTNERSHIPS
-                                    </h5>
+                                    <div class="title_style pl-2">
+                                        <h2 class="font-weight-bold text-black pt64" style="font-size: 20px;">
+                                            PARTNERSHIPS
+                                        </h2>
+                                        <div class="border_right"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="row pt32">
-
-                            <div class="col-md-6 col-sm-6">
+                            <div class="col-md-6 col-sm-6 col-12 brand_center">
                                 <div class="row">
                                     <div class="col-md-5 col-sm-5">
                                         <img class="img-fluid"
@@ -56,8 +58,7 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="col-md-6 col-sm-6">
+                            <div class="col-md-6 col-sm-6 col-12 brand_center">
                                 <div class="row">
                                     <div class="col-md-5 col-sm-5">
                                         <img class="img-fluid"
@@ -78,11 +79,8 @@
                                 </div>
                             </div>
                         </div>
-
-
                         <div class="row pt32">
-
-                            <div class="col-md-6 col-sm-6">
+                            <div class="col-md-6 col-sm-6 col-12 brand_center">
                                 <div class="row">
                                     <div class="col-md-5 col-sm-5">
                                         <img class="img-fluid"
@@ -102,8 +100,7 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="col-md-6 col-sm-6">
+                            <div class="col-md-6 col-sm-6 col-12 brand_center">
                                 <div class="row">
                                     <div class="col-md-5 col-sm-5">
                                         <img class="img-fluid"
@@ -124,11 +121,8 @@
                                 </div>
                             </div>
                         </div>
-
-
                         <div class="row pt32 pb64">
-
-                            <div class="col-md-6 col-sm-6">
+                            <div class="col-md-6 col-sm-6 col-12 brand_center">
                                 <div class="row">
                                     <div class="col-md-5 col-sm-5">
                                         <img class="img-fluid"
@@ -148,7 +142,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
