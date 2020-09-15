@@ -621,42 +621,41 @@ li.service_li:before {
 .carousel-item{
     min-height: 400px;
 }
-
-
-
 .section-padding {
     padding: 80px 0;
 }
-
 .section-title {
     margin-bottom: 81px;
 }
-
 .owl-carousel .owl-item .single-staff-item img{
-    max-width: 325px;
-    width: 160px;
+    max-width: unset !important;
+    width: 265px !important;
+    border-radius:0 !important;
+    height: 215px;
+    margin-top: 25px;
 }
 .staff-meta {
     font-size: 12px;
     color: #b7b7b7;
     margin-top: 20px;
 }
-
 .staff-meta h3 {
     font-size: 20px;
     margin: 0 0 10px;
 }
-.staff-list .owl-nav button {
+.staff-list .owl-nav .owl-prev,  .staff-list .owl-nav .owl-next{
     display: inline-block;
-    width: 50px;
-    height: 40px;
-    background-color: #f3f3f3 !important;
+    width: 35px !important;
+    height: 30px !important;
+    /*background-color: transparent !important;
+    border: 1px solid lightgray;*/
     margin-left: 10px;
     transition: .3s;
 }
-.staff-list .owl-nav button:hover{
-    background: #14ADF3 !important;
-    color: white !important;
+.owl-loaded .owl-nav .owl-prev:hover, .owl-loaded .owl-nav .owl-next:hover{
+    background: transparent !important;
+    color: gray !important;
+    border: 1px solid lightgray;
 }
 .staff-list .owl-nav {
     position: absolute;
@@ -666,3 +665,37 @@ li.service_li:before {
 .staff-desc{
     margin-top: 20px;
 }
+.fa-angle-left:before {
+    content: "\f104";
+    font-family: FontAwesome;
+}
+.fa-angle-right:before {
+    content: "\f105";
+    font-family: FontAwesome;
+}
+.single-staff-item .staff_img:hover{
+    opacity: 0.5;
+}
+.staff_img:hover .staff_div{
+     display: block !important;
+}
+
+/*
+
+    .staff_img{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .staff_img:hover{
+        transform: scale(1.1);
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+        box-shadow: 0px 0px 15px rgba(172, 175, 174, 0.5);
+        z-index: 999;
+        background: white;
+    }
+    .staff_img:hover .staff_div{
+        display: block !important;
+    }*/

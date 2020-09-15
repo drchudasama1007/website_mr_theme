@@ -20,46 +20,54 @@
 
     <template id="home_template" name="Home">
         <t t-call="website.layout">
-            <div class="section-padding">
-
-
+            <section class="section-padding"
+                     style="background-image: url('/theme_clarico/static/src/img/Layer 2.jpg');background-size: cover;">
                 <div class="row">
                     <div class="col-md-2 col-sm-2">
                     </div>
                     <div class="col-md-8 col-sm-8">
+                        <div class="title_style">
+                            <h2 class="font-weight-bold text-white mb0 pl-0" style="font-size: 13px;">
+                                Featured Work
+                            </h2>
+                            <div class="border_right"></div>
+                        </div>
+                        <h5 class="font-weight-bold text-white">EXPLORE WHAT WE DONE</h5>
                         <div class="owl-carousel staff-list">
                             <div class="single-staff-item">
-                                <img class="img-fluid"
-                                             src="/theme_clarico/static/src/img/footer/footer_1.jpg"/>
-
+                                <div class="">
+                                    <img class="img-fluid staff_img"
+                                         src="/theme_clarico/static/src/img/footer/footer_1.jpg"/>
+                                    <div class="staff_div" style="dispaly:none">
+                                        <h6 clss="text-white">
+                                            CRLTON LUXURY HOTEL
+                                        </h6>
+                                        <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8"
+                                           style="background:#fdd642;font-size: 12px;">READ MORE
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="single-staff-item">
                                 <img class="img-fluid"
-                                             src="/theme_clarico/static/src/img/footer/footer_2.jpg"/>
-
+                                     src="/theme_clarico/static/src/img/footer/footer_2.jpg"/>
                             </div>
                             <div class="single-staff-item">
                                 <img class="img-fluid"
-                                             src="/theme_clarico/static/src/img/footer/footer_3.jpg"/>
-
+                                     src="/theme_clarico/static/src/img/footer/footer_3.jpg"/>
                             </div>
                             <div class="single-staff-item">
                                 <img class="img-fluid"
-                                             src="/theme_clarico/static/src/img/footer/footer_4.jpg"/>
-
+                                     src="/theme_clarico/static/src/img/footer/footer_4.jpg"/>
                             </div>
                             <div class="single-staff-item">
                                 <img class="img-fluid"
-                                             src="/theme_clarico/static/src/img/footer/footer_5.jpg"/>
-
+                                     src="/theme_clarico/static/src/img/footer/footer_5.jpg"/>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
-
-            </div>
+            </section>
         </t>
     </template>
 
