@@ -34,12 +34,24 @@
             <div class="row" style="background:#f1f1f1">
                 <div class="col-md-2 col-sm-2"/>
                 <div class="col-md-8 col-sm-8">
+                    <div class="wrap">
+                        <div class="wrapv">
+                            <div class="vertical1">
+                                OUR
+                            </div>
+                            <div class="vertical">
+                                PROCESS
+                            </div>
+                        </div>
+                    </div>
                     <div class="row pt32 pb64">
                         <div class="col-md-4 col-sm-4">
                             <div style="border-bottom:1px solid lightgray;padding-left: 37px !important;">
                                 <span class="number_count">1</span>
                                 <h6 class="text-black font-weight-bold">
-                                    INDIRECT &amp; MRO <br/> METERIALS
+                                    INDIRECT &amp; MRO
+                                    <br/>
+                                    METERIALS
                                 </h6>
                                 <p style="font-size: 12px;height: 150px;">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -52,9 +64,13 @@
                         <div class="col-md-4 col-sm-4">
                             <div style="padding-left: 37px !important;">
                                 <span class="number_count">2</span>
-                                <span class="number_arrow"><i class="fa fa-angle-right" style="color: lightgray;"/></span>
+                                <span class="number_arrow">
+                                    <i class="fa fa-angle-right" style="color: lightgray;"/>
+                                </span>
                                 <h6 class="text-black font-weight-bold">
-                                    INDIRECT &amp; MRO <br/> METERIALS
+                                    INDIRECT &amp; MRO
+                                    <br/>
+                                    METERIALS
                                 </h6>
                                 <p style="font-size: 12px;height: 150px;border-bottom:1px solid lightgray;">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -67,7 +83,9 @@
                         <div class="col-md-4 col-sm-4">
                             <div style="padding-left: 37px !important;">
                                 <span class="number_count">3</span>
-                                <span class="number_arrow"><i class="fa fa-angle-right" style="color: lightgray;"/></span>
+                                <span class="number_arrow">
+                                    <i class="fa fa-angle-right" style="color: lightgray;"/>
+                                </span>
                                 <h6 class="text-black font-weight-bold">
                                     HIGH CAPITAL EQUIPEMENT AND MACHINERY
                                 </h6>
