@@ -28,7 +28,6 @@
         'templates/footer.xml',
         'templates/customize.xml',
         'templates/menu_config.xml',
-        'templates/slider.xml',
         'templates/contactus.xml',
     ],
 
