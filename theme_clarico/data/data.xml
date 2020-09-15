@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="menu_service" model="website.menu">
+            <field name="name">Services</field>
+            <field name="url">/services</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">23</field>
+        </record>
+
+        <record id="menu_products" model="website.menu">
+            <field name="name">Products</field>
+            <field name="url">/products</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">23</field>
+        </record>
+
+        <record id="menu_be_a_prtner" model="website.menu">
+            <field name="name">Be A Partner</field>
+            <field name="url">/be-a-partner</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">23</field>
+        </record>
+
+    </data>
+</odoo>

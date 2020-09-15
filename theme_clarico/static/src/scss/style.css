@@ -590,24 +590,32 @@ li.service_li:before {
   transform: translateX(0);
 }
 
-.carousel-control-prev-icon,
+.carousel-control-prev-icon{
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+  position: absolute;
+  left: -25px;
+}
 .carousel-control-next-icon {
   background-size: 100%, 100%;
   border-radius: 50%;
   background-image: none;
+  position: absolute;
+  right: -25px;
 }
 
 .carousel-control-next-icon:after
 {
   content: '>';
   font-size: 35px;
-  color: black;
+  color: #afabab;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 35px;
-  color: black;
+  color: #afabab;
 }
 
 .carousel-item{

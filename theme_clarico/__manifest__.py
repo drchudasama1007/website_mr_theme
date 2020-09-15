@@ -10,8 +10,9 @@
     ],
 
     'data': [
+		'data/data.xml',
 		'templates/assets.xml',
-		'templates/emipro_custom_snippets.xml', 
+		'templates/emipro_custom_snippets.xml',
         'templates/odoo_default_snippets.xml',
         'templates/be_a_partner.xml',
         'templates/homepage.xml',

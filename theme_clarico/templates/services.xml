@@ -196,8 +196,17 @@
                                                             <t t-esc="blog.name"/>
                                                         </h6>
                                                         <p style="font-size:12px">
-                                                            <t t-esc="blog.subtitle"/>
+                                                            <t t-if="len(blog.subtitle) &gt; 100">
+                                                                <t t-esc="blog.subtitle[:100]"/>
+                                                                ...
+                                                            </t>
+                                                            <t t-else="">
+                                                                <t t-esc="blog.subtitle"/>
+                                                            </t>
                                                         </p>
+                                                        <t t-if="len(blog.subtitle) &gt; 100">
+                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                        </t>
                                                     </section>
                                                 </div>
                                                 <t t-set="count" t-value="count+1"/>
@@ -212,8 +221,17 @@
                                                             <t t-esc="blog.name"/>
                                                         </h6>
                                                         <p style="font-size:12px">
-                                                            <t t-esc="blog.subtitle"/>
+                                                            <t t-if="len(blog.subtitle) &gt; 100">
+                                                                <t t-esc="blog.subtitle[:100]"/>
+                                                                ...
+                                                            </t>
+                                                            <t t-else="">
+                                                                <t t-esc="blog.subtitle"/>
+                                                            </t>
                                                         </p>
+                                                        <t t-if="len(blog.subtitle) &gt; 100">
+                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                        </t>
                                                     </section>
                                                 </div>
                                             </t>
