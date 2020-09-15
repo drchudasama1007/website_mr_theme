@@ -18,6 +18,51 @@
         </xpath>
     </template>
 
+    <template id="home_template" name="Home">
+        <t t-call="website.layout">
+            <div class="section-padding">
+
+
+                <div class="row">
+                    <div class="col-md-2 col-sm-2">
+                    </div>
+                    <div class="col-md-8 col-sm-8">
+                        <div class="owl-carousel staff-list">
+                            <div class="single-staff-item">
+                                <img class="img-fluid"
+                                             src="/theme_clarico/static/src/img/footer/footer_1.jpg"/>
+
+                            </div>
+                            <div class="single-staff-item">
+                                <img class="img-fluid"
+                                             src="/theme_clarico/static/src/img/footer/footer_2.jpg"/>
+
+                            </div>
+                            <div class="single-staff-item">
+                                <img class="img-fluid"
+                                             src="/theme_clarico/static/src/img/footer/footer_3.jpg"/>
+
+                            </div>
+                            <div class="single-staff-item">
+                                <img class="img-fluid"
+                                             src="/theme_clarico/static/src/img/footer/footer_4.jpg"/>
+
+                            </div>
+                            <div class="single-staff-item">
+                                <img class="img-fluid"
+                                             src="/theme_clarico/static/src/img/footer/footer_5.jpg"/>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </t>
+    </template>
+
     <template id="services_mr" name="Services">
         <div class="oe_structure"/>
         <section>

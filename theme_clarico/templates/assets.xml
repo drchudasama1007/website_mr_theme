@@ -8,6 +8,8 @@
             <link rel="stylesheet" type="text/scss"
 				href="/theme_clarico/static/src/scss/style.css" />
             <link rel="stylesheet" type="text/scss"
+				href="/theme_clarico/static/src/scss/owl.css" />
+            <link rel="stylesheet" type="text/scss"
 				href="/theme_clarico/static/src/scss/snippets.scss" />
             <link rel="stylesheet" type="text/scss"
 				href="/theme_clarico/static/src/scss/blog.scss" />

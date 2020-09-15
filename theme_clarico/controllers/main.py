@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
 from odoo import http
 from odoo.http import request
+from odoo.addons.website.controllers.main import Website
+
+class HomePage(Website):
+
+    @http.route(["/"], type='http', auth="public", website=True)
+    def home_page(self, **kwargs):
+        return request.render('theme_clarico.home_template')
 
 class StaticContent(http.Controller):
 
