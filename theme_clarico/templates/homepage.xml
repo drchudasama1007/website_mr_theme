@@ -1,8 +1,14 @@
 <odoo>
 
     <template id="theme_clarico_custom" inherit_id="website.snippets">
-        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="after">
             <!--==== STRUCTURE SNIPPET ====-->
+            <div class="o_panel_header">
+                Custom Snippets
+            </div>
+            <div class="o_panel_body">
+            <t t-snippet="theme_clarico.slider_style_5"
+               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
             <t t-snippet="theme_clarico.brand_mr"
                t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
             <t t-snippet="theme_clarico.about_mr"
@@ -15,60 +21,339 @@
                t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
             <t t-snippet="theme_clarico.services_mr"
                t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+            <t t-snippet="theme_clarico.work_snippet"
+               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+            <t t-snippet="theme_clarico.news_snippet"
+               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+            <t t-snippet="theme_clarico.slider_style_1"
+               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+            </div>
         </xpath>
     </template>
 
-    <template id="home_template" name="Home">
-        <t t-call="website.layout">
-            <section class="section-padding"
-                     style="background-image: url('/theme_clarico/static/src/img/Layer 2.jpg');background-size: cover;">
-                <div class="row">
-                    <div class="col-md-2 col-sm-2">
+    <template id="slider_style_1" name="PROCUREMENT SERVICES">
+        <div id="myCarousel" class="s_carousel s_carousel_default carousel slide"
+             data-interval="10000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators d-none">
+                <li data-target="#myCarousel" data-slide-to="0"/>
+            </ol>
+            <div class="row">
+                <div class="col-md-2 col-sm-2"/>
+                <div class="col-md-8 col-sm-8">
+                    <div class="col-md-12 pl-0 pt16 pb16">
+                        <h6 class="mb0">Explour Our</h6>
+                        <h4 class="font-weight-bold">
+                            PROCUREMENT SERVICES
+                        </h4>
                     </div>
-                    <div class="col-md-8 col-sm-8">
-                        <div class="title_style">
-                            <h2 class="font-weight-bold text-white mb0 pl-0" style="font-size: 13px;">
-                                Featured Work
-                            </h2>
-                            <div class="border_right"></div>
-                        </div>
-                        <h5 class="font-weight-bold text-white">EXPLORE WHAT WE DONE</h5>
-                        <div class="owl-carousel staff-list">
-                            <div class="single-staff-item">
-                                <div class="">
-                                    <img class="img-fluid staff_img"
-                                         src="/theme_clarico/static/src/img/footer/footer_1.jpg"/>
-                                    <div class="staff_div" style="dispaly:none">
-                                        <h6 clss="text-white">
-                                            CRLTON LUXURY HOTEL
+                </div>
+            </div>
+            <!-- Content -->
+            <div class="carousel-inner te_arrow_small">
+                <!-- #02 -->
+                <div class="carousel-item oe_custom_bg oe_img_bg active"
+                     data-name="Slide">
+                    <div class="">
+                        <div class="row content">
+                            <div class="col-md-2 col-sm-2"/>
+                            <div class="col-md-8 col-sm-8">
+                                <div class="row">
+                                    <section
+                                            class="carousel-content col-md-4 col-sm-4">
+                                        <div class="" style="background:#f1f1f1">
+                                            <img src="/theme_clarico/static/src/img/Layer 14.jpg" class="img_pro"/>
+                                        </div>
+                                        <h6 class="text-black pt24 pb8 font-weight-bold">
+                                            GLOBAL SOURCING
                                         </h6>
-                                        <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8"
-                                           style="background:#fdd642;font-size: 12px;">READ MORE
-                                        </a>
-                                    </div>
+                                        <p style="font-size:12px;height: 126px">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut
+                                        </p>
+                                        <p class="pt16" style="font-size:12px">
+                                            <a href="#">READ MORE</a>
+                                        </p>
+                                    </section>
+                                    <section
+                                            class="carousel-content col-md-4 col-sm-4">
+                                        <div class="" style="background:#f1f1f1">
+                                            <img src="/theme_clarico/static/src/img/Layer 14.jpg" class="img_pro"/>
+                                        </div>
+                                        <h6 class="text-black pt24 pb8 font-weight-bold">
+                                            INTERNATIONAL PROCUREMENT
+                                        </h6>
+                                        <p style="font-size:12px;height: 126px">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo
+                                            duis
+                                            ut. Ut tortor pretium viverra suspendisse potenti.
+                                        </p>
+                                        <p class="pt16" style="font-size:12px">
+                                            <a href="#">READ MORE</a>
+                                        </p>
+                                    </section>
+                                    <section
+                                            class="carousel-content col-md-4 col-sm-4">
+                                        <div class="" style="background:#f1f1f1">
+                                            <img src="/theme_clarico/static/src/img/Layer 14.jpg" class="img_pro"/>
+                                        </div>
+                                        <h6 class="text-black pt24 pb8 font-weight-bold">
+                                            GLOBAL SOURCING
+                                        </h6>
+                                        <p style="font-size:12px;height: 126px">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut
+                                        </p>
+                                        <p class="pt16" style="font-size:12px">
+                                            <a href="#">READ MORE</a>
+                                        </p>
+                                    </section>
                                 </div>
-                            </div>
-                            <div class="single-staff-item">
-                                <img class="img-fluid"
-                                     src="/theme_clarico/static/src/img/footer/footer_2.jpg"/>
-                            </div>
-                            <div class="single-staff-item">
-                                <img class="img-fluid"
-                                     src="/theme_clarico/static/src/img/footer/footer_3.jpg"/>
-                            </div>
-                            <div class="single-staff-item">
-                                <img class="img-fluid"
-                                     src="/theme_clarico/static/src/img/footer/footer_4.jpg"/>
-                            </div>
-                            <div class="single-staff-item">
-                                <img class="img-fluid"
-                                     src="/theme_clarico/static/src/img/footer/footer_5.jpg"/>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </t>
+                <!-- Controls -->
+                <div class="carousel-control-prev d-none" data-target="#myCarousel"
+                     data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                    <span class="carousel-control-prev-icon"/>
+                    <span class="sr-only">Previous</span>
+                </div>
+                <div class="carousel-control-next d-none" data-target="#myCarousel"
+                     data-slide="next" role="img" aria-label="Next" title="Next">
+                    <span class="carousel-control-next-icon"/>
+                    <span class="sr-only">Next</span>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="slider_style_5" name="Main Banner" inherit_id="website.s_carousel">
+        <xpath expr="//div[hasclass('s_carousel')]" position="replace">
+            <div id="myCarousel" class="s_carousel s_carousel_default carousel slide te_arrow_small"
+                 data-interval="10000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"/>
+                    <li data-target="#myCarousel" data-slide-to="1"/>
+                </ol>
+                <!-- Content -->
+                <div class="carousel-inner te_arrow_small te_ts_style_7_inner">
+                    <!-- #01 -->
+                    <div class="carousel-item active oe_custom_bg oe_img_bg pt152 pb152"
+                         style="background-image: url('/theme_clarico/static/src/img/snippets/slider_styles/style_7/1920_800.jpg');"
+                         data-name="Slide">
+                        <div class="container">
+                            <div class="row content">
+                                <div class="col-lg-2"/>
+                                <section class="carousel-content col-lg-4 col-md-8 te_t_slider_sm_content"
+                                         style="animation: animatezoom 0.8s ease-in both;animation-delay: 1s;">
+                                    <div class="s_title pb8" data-name="Title">
+                                        <h2 class="carousel_heading font-weight-bold te_t_slider_7_title">YOUR RELIABLE PARTNER FOR ALL SUPPLY CHAIN</h2>
+                                    </div>
+                                    <p class="carousel_content" style="font-size: 13px !important;">
+                                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+                                        adipisci velit abil mutoi sovali uomil mitum.
+                                    </p>
+                                    <div class="s_btn text-left pt8 pb16 mt32" data-name="Buttons">
+                                        <a href="#" class="btn btn-primary te_theme_button text-black" style="font-size:13px;">View Services <i class="pl-1 text-black fa fa-arrow-right"/></a>
+                                        <a href="#" class="btn btn-primary bg-black text-white" style="font-size:13px;">Get a Quote <i class="pl-1 text-white fa fa-arrow-right"/></a>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item oe_custom_bg oe_img_bg pt152 pb152"
+                         style="background-image: url('/theme_clarico/static/src/img/snippets/slider_styles/style_7/1920_800.jpg');"
+                         data-name="Slide">
+                        <div class="container">
+                            <div class="row content">
+                                <div class="col-lg-2"/>
+                                <section class="carousel-content col-lg-4 te_t_slider_sm_content"
+                                         style="animation: animatezoom 0.8s ease-in both;animation-delay: 1s;">
+                                    <div class="s_title pb8" data-name="Title">
+                                        <h2 class="carousel_heading font-weight-bold te_t_slider_7_title">My Heading 2</h2>
+                                    </div>
+                                    <p class="carousel_content" style="font-size: 13px !important;">
+                                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+                                        adipisci velit abil mutoi sovali uomil mitum.
+                                    </p>
+                                    <div class="s_btn text-left pt8 pb16 mt32" data-name="Buttons">
+                                        <a href="#" class="btn btn-primary te_theme_button text-black" style="font-size:13px;">View Services <i class="text-black fa fa-arrow-right pl-1"/></a>
+                                        <a href="#" class="btn btn-primary bg-black text-white" style="font-size:13px;">Get a Quote <i class="text-white fa fa-arrow-right pl-1"/></a>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <div class="carousel-control-prev" data-target="#myCarousel"
+                         data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel"
+                         data-slide="next" role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only">Next</span>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="news_snippet" name="LETEST NEWS">
+        <section>
+            <t t-set="blogs"
+               t-value="website.get_letest_news() if website else None"/>
+            <t t-if="blogs">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-1">
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-10">
+                        <div class="title_style">
+                            <h2 class="font-weight-bold text-black pt16 mb0 pl-0" style="font-size: 17px;">
+                                LETEST NEWS
+                            </h2>
+                            <div class="border_right"></div>
+                            <div class="owl-carousel news_prev staff-list">
+                                <t t-foreach="blogs['blogs']" t-as="blog">
+                                    <div class="single-staff-item">
+                                        <img class="img-fluid"
+                                             src="/theme_clarico/static/src/img/footer/footer_1.jpg"/>
+                                        <h4 class="text-black pt24 text-truncate">
+                                            <t t-esc="blog.name"/>
+                                        </h4>
+
+                                        <p>
+                                            <span class="pb8"
+                                                  style="font-size:12px;text-transform: uppercase;padding-right: 10px;">
+                                                <i class="fa fa-minus pr-1" style="color:#fdd642;"/>
+                                                <t t-foreach="blog.tag_ids" t-as="tags">
+                                                    <span class="pr-2">
+                                                        <t t-esc="tags.name"/>
+                                                    </span>
+                                                </t>
+                                                <i class="fa fa-pencil pl-2"
+                                                   style="color:#fdd642;border-left: 1px solid gray;"/>
+                                                <t t-esc="blog.author_id.name"/>
+                                            </span>
+                                        </p>
+
+                                        <p style="font-size:12px">
+                                            <t t-if="len(blog.subtitle) &gt; 80">
+                                                <t t-esc="blog.subtitle[:80]"/>
+                                                ...
+                                            </t>
+                                            <t t-else="">
+                                                <t t-esc="blog.subtitle"/>
+                                            </t>
+                                        </p>
+                                        <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                           class="btn pl-3 pr-3 pt8 mt24 pb8 mb40 text-black"
+                                           style="background:#fdd642;font-size: 12px;">READ MORE
+                                        </a>
+                                    </div>
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </section>
+    </template>
+
+    <template id="work_snippet" name="Featured Work">
+        <section class="section-padding"
+                 style="background-image: url('/theme_clarico/static/src/img/Layer 2.jpg');background-size: cover;">
+            <div class="row">
+                <div class="col-md-2 col-sm-2 col-1">
+                </div>
+                <div class="col-md-8 col-sm-8 col-10">
+                    <div class="title_style">
+                        <h2 class="font-weight-bold text-white mb0 pl-0" style="font-size: 13px;">
+                            Featured Work
+                        </h2>
+                        <div class="border_right"></div>
+                    </div>
+                    <h5 class="font-weight-bold text-white">EXPLORE WHAT WE DONE</h5>
+                    <div class="owl-carousel staff-list">
+                        <div class="single-staff-item">
+                            <div class="staff_img">
+                                <img class="img-fluid"
+                                     src="/theme_clarico/static/src/img/footer/footer_1.jpg"/>
+                                <div class="staff_div" style="display:none">
+                                    <h6 clss="text-white">
+                                        CRLTON LUXURY HOTEL
+                                    </h6>
+                                    <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8"
+                                       style="background:#fdd642;font-size: 12px;">READ MORE
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-staff-item">
+                            <div class="staff_img">
+                                <img class="img-fluid"
+                                     src="/theme_clarico/static/src/img/footer/footer_2.jpg"/>
+                                <div class="staff_div" style="display:none">
+                                    <h6 clss="text-white">
+                                        CRLTON LUXURY HOTEL
+                                    </h6>
+                                    <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8"
+                                       style="background:#fdd642;font-size: 12px;">READ MORE
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-staff-item">
+                            <div class="staff_img">
+                                <img class="img-fluid"
+                                     src="/theme_clarico/static/src/img/footer/footer_3.jpg"/>
+                                <div class="staff_div" style="display:none">
+                                    <h6 clss="text-white">
+                                        CRLTON LUXURY HOTEL
+                                    </h6>
+                                    <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8"
+                                       style="background:#fdd642;font-size: 12px;">READ MORE
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-staff-item">
+                            <div class="staff_img">
+                                <img class="img-fluid"
+                                     src="/theme_clarico/static/src/img/footer/footer_4.jpg"/>
+                                <div class="staff_div" style="display:none">
+                                    <h6 clss="text-white">
+                                        CRLTON LUXURY HOTEL
+                                    </h6>
+                                    <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8"
+                                       style="background:#fdd642;font-size: 12px;">READ MORE
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-staff-item">
+                            <div class="staff_img">
+                                <img class="img-fluid"
+                                     src="/theme_clarico/static/src/img/footer/footer_5.jpg"/>
+                                <div class="staff_div" style="display:none">
+                                    <h6 clss="text-white">
+                                        CRLTON LUXURY HOTEL
+                                    </h6>
+                                    <a href="#" class="btn text-black pl-3 pr-3 pt8 pb8"
+                                       style="background:#fdd642;font-size: 12px;">READ MORE
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </template>
 
     <template id="services_mr" name="Services">

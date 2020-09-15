@@ -9,8 +9,14 @@ $(document).ready(function(){
 })
 
 $('.carousel .carousel-item').each(function() {
-    var minPerSlide = 2;
+    if(window.innerWidth <= 992){
+        var minPerSlide = 2;
+    }
+    else {
+      var itemsPerSlide = 1;
+    }
     var next = $(this).next();
+    console.log("------window-------", window)
     if (!next.length) {
         next = $(this).siblings(':first');
     }

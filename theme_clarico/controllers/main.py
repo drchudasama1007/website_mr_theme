@@ -3,11 +3,12 @@ from odoo import http
 from odoo.http import request
 from odoo.addons.website.controllers.main import Website
 
-class HomePage(Website):
-
-    @http.route(["/"], type='http', auth="public", website=True)
-    def home_page(self, **kwargs):
-        return request.render('theme_clarico.home_template')
+# class HomePage(Website):
+#
+#     @http.route(["/"], type='http', auth="public", website=True)
+#     def home_page(self, **kwargs):
+#         blogs = request.env['blog.post'].sudo().search([])
+#         return request.render('theme_clarico.home_template', {'blogs':blogs})
 
 class StaticContent(http.Controller):
 
@@ -26,7 +27,6 @@ class StaticContent(http.Controller):
     @http.route(["/services"], type='http', auth="public", website=True)
     def services_page(self, **kwargs):
         blogs = request.env['blog.post'].sudo().search([])
-        print("\n\n\n\n\nblogs============================",blogs)
         return request.render('theme_clarico.service_template', {'blogs':blogs})
 
     @http.route(["/career"], type='http', auth="public", website=True)
