@@ -3,6 +3,30 @@ odoo.define('theme_clarico.services', function (require) {
 
 $(document).ready(function(){
 
+    console.log("hellooooo")
+    $('#myCarousel').carousel({
+    interval: 5000
+})
+
+$('.carousel .carousel-item').each(function() {
+    var minPerSlide = 2;
+    var next = $(this).next();
+    if (!next.length) {
+        next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+
+    for (var i = 0; i < minPerSlide; i++) {
+        next = next.next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
+        }
+
+        next.children(':first-child').clone().appendTo($(this));
+    }
+});
+
+
 
     $(document).on('click', '#globle_sourcing_a', function(){
             $('.globle_header').addClass('d-none')

@@ -6,11 +6,9 @@ class StaticContent(http.Controller):
 
     @http.route(["/be-a-partner"], type='http', auth="public", website=True)
     def be_a_partner_page(self, **kwargs):
-        print("-------hhhhhhhhh------", kwargs)
-        print("-------hhhhhhhhh------", kwargs.get('name'))
         if kwargs.get('name'):
             lead = request.env['crm.lead'].sudo().create({
-                'contact_name': kwargs.get('Be A Partner'),
+                'contact_name': 'Be A Partner',
                 'name': kwargs.get('name'),
                 'phone' : kwargs.get('phone'),
                 'email_from' : kwargs.get('email'),
@@ -20,7 +18,9 @@ class StaticContent(http.Controller):
 
     @http.route(["/services"], type='http', auth="public", website=True)
     def services_page(self, **kwargs):
-        return request.render('theme_clarico.service_template', {})
+        blogs = request.env['blog.post'].sudo().search([])
+        print("\n\n\n\n\nblogs============================",blogs)
+        return request.render('theme_clarico.service_template', {'blogs':blogs})
 
     @http.route(["/career"], type='http', auth="public", website=True)
     def career_page(self, **kwargs):
@@ -45,6 +45,18 @@ class StaticContent(http.Controller):
     @http.route(["/contact-us"], type='http', auth="public", website=True)
     def contactus_page(self, **kwargs):
         return request.render('theme_clarico.contactus_template', {})
+
+    @http.route(["/contactus-submit"], type='http', auth="public", website=True)
+    def contactus_submit_page(self, **kwargs):
+        if kwargs.get('name'):
+            lead = request.env['crm.lead'].sudo().create({
+                'contact_name': kwargs.get('name'),
+                'name': kwargs.get('subject'),
+                'phone' : kwargs.get('phone'),
+                'email_from' : kwargs.get('email'),
+                'description' : kwargs.get('message'),
+            })
+        return request.redirect('/contactus-thank-you')
 
     @http.route(["/partner-brands"], type='http', auth="public", website=True)
     def partner_brand_page(self, **kwargs):

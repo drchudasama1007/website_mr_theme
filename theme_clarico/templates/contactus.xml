@@ -16,6 +16,147 @@
         </xpath>
     </template>
 
+     <template id="contact_us"
+                  name="Contact Us"
+                  inherit_id="website.contactus">
+            <xpath expr="//div" position="replace">
+                <div class="oe_structure"/>
+            <section>
+                <div>
+                    <iframe src="https://maps.google.com/maps?q=22.2736307,70.7510838&amp;z=15&amp;output=embed"
+                            width="100%" height="350" frameborder="0" style="border:0"></iframe>
+                </div>
+                <div class="oe_structure"/>
+                <div class="row" style="background-image: url('/theme_clarico/static/src/img/contactus.jpeg');background-size: cover;">
+<!--                <div class="row">-->
+                    <div class="col-md-2 col-sm-2"/>
+                    <div class="col-md-8 col-sm-8">
+                        <div class="row pt64 text-center">
+                            <p class="font-weight-bold" style="font-size: 20px;">M&amp;R EUROPA GMBH</p>
+                        </div>
+                        <div class="row pt32 text-center">
+                            <div class="col-md-1 col-1"/>
+                            <div class="col-md-10 col-10">
+                                <p style="font-size:12px">We are a team of passionate people whose goal is to
+                                    improve everyone’s life through our wide range of services.
+                                </p>
+                                <p style="font-size:12px">We hope to build great supply chain solutions for your
+                                    business challenges.
+                                </p>
+                                <p style="font-size:12px">Our services are designed for various industrial sectors;
+                                    we are using our best strategies to optimize our perfor-
+                                </p>
+                                <p style="font-size:12px">mance in the sourcing of materials.</p>
+                            </div>
+                        </div>
+                        <div class="row pt96 pb64 text-center">
+                            <div class="col-md-4 col-sm-12">
+                                <p class="font-weight-bold contact_border_top" style="font-size:12px">M&amp;R Europe GMBH – Munich</p>
+                                <p style="font-size:12px">Gollierstr. 70 C3 – 80339 Munich – Germany</p>
+                                <p style="font-size:12px">Local Phone +49 89 520566-0</p>
+                                <p style="font-size:12px">Fax +49 89 520566-70</p>
+                                <p class="contact_border" style="font-size:12px">mreuropa@mr-group.com</p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-12">
+                                <p class="font-weight-bold" style="font-size:12px">M&amp;R USA, Inc.</p>
+                                <p style="font-size:12px">6420 Richmond Ave., Suite 203 – Houston,</p>
+                                <p style="font-size:12px">TX 77057 – USA</p>
+                                <p style="font-size:12px">Local Phone +1 281 497 8973</p>
+                                <p style="font-size:12px">Fax +1 281 497 8975</p>
+                                <p class="contact_border" style="font-size:12px">mrusa@mr-group.com</p>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <p class="font-weight-bold" style="font-size:12px">M&amp;R Asia Ltd.</p>
+                                <p style="font-size:12px">10th. Floor Chiu Lung Bldg., 25 Chiu Lung</p>
+                                <p style="font-size:12px">Street, Central – Hong Kong</p>
+                                <p style="font-size:12px">Local Phone +852 3973 3786</p>
+                                <p style="font-size:12px">Fax +852 3973 3786</p>
+                                <p class="contact_border" style="font-size:12px">mrasia@mr-group.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="oe_structure"/>
+                <section class="bg-light">
+                    <div class="row pb48">
+                        <div class="col-md-2 col-sm-2"/>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="row pt64 text-center">
+                                <p class="font-weight-bold" style="font-size: 20px;">CONTACT FORM</p>
+                            </div>
+                            <div class="row pt16 text-center">
+                                <div class="col-md-1 col-1"/>
+                                <div class="col-md-10 col-10">
+                                    <p style="font-size:13px">Leave your information and submit to us. Subscribe to
+                                        our newsletters for more updates and reports.
+                                    </p>
+                                    <p style="font-size:13px">Contact us about anything related to our company or
+                                        services. We'll do our best to get back to you as soon as possible.
+                                    </p>
+                                </div>
+                            </div>
+                             <form action="/contactus-submit" method="post" data-model_name="crm.lead"
+                                          class="s_website_form container-fluid mt32" enctype="multipart/form-data"
+                                          data-editable-form="false">
+                                        <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                            <div class="row contact_row pt48">
+                                <div class="col-md-4 contact-center contact_field col-12">
+                                    <h6 class="mb0">Your Name*</h6>
+                                    <input type="text" class="contact_input form-control" name="name" style="height: 30px;" required="required"/>
+                                </div>
+                                <div class="col-md-4 contact_field contact-center col-12">
+                                    <h6 class="mb0">Your Email*</h6>
+                                    <input type="text" class="contact_input form-control" name="email" style="height: 30px;" required="required"/>
+                                </div>
+                                <div class="col-md-4 contact-center col-12">
+                                    <h6 class="mb0">Subject</h6>
+                                    <input type="text" class="contact_input form-control" name="subject" style="height: 30px;" required="required"/>
+                                </div>
+                            </div>
+                            <div class="row contact_row pt8">
+                                <div class="col-md-12 contact-center col-12">
+                                    <h6 class="mb0">Message</h6>
+                                    <textarea class="contact_input form-control" name="message" rows="5" required="required"></textarea>
+                                </div>
+                            </div>
+                            <div class="text-center pt32">
+                                <button class="btn btn-submit" style="background:#f7da45">SEND MESSAGE</button>
+                            </div>
+                             </form>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="oe_structure"/>
+                <section style="background:#f7da45">
+                    <div class="container pb56">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-1 col-1"/>
+                            <div class="col-md-10 col-sm-10 col-10">
+                                <div class="row pt56 text-center">
+                                    <p class="font-weight-bold" style="font-size: 20px;">Sign up to our newsleter</p>
+                                </div>
+                                <div class="row pt32 text-center">
+                                    <div class="col-md-2 col-sm-2"/>
+                                    <div class="col-md-8 col-sm-8">
+                                        <div class="form-inline">
+                                            <input type="text" name="subject" size="52" class="form-control"
+                                                   placeholder="Enter Email Address" style="height: 43px;border: 0;"/>
+                                            <button class="btn contact_newsleter">Sign up
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            </xpath>
+     </template>
+
     <template id="contactus_template" name="Contact us">
         <t t-call="website.layout">
             <div class="oe_structure"/>

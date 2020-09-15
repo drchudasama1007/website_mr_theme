@@ -16,10 +16,16 @@
                         >
                         <a href="#" id="globle_sourcing_header" class="text-white globle_header">Globle Sourcing</a>
                         <a href="#" id="outsourcing_header" class="text-white globle_header d-none">Outsourcing</a>
-                        <a href="#" id="international_service_header" class="text-white globle_header d-none">International Procurement Services</a>
-                        <a href="#" id="small_orders_header" class="text-white globle_header d-none">Small Dollar Orders</a>
+                        <a href="#" id="international_service_header" class="text-white globle_header d-none">
+                            International Procurement Services
+                        </a>
+                        <a href="#" id="small_orders_header" class="text-white globle_header d-none">Small Dollar
+                            Orders
+                        </a>
                         <a href="#" id="urgent_orders_header" class="text-white globle_header d-none">Urgent Orders</a>
-                        <a href="#" id="system_engineering_header" class="text-white globle_header d-none">System Engineering</a>
+                        <a href="#" id="system_engineering_header" class="text-white globle_header d-none">System
+                            Engineering
+                        </a>
                         <a href="#" id="key_benefits_header" class="text-white globle_header d-none">Key Benefits</a>
                     </p>
                 </div>
@@ -31,15 +37,28 @@
                     <div class="row pt64">
                         <div class="col-md-4 col-sm-4">
                             <h4 class="font-weight-bold text-black pb24">SERVICES MENU</h4>
-                            <h6 class="pb16 service_a globle_a" id="globle_sourcing_a" style="border-bottom: 2px solid #f1f1f1;">GLOBAL PURCHASING</h6>
-                            <h6 class="pt16 pb16 globle_a" id="outsourcing_a" style="border-bottom: 2px solid #f1f1f1;">OUTSOURCING</h6>
-                            <h6 class="pt16 pb16 globle_a" id="international_service_a" style="border-bottom: 2px solid #f1f1f1;">INTERNATIONAL PROCUREMENT
+                            <h6 class="pb16 service_a globle_a" id="globle_sourcing_a"
+                                style="border-bottom: 2px solid #f1f1f1;">GLOBAL PURCHASING
+                            </h6>
+                            <h6 class="pt16 pb16 globle_a" id="outsourcing_a" style="border-bottom: 2px solid #f1f1f1;">
+                                OUTSOURCING
+                            </h6>
+                            <h6 class="pt16 pb16 globle_a" id="international_service_a"
+                                style="border-bottom: 2px solid #f1f1f1;">INTERNATIONAL PROCUREMENT
                                 SERVICES
                             </h6>
-                            <h6 class="pt16 pb16 globle_a" id="small_orders_a" style="border-bottom: 2px solid #f1f1f1;">SMALL DOLLAR ORDERS</h6>
-                            <h6 class="pt16 pb16 globle_a" id="urgent_orders_a" style="border-bottom: 2px solid #f1f1f1;">URGENT ORDERS</h6>
-                            <h6 class="pt16 pb16 globle_a"  id="system_engineering_a" style="border-bottom: 2px solid #f1f1f1;">SYSTEM ENGINEERING</h6>
-                            <h6 class="pt16 pb16 globle_a" id="key_benefits_a" style="border-bottom: 2px solid #f1f1f1;">KEY BENIFITS</h6>
+                            <h6 class="pt16 pb16 globle_a" id="small_orders_a"
+                                style="border-bottom: 2px solid #f1f1f1;">SMALL DOLLAR ORDERS
+                            </h6>
+                            <h6 class="pt16 pb16 globle_a" id="urgent_orders_a"
+                                style="border-bottom: 2px solid #f1f1f1;">URGENT ORDERS
+                            </h6>
+                            <h6 class="pt16 pb16 globle_a" id="system_engineering_a"
+                                style="border-bottom: 2px solid #f1f1f1;">SYSTEM ENGINEERING
+                            </h6>
+                            <h6 class="pt16 pb16 globle_a" id="key_benefits_a"
+                                style="border-bottom: 2px solid #f1f1f1;">KEY BENIFITS
+                            </h6>
 
                             <h4 class="font-weight-bold text-black pt24 pb24">FEATURED WORK</h4>
                             <div class="row pb16" style="border-bottom: 2px solid #f1f1f1;">
@@ -82,11 +101,15 @@
                                     <h6 class="pt8 text-white">Get to know about the internationa procurement and global
                                         outsourcing services rendered by M&amp;R Group.
                                     </h6>
-                                    <button class="btn btn-block pt8 pb8 mt40 mb24" style="background:#fdd642"><i
-                                            class="fa fa-code-fork" style="border:1px solid;padding: 2px;"/><span class="pl-3">INFO COMPANY</span>
+                                    <button class="btn btn-block pt8 pb8 mt40 mb24" style="background:#fdd642">
+                                        <i
+                                                class="fa fa-code-fork" style="border:1px solid;padding: 2px;"/>
+                                        <span class="pl-3">INFO COMPANY</span>
                                     </button>
-                                    <button class="btn btn-block pt8 pb8" style="background:#fdd642"><i
-                                            class="fa fa-code-fork" style="border:1px solid;padding: 2px;"/><span class="pl-3">BROCHURE NEWST</span>
+                                    <button class="btn btn-block pt8 pb8" style="background:#fdd642">
+                                        <i
+                                                class="fa fa-code-fork" style="border:1px solid;padding: 2px;"/>
+                                        <span class="pl-3">BROCHURE NEWST</span>
                                     </button>
                                 </div>
                             </div>
@@ -132,7 +155,9 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term
+                                        procurement Contact
+                                    </h6>
                                     <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
@@ -143,7 +168,9 @@
                                     </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term
+                                        procurement Contact
+                                    </h6>
                                     <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
@@ -155,7 +182,53 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <t t-call="theme_clarico.customers_carousel_2"/>
+                                <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+                                    <div class="carousel-inner w-100" role="listbox">
+                                        <t t-set="count" t-value="1"/>
+                                        <t t-foreach="blogs" t-as="blog">
+                                            <t t-if="count == 1">
+                                                <div class="carousel-item active">
+                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                        <img alt="Clarico-Customer-2"
+                                                             src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
+                                                             width="100%"/>
+                                                        <h6 class="text-black pt24 pb8 text-truncate">
+                                                            <t t-esc="blog.name"/>
+                                                        </h6>
+                                                        <p style="font-size:12px">
+                                                            <t t-esc="blog.subtitle"/>
+                                                        </p>
+                                                    </section>
+                                                </div>
+                                                <t t-set="count" t-value="count+1"/>
+                                            </t>
+                                            <t t-else="">
+                                                <div class="carousel-item">
+                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                        <img alt="Clarico-Customer-2"
+                                                             src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
+                                                             width="100%"/>
+                                                        <h6 class="text-black pt24 pb8 text-truncate">
+                                                            <t t-esc="blog.name"/>
+                                                        </h6>
+                                                        <p style="font-size:12px">
+                                                            <t t-esc="blog.subtitle"/>
+                                                        </p>
+                                                    </section>
+                                                </div>
+                                            </t>
+                                        </t>
+                                    </div>
+
+
+                                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </a>
+
+                                </div>
                             </div>
                         </div>
 
@@ -180,7 +253,9 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term
+                                        procurement Contact
+                                    </h6>
                                     <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
@@ -191,7 +266,9 @@
                                     </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term
+                                        procurement Contact
+                                    </h6>
                                     <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
@@ -228,7 +305,9 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term
+                                        procurement Contact
+                                    </h6>
                                     <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
@@ -239,7 +318,9 @@
                                     </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term
+                                        procurement Contact
+                                    </h6>
                                     <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
@@ -276,7 +357,9 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term
+                                        procurement Contact
+                                    </h6>
                                     <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
@@ -287,7 +370,9 @@
                                     </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term
+                                        procurement Contact
+                                    </h6>
                                     <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
@@ -324,7 +409,9 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term
+                                        procurement Contact
+                                    </h6>
                                     <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
@@ -335,7 +422,9 @@
                                     </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term
+                                        procurement Contact
+                                    </h6>
                                     <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
@@ -372,7 +461,9 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term
+                                        procurement Contact
+                                    </h6>
                                     <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
@@ -383,7 +474,9 @@
                                     </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6 pt8 p-0">
-                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term procurement Contact</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Long term
+                                        procurement Contact
+                                    </h6>
                                     <p class="border_bottom"/>
                                     <p class="pt8 pb24 text-black" style="font-size: 11px;">Get to know about the
                                         internationa procurement and
@@ -406,12 +499,17 @@
                                     KEY BENIFITS
                                 </h4>
                                 <p class="pt8 text-black" style="font-size: 11px;">
-                                    M &amp; R - The Best Global Procurement Network where we deal with all kinds of International Purchasing and Materials Procurements needs. With over 31 years of global presence,  we’ve developed undeniable unique propositions that our clients can get benefit from.
+                                    M &amp; R - The Best Global Procurement Network where we deal with all kinds of
+                                    International Purchasing and Materials Procurements needs. With over 31 years of
+                                    global presence, we’ve developed undeniable unique propositions that our clients can
+                                    get benefit from.
                                 </p>
                             </div>
                             <div class="row pt24">
                                 <div class="pb16">
-                                <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">In-House Procurement Specialists</h6>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">In-House
+                                        Procurement Specialists
+                                    </h6>
                                     <p class="border_bottom"/>
                                 </div>
                                 <p class="text-black" style="font-size: 11px;">
@@ -420,84 +518,103 @@
                                 </p>
                             </div>
 
-                             <div class="row pt24">
-                                 <div class="pb16">
-                                <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Extraordinary Relationship Building and Teamwork</h6>
-                                 <p class="border_bottom"/>
-                                 </div>
+                            <div class="row pt24">
+                                <div class="pb16">
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Extraordinary
+                                        Relationship Building and Teamwork
+                                    </h6>
+                                    <p class="border_bottom"/>
+                                </div>
                                 <p class="text-black" style="font-size: 11px;">
-                                    Hassle-free procurement is ensured by remarkable relationship development and work done through teams who are dedicated to their domain-related tasks.
+                                    Hassle-free procurement is ensured by remarkable relationship development and work
+                                    done through teams who are dedicated to their domain-related tasks.
                                 </p>
-                             </div>
+                            </div>
 
                             <div class="row pt24">
                                 <div class="pb16">
-                                <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Unmatchable Quality Standards Assured</h6>
-                                 <p class="border_bottom"/>
-                                 </div>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Unmatchable
+                                        Quality Standards Assured
+                                    </h6>
+                                    <p class="border_bottom"/>
+                                </div>
                                 <p class="text-black" style="font-size: 11px;">
-                                    No low-quality product and supplies are dealt with by M &amp; R so you can always rely on our Quality Assurance team and vendors are procured after legal paperwork.
+                                    No low-quality product and supplies are dealt with by M &amp; R so you can always
+                                    rely on our Quality Assurance team and vendors are procured after legal paperwork.
                                 </p>
-                             </div>
+                            </div>
 
                             <div class="row pt24">
                                 <div class="pb16">
-                                <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Unmatched price due to extensive network of Suppliers and Clients.</h6>
-                                 <p class="border_bottom"/>
-                                 </div>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Unmatched price
+                                        due to extensive network of Suppliers and Clients.
+                                    </h6>
+                                    <p class="border_bottom"/>
+                                </div>
                                 <p class="text-black" style="font-size: 11px;">
-                                    Our clients always love the pricing quotations we are able to create for them because of stellar relationship with vendors.
+                                    Our clients always love the pricing quotations we are able to create for them
+                                    because of stellar relationship with vendors.
                                 </p>
-                             </div>
+                            </div>
 
                             <div class="row pt24">
                                 <div class="pb16">
-                                <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Ease of work with Single Vendor Contact concept</h6>
-                                 <p class="border_bottom"/>
-                                 </div>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Ease of work
+                                        with Single Vendor Contact concept
+                                    </h6>
+                                    <p class="border_bottom"/>
+                                </div>
                                 <p class="text-black" style="font-size: 11px;">
-                                    M &amp; R is to provide complete Vending Solutions your business needs. You don't need to experience hassle while dealing with various entities.
+                                    M &amp; R is to provide complete Vending Solutions your business needs. You don't
+                                    need to experience hassle while dealing with various entities.
                                 </p>
-                             </div>
+                            </div>
 
                             <div class="row pt24">
                                 <div class="pb16">
-                                <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Flexibilities on payment Terms</h6>
-                                 <p class="border_bottom"/>
-                                 </div>
+                                    <h6 class="font-weight-bold text-black" style="margin-bottom: -8px;">Flexibilities
+                                        on payment Terms
+                                    </h6>
+                                    <p class="border_bottom"/>
+                                </div>
                                 <p class="text-black" style="font-size: 11px;">
-                                    You can set your own preferred payment terms while working with M &amp; R. We will be responsible to deal with the third party vendors <meanwhile class=""></meanwhile>
+                                    You can set your own preferred payment terms while working with M &amp; R. We will
+                                    be responsible to deal with the third party vendors
+                                    <meanwhile class=""></meanwhile>
                                 </p>
-                             </div>
+                            </div>
 
-                             <div class="row mt80 pb16 bg-black">
+                            <div class="row mt80 pb16 bg-black">
                                 <div class="col-md-12 col-sm-12 mt16 mb16">
-                                    <h5 class="font-weight-bold pt16" style="color:#fdd642;padding-left: 30px;">YOUR BENEFITS</h5>
+                                    <h5 class="font-weight-bold pt16" style="color:#fdd642;padding-left: 30px;">YOUR
+                                        BENEFITS
+                                    </h5>
                                     <ul class="service_ul ml-2">
                                         <li class="pt16 service_li" style="font-size: 11px;">
-                                            You have only one contact that takes care of all agreements, negotiations and transactions on your behalf. You save money and an enormous amount of time.
+                                            You have only one contact that takes care of all agreements, negotiations
+                                            and transactions on your behalf. You save money and an enormous amount of
+                                            time.
                                         </li>
                                         <li class="pt16 service_li" style="font-size: 11px;">
-                                            You benefit directly from our expertise of 31 years’ experience- a global network, and established workflows, guaranteeing maximum synergies, minimum costs, the fastest possible delivery, and optimal results.
+                                            You benefit directly from our expertise of 31 years’ experience- a global
+                                            network, and established workflows, guaranteeing maximum synergies, minimum
+                                            costs, the fastest possible delivery, and optimal results.
 
                                         </li>
                                         <li class="pt16 service_li" style="font-size: 11px;">
-                                            You get the assurance and certainty that your delivery will arrive on time with the most suitable terms and conditions.
+                                            You get the assurance and certainty that your delivery will arrive on time
+                                            with the most suitable terms and conditions.
 
                                         </li>
                                         <li class="pt16 service_li" style="font-size: 11px;">
-                                            Uncomplicated, low-cost, and flexible payment and billing methods which allows you all the flexibility you need.
+                                            Uncomplicated, low-cost, and flexible payment and billing methods which
+                                            allows you all the flexibility you need.
 
                                         </li>
                                     </ul>
 
                                 </div>
                             </div>
-
-
-
-
-
 
 
                             <div class="row">
