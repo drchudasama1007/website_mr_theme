@@ -3,12 +3,6 @@ from odoo import http
 from odoo.http import request
 from odoo.addons.website.controllers.main import Website
 
-# class HomePage(Website):
-#
-#     @http.route(["/"], type='http', auth="public", website=True)
-#     def home_page(self, **kwargs):
-#         blogs = request.env['blog.post'].sudo().search([])
-#         return request.render('theme_clarico.home_template', {'blogs':blogs})
 
 class StaticContent(http.Controller):
 
@@ -72,3 +66,15 @@ class StaticContent(http.Controller):
     @http.route(["/key-benefits"], type='http', auth="public", website=True)
     def key_benefits_page(self, **kwargs):
         return request.render('theme_clarico.key_benefits_template', {})
+
+    @http.route(["/request-submit"], type='http', auth="public", website=True)
+    def request_submit_page(self, **kwargs):
+        if kwargs.get('name'):
+            lead = request.env['crm.lead'].sudo().create({
+                'contact_name': 'Request A Quoto',
+                'name': kwargs.get('name'),
+                'phone': kwargs.get('phone'),
+                'email_from': kwargs.get('email'),
+                'description': kwargs.get('message'),
+            })
+        return request.redirect('/contactus-thank-you')
