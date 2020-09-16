@@ -35,7 +35,7 @@
         </xpath>
         <xpath expr="script[last()]" position="after">
             <script type="text/javascript" src="/theme_clarico/static/src/js/carousel.js"/>
-            <script type="text/javascript" src="/theme_clarico/static/src/js/custom.js"/>
+<!--            <script type="text/javascript" src="/theme_clarico/static/src/js/custom.js"/>-->
             <script type="text/javascript" src="/theme_clarico/static/src/js/services.js"/>
             <script type="text/javascript" src="/theme_clarico/static/src/js/frontend/theme_script.js"/>
             <script type="text/javascript" src="/theme_clarico/static/src/js/frontend/offer_snippent_frontend.js"/>

@@ -38,7 +38,23 @@ $(".owl-carousel").owlCarousel({
       margin:30,
       loop:true,
       nav:true,
-      navText:["<i class='fas fa-long-arrow-alt-left'></i>","<i class='fas fa-long-arrow-alt-right'></i>" ]
+      navText:["<i class='fas fa-long-arrow-alt-left'></i>","<i class='fas fa-long-arrow-alt-right'></i>" ],
+      responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:true
+            },
+            1000:{
+                items:3,
+                nav:true,
+                loop:true
+            }
+        }
   });
 
 

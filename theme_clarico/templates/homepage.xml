@@ -231,11 +231,12 @@
                                             <span class="pb8"
                                                   style="font-size:12px;text-transform: uppercase;padding-right: 10px;">
                                                 <i class="fa fa-minus pr-1" style="color:#fdd642;"/>
-                                                <t t-foreach="blog.tag_ids" t-as="tags">
-                                                    <span class="pr-2">
-                                                        <t t-esc="tags.name"/>
-                                                    </span>
-                                                </t>
+                                                <t t-esc="blog.tags_name"/>
+<!--                                                <t t-foreach="blog.tag_ids" t-as="tags">-->
+<!--                                                    <span class="pr-2">-->
+<!--                                                        <t t-esc="tags.name"/>-->
+<!--                                                    </span>-->
+<!--                                                </t>-->
                                                 <i class="fa fa-pencil pl-2"
                                                    style="color:#fdd642;border-left: 1px solid gray;"/>
                                                 <t t-esc="blog.author_id.name"/>
@@ -581,19 +582,19 @@
                 <div class="col-md-2 col-sm-2"/>
                 <div class="col-md-8 col-sm-8">
                     <div class="row pt32 pb32">
-                        <div class="brand_img col-md-2 col-sm-2" style="border-right:1px solid #f1f1f1;">
+                        <div class="brand_img col" style="border-right:1px solid #f1f1f1;">
                             <img src="/theme_clarico/static/src/img/logo.png" width="100%"/>
                         </div>
-                        <div class="brand_img col-md-2 col-sm-2" style="border-right:1px solid #f1f1f1;">
+                        <div class="brand_img col" style="border-right:1px solid #f1f1f1;">
                             <img src="/theme_clarico/static/src/img/logo.png" width="100%"/>
                         </div>
-                        <div class="brand_img col-md-2 col-sm-2" style="border-right:1px solid #f1f1f1;">
+                        <div class="brand_img col" style="border-right:1px solid #f1f1f1;">
                             <img src="/theme_clarico/static/src/img/logo.png" width="100%"/>
                         </div>
-                        <div class="brand_img col-md-2 col-sm-2" style="border-right:1px solid #f1f1f1;">
+                        <div class="brand_img col" style="border-right:1px solid #f1f1f1;">
                             <img src="/theme_clarico/static/src/img/logo.png" width="100%"/>
                         </div>
-                        <div class="brand_img col-md-2 col-sm-2" style="border-right:1px solid #f1f1f1;">
+                        <div class="brand_img col">
                             <img src="/theme_clarico/static/src/img/logo.png" width="100%"/>
                         </div>
                     </div>
