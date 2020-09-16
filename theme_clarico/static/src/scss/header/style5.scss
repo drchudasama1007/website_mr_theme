@@ -91,7 +91,7 @@ header .te_header_navbar .navbar-brand.logo img
 }
 
 
-/*------- Header Social Icon, Search Icon, Cart Icon, Wishlist Icon, User Icon ---------------------*/ 
+/*------- Header Social Icon, Search Icon, Cart Icon, Wishlist Icon, User Icon ---------------------*/
 .te_header_style_5_main
 {
 	@include media-breakpoint-down(md)
@@ -168,7 +168,7 @@ header .te_header_navbar .navbar-brand.logo img
 		 		{
 		 			padding: 0 4px;
 		 			font-size: nth($f_sizes,2);
-		 			
+
 		 			sup
 		 			{
 		 				padding: 3px 5px;

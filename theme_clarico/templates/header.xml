@@ -57,76 +57,6 @@
                             <div class="timeline pl-3 pr-3">
                                 <span style="color:gray;"><i class="fa fa-envelope-o pr-2"/>info@mr-group.com</span>
                             </div>
-<!--                            <div class="te_header_5_search te_header_search">-->
-<!--                                <div class="te_search_icon_header">-->
-<!--                                    <a href="#" class="">-->
-<!--                                        <i class="fa fa-search te_search_icon_5 te_srch_icon"/>-->
-<!--                                        &lt;!&ndash; i class="fa fa-times te_srch_close" /&ndash;&gt;-->
-<!--                                    </a>-->
-<!--                                </div>-->
-<!--                                <div class="te_search_5_form">-->
-<!--                                    <a href="#" class="te_btn_5_close">-->
-<!--                                        <i class="fa fa-times te_search_close_5 te_srch_close"/>-->
-<!--                                    </a>-->
-<!--                                    <div class="te_search_form_5_page container">-->
-<!--                                        <div class="te_5_text">What are you Looking for ?</div>-->
-<!--                                        <form action="/shop" method="get" t-att-class="search_class">-->
-<!--                                            <input type="text" name="search" id="search" class="te_search_5_input"-->
-<!--                                                   placeholder="Search Entire Store..."/>-->
-<!--                                            <button type="submit" class="te_search_5_submit">-->
-<!--                                                <i class="fa fa-search "></i>-->
-<!--                                            </button>-->
-<!--                                        </form>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="te_cart_icon_head">-->
-<!--                                <t t-call="theme_clarico.header_cart"></t>-->
-<!--                            </div>-->
-<!--                            <div class="te_wish_icon_head"-->
-<!--                                 t-if="request.website.viewref('website_sale_wishlist.add_to_wishlist').active">-->
-<!--                                <t t-call="theme_clarico.header_wishlist"></t>-->
-<!--                            </div>-->
-<!--                            <t t-set="website_menu"-->
-<!--                               t-value="request.env['website.menu'].sudo().search([('is_vertical_menu','=',True),('website_id', 'in', (False,request.website.id))],limit=1)"/>-->
-<!--                            <div class="te_bar_icon" t-if="website_menu">-->
-<!--                                <a href="#" class="">-->
-<!--                                    <i class="fa fa-sliders"/>-->
-<!--                                </a>-->
-<!--                            </div>-->
-<!--                            <div class="te_header_account">-->
-<!--                                <div class="dropdown te_user_account" t-ignore="true"-->
-<!--                                     t-if="not user_id._is_public()">-->
-<!--                                    <a href="#" class="dropdown-toggle btn-link" data-toggle="dropdown">-->
-<!--                                        <i class="fa fa-user-circle-o"></i>-->
-<!--                                    </a>-->
-<!--                                    <div class="dropdown-menu dropdown-menu-right js_usermenu" role="menu">-->
-<!--                                        <a href="/my/home" role="menuitem" class="dropdown-item"><span-->
-<!--                                                class="fa fa-user"/>My Account-->
-<!--                                        </a>-->
-<!--                                        <a href="/shop/cart" role="menuitem" class="dropdown-item"><span-->
-<!--                                                class="fa fa-check-circle"/>Checkout-->
-<!--                                        </a>-->
-<!--                                        <a href="/my/orders" role="menuitem" class="dropdown-item"><span-->
-<!--                                                class="fa fa-pie-chart"/>My orders-->
-<!--                                        </a>-->
-<!--                                        <a href="/shop/wishlist" role="menuitem" class="dropdown-item"><span-->
-<!--                                                class="fa fa-heart"/>My Wishlist-->
-<!--                                        </a>-->
-<!--                                        <a id="o_logout" class="dropdown-item"-->
-<!--                                           t-attf-href="/web/session/logout?redirect=/"-->
-<!--                                           role="menuitem"><span class="fa fa-sign-out"/>Logout-->
-<!--                                        </a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div groups="base.group_public" class="px-2 te_signin">-->
-<!--                                    <a t-attf-href="/web/login" class="btn-link">-->
-<!--                                        <span class="te_user_account_icon">-->
-<!--                                            <i class="fa fa-user-circle-o d-block" aria-hidden="true"></i>-->
-<!--                                        </span>-->
-<!--                                    </a>-->
-<!--                                </div>-->
-<!--                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -148,51 +78,9 @@
             </li>
         </xpath>
 
-<!--        <xpath expr="//li[@id='my_cart']" position="replace">-->
-<!--        </xpath>-->
-<!--        <xpath expr="//li[@id='my_wish']" position="replace">-->
-<!--        </xpath>-->
     </template>
-    <!-- ======================= Header style option 6========================= -->
 
-    <template id="header_cart">
-        <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
-        <a id="my_cart" href="/shop/cart" class="nav-link">
-            <i class="fa fa-shopping-cart"/>
-            <t t-if="website_sale_order.cart_quantity">
-                <sup t-attf-class="my_cart_quantity badge badge-primary"
-                     t-esc="website_sale_order and website_sale_order.cart_quantity"/>
-            </t>
-        </a>
-    </template>
-    <template id="header_wishlist">
-        <t t-if="request.website.viewref('website_sale_wishlist.add_to_wishlist').active">
-            <t t-set='wishcount' t-value="len(request.env['product.wishlist'].current())"/>
-            <a id="my_wish" href="/shop/wishlist" class="nav-link" t-att-style="not wishcount and 'display:none;'">
-                <i class="fa fa-heart"/>
-                <t t-if="wishcount">
-                <sup t-attf-class="my_wish_quantity o_animate_blink badge badge-primary">
-                    <t t-esc='wishcount'/>
-                </sup>
-                </t>
-            </a>
-        </t>
-    </template>
-    <!-- To Replace Default Cart In Navbar -->
-<!--    <template id="header_ept_cart" inherit_id="website_sale.header" name="Header Shop Wishlist Link">-->
-<!--        <xpath expr="//li[@id='my_cart']" position="replace">-->
-<!--            <li id="my_cart"-->
-<!--                t-attf-class="te_cart_icon_head nav-item#{'' if website_sale_order and website_sale_order.cart_quantity else ' d-none'}">-->
-<!--            </li>-->
-<!--        </xpath>-->
-<!--    </template>-->
 
-    <!-- To Repace Default Whishlist In Navbar -->
-<!--    <template id="header_ept_wishlist" inherit_id="website_sale_wishlist.header" name="Header Shop Wishlist Link">-->
-<!--        <xpath expr="//li[@id='my_wish']" position="replace">-->
-<!--            <li id="my_wish" class="nav-item te_wish_icon_head" t-att-style="not wishcount and 'display:none;'"></li>-->
-<!--        </xpath>-->
-<!--    </template>-->
 
     <!-- Replaced signin from header -->
     <template id="portal_show_sign_in_ept" inherit_id="portal.portal_show_sign_in"
@@ -203,16 +91,7 @@
         </xpath>
     </template>
 
-<!--    <template id="pricelist_list_ept" inherit_id="website_sale.pricelist_list">-->
-<!--        <xpath expr="//a[hasclass('dropdown-toggle')]" position="replace">-->
-<!--            <a role="button" href="#" class="dropdown-toggle btn btn-link te_currency_name" data-toggle="dropdown">-->
-<!--                <t t-esc="curr_pl and curr_pl.name or ' - '"/>-->
-<!--            </a>-->
-<!--            <a role="button" href="#" class="dropdown-toggle btn btn-link te_currency_symbol" data-toggle="dropdown">-->
-<!--                <t t-esc="curr_pl.currency_id.symbol"></t>-->
-<!--            </a>-->
-<!--        </xpath>-->
-<!--    </template>-->
+
     <template id="theme_submenu" inherit_id="website.submenu">
         <xpath expr="//li[@t-if='submenu.is_visible and not has_visible_submenu']" position="replace">
             <li t-if="submenu.is_visible and not has_visible_submenu"

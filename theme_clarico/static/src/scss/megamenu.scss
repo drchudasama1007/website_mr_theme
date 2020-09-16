@@ -1072,17 +1072,8 @@ header
 			}
 		}
 	}
-	#my_cart, #my_wish{
-		& i{
-			display:none;
-		}
-		& sup{
-			display:none;
-		}
-	}
-	.mycart-popover{
-		display:none;
-	}
+
+
 	.te_user_account_icon, .te_currency_symbol{
 		display: inline-block;
 		& i{

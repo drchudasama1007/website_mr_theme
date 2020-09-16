@@ -41,12 +41,6 @@
 						<opt
 							data-xmlid="theme_clarico.option_footer_01_assets,theme_clarico.customize_footer_style_1"
 							data-icon="/theme_clarico/static/src/img/customise_option/footer_1.jpg" />
-						<opt
-							data-xmlid="theme_clarico.option_footer_02_assets,theme_clarico.customize_footer_style_2"
-							data-icon="/theme_clarico/static/src/img/customise_option/footer_2.jpg" />
-						<opt
-							data-xmlid="theme_clarico.option_footer_03_assets,theme_clarico.customize_footer_style_3"
-							data-icon="/theme_clarico/static/src/img/customise_option/footer_3.jpg" />
 					</list>
 				</more>
 			</content>

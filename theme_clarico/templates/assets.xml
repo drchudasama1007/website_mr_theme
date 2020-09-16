@@ -21,12 +21,7 @@
 				href="/theme_clarico/static/src/scss/megamenu.scss" />
             <link rel="stylesheet" type="text/scss"
 				href="/theme_clarico/static/src/scss/category_carousel.scss" />
-            <link rel="stylesheet" type="text/css"
-				href="/theme_clarico/static/src/scss/product_slider.scss" />
             <link rel="stylesheet" type="text/scss"	href="/theme_clarico/static/src/scss/customise_option.scss" />
-            <link rel="stylesheet" type="text/scss"	href="/theme_clarico/static/src/scss/ept_apps.scss" />
-            <link rel="stylesheet" type="text/scss"
-            	href="/theme_clarico/static/src/scss/price_range_slider.css" />
             <!-- AOS animations -->
             <link rel="stylesheet" href="/theme_clarico/static/lib/aos/aos.css" />
             <link rel="stylesheet" href="/theme_clarico/static/src/scss/carousel.min.css"/>
