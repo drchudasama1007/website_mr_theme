@@ -29,14 +29,14 @@
             	href="/theme_clarico/static/src/scss/price_range_slider.css" />
             <!-- AOS animations -->
             <link rel="stylesheet" href="/theme_clarico/static/lib/aos/aos.css" />
-            <link rel="stylesheet" href="/theme_clarico/static/src/scss/carousel.min.css"/>
-            <link rel="stylesheet" href="/theme_clarico/static/src/scss/carousel.css"/>
+<!--            <link rel="stylesheet" href="/theme_clarico/static/src/scss/carousel.min.css"/>-->
+<!--            <link rel="stylesheet" href="/theme_clarico/static/src/scss/carousel.css"/>-->
 
         </xpath>
         <xpath expr="script[last()]" position="after">
             <script type="text/javascript" src="/theme_clarico/static/src/js/carousel.js"/>
 <!--            <script type="text/javascript" src="/theme_clarico/static/src/js/custom.js"/>-->
-            <script type="text/javascript" src="/theme_clarico/static/src/js/services.js"/>
+<!--            <script type="text/javascript" src="/theme_clarico/static/src/js/services.js"/>-->
             <script type="text/javascript" src="/theme_clarico/static/src/js/frontend/theme_script.js"/>
             <script type="text/javascript" src="/theme_clarico/static/src/js/frontend/offer_snippent_frontend.js"/>
             <script type="text/javascript" src="/theme_clarico/static/src/js/frontend/category_carousel.js"/>
