@@ -181,14 +181,19 @@
                                     </p>
                                 </div>
                             </div>
+                            <div class="row pt32">
+                                <h4 class="text-black font-weight-bold" style="margin-bottom: -17px;">LETEST NEWS</h4>
+                            </div>
                             <div class="row">
-                                <div id="myCarouselService1" class="myCarouselService carousel slide w-100" data-ride="carousel">
+                                <div id="myCarouselService1" class="myCarouselService carousel slide w-100"
+                                     data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
                                         <t t-set="count" t-value="1"/>
                                         <t t-foreach="blogs" t-as="blog">
                                             <t t-if="count == 1">
                                                 <div class="carousel-item active">
-                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
+                                                    <section
+                                                            class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -205,7 +210,12 @@
                                                             </t>
                                                         </p>
                                                         <t t-if="len(blog.subtitle) &gt; 100">
-                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                            <p class="pt16">
+                                                                <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                                                   style="color:black;border-bottom: 1px solid;font-size:13px;">
+                                                                    Read More
+                                                                </a>
+                                                            </p>
                                                         </t>
                                                     </section>
                                                 </div>
@@ -213,7 +223,8 @@
                                             </t>
                                             <t t-else="">
                                                 <div class="carousel-item">
-                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
+                                                    <section
+                                                            class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -230,7 +241,12 @@
                                                             </t>
                                                         </p>
                                                         <t t-if="len(blog.subtitle) &gt; 100">
-                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                            <p class="pt16">
+                                                                <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                                                   style="color:black;border-bottom: 1px solid;font-size:13px;">
+                                                                    Read More
+                                                                </a>
+                                                            </p>
                                                         </t>
                                                     </section>
                                                 </div>
@@ -297,14 +313,19 @@
                                     </p>
                                 </div>
                             </div>
+                            <div class="row pt32 pb32">
+                                <h4 class="text-black font-weight-bold">LETEST NEWS</h4>
+                            </div>
                             <div class="row">
-                                <div id="myCarouselService2" class="myCarouselService carousel slide w-100" data-ride="carousel">
+                                <div id="myCarouselService2" class="myCarouselService carousel slide w-100"
+                                     data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
                                         <t t-set="count" t-value="1"/>
                                         <t t-foreach="blogs" t-as="blog">
                                             <t t-if="count == 1">
                                                 <div class="carousel-item active">
-                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
+                                                    <section
+                                                            class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -321,7 +342,12 @@
                                                             </t>
                                                         </p>
                                                         <t t-if="len(blog.subtitle) &gt; 100">
-                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                            <p class="pt16">
+                                                                <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                                                   style="color:black;border-bottom: 1px solid;font-size:13px;">
+                                                                    Read More
+                                                                </a>
+                                                            </p>
                                                         </t>
                                                     </section>
                                                 </div>
@@ -329,7 +355,8 @@
                                             </t>
                                             <t t-else="">
                                                 <div class="carousel-item">
-                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
+                                                    <section
+                                                            class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -346,7 +373,12 @@
                                                             </t>
                                                         </p>
                                                         <t t-if="len(blog.subtitle) &gt; 100">
-                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                            <p class="pt16">
+                                                                <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                                                   style="color:black;border-bottom: 1px solid;font-size:13px;">
+                                                                    Read More
+                                                                </a>
+                                                            </p>
                                                         </t>
                                                     </section>
                                                 </div>
@@ -413,14 +445,19 @@
                                     </p>
                                 </div>
                             </div>
+                            <div class="row pt32 pb32">
+                                <h4 class="text-black font-weight-bold">LETEST NEWS</h4>
+                            </div>
                             <div class="row">
-                                <div id="myCarouselService3" class="myCarouselService carousel slide w-100" data-ride="carousel">
+                                <div id="myCarouselService3" class="myCarouselService carousel slide w-100"
+                                     data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
                                         <t t-set="count" t-value="1"/>
                                         <t t-foreach="blogs" t-as="blog">
                                             <t t-if="count == 1">
                                                 <div class="carousel-item active">
-                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
+                                                    <section
+                                                            class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -437,7 +474,12 @@
                                                             </t>
                                                         </p>
                                                         <t t-if="len(blog.subtitle) &gt; 100">
-                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                            <p class="pt16">
+                                                                <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                                                   style="color:black;border-bottom: 1px solid;font-size:13px;">
+                                                                    Read More
+                                                                </a>
+                                                            </p>
                                                         </t>
                                                     </section>
                                                 </div>
@@ -445,7 +487,8 @@
                                             </t>
                                             <t t-else="">
                                                 <div class="carousel-item">
-                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
+                                                    <section
+                                                            class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -462,7 +505,12 @@
                                                             </t>
                                                         </p>
                                                         <t t-if="len(blog.subtitle) &gt; 100">
-                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                            <p class="pt16">
+                                                                <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                                                   style="color:black;border-bottom: 1px solid;font-size:13px;">
+                                                                    Read More
+                                                                </a>
+                                                            </p>
                                                         </t>
                                                     </section>
                                                 </div>
@@ -529,14 +577,19 @@
                                     </p>
                                 </div>
                             </div>
+                            <div class="row pt32 pb32">
+                                <h4 class="text-black font-weight-bold">LETEST NEWS</h4>
+                            </div>
                             <div class="row">
-                                <div id="myCarouselService4" class="myCarouselService carousel slide w-100" data-ride="carousel">
+                                <div id="myCarouselService4" class="myCarouselService carousel slide w-100"
+                                     data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
                                         <t t-set="count" t-value="1"/>
                                         <t t-foreach="blogs" t-as="blog">
                                             <t t-if="count == 1">
                                                 <div class="carousel-item active">
-                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
+                                                    <section
+                                                            class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -553,7 +606,12 @@
                                                             </t>
                                                         </p>
                                                         <t t-if="len(blog.subtitle) &gt; 100">
-                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                            <p class="pt16">
+                                                                <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                                                   style="color:black;border-bottom: 1px solid;font-size:13px;">
+                                                                    Read More
+                                                                </a>
+                                                            </p>
                                                         </t>
                                                     </section>
                                                 </div>
@@ -561,7 +619,8 @@
                                             </t>
                                             <t t-else="">
                                                 <div class="carousel-item">
-                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
+                                                    <section
+                                                            class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -578,7 +637,12 @@
                                                             </t>
                                                         </p>
                                                         <t t-if="len(blog.subtitle) &gt; 100">
-                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                            <p class="pt16">
+                                                                <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                                                   style="color:black;border-bottom: 1px solid;font-size:13px;">
+                                                                    Read More
+                                                                </a>
+                                                            </p>
                                                         </t>
                                                     </section>
                                                 </div>
@@ -645,14 +709,19 @@
                                     </p>
                                 </div>
                             </div>
+                            <div class="row pt32 pb32">
+                                <h4 class="text-black font-weight-bold">LETEST NEWS</h4>
+                            </div>
                             <div class="row">
-                                <div id="myCarouselService5" class="myCarouselService carousel slide w-100" data-ride="carousel">
+                                <div id="myCarouselService5" class="myCarouselService carousel slide w-100"
+                                     data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
                                         <t t-set="count" t-value="1"/>
                                         <t t-foreach="blogs" t-as="blog">
                                             <t t-if="count == 1">
                                                 <div class="carousel-item active">
-                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
+                                                    <section
+                                                            class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -669,7 +738,12 @@
                                                             </t>
                                                         </p>
                                                         <t t-if="len(blog.subtitle) &gt; 100">
-                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                            <p class="pt16">
+                                                                <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                                                   style="color:black;border-bottom: 1px solid;font-size:13px;">
+                                                                    Read More
+                                                                </a>
+                                                            </p>
                                                         </t>
                                                     </section>
                                                 </div>
@@ -677,7 +751,8 @@
                                             </t>
                                             <t t-else="">
                                                 <div class="carousel-item">
-                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
+                                                    <section
+                                                            class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -694,7 +769,12 @@
                                                             </t>
                                                         </p>
                                                         <t t-if="len(blog.subtitle) &gt; 100">
-                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                            <p class="pt16">
+                                                                <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                                                   style="color:black;border-bottom: 1px solid;font-size:13px;">
+                                                                    Read More
+                                                                </a>
+                                                            </p>
                                                         </t>
                                                     </section>
                                                 </div>
@@ -761,14 +841,19 @@
                                     </p>
                                 </div>
                             </div>
+                            <div class="row pt32 pb32">
+                                <h4 class="text-black font-weight-bold">LETEST NEWS</h4>
+                            </div>
                             <div class="row">
-                                <div id="myCarouselService6" class="myCarouselService carousel slide w-100" data-ride="carousel">
+                                <div id="myCarouselService6" class="myCarouselService carousel slide w-100"
+                                     data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
                                         <t t-set="count" t-value="1"/>
                                         <t t-foreach="blogs" t-as="blog">
                                             <t t-if="count == 1">
                                                 <div class="carousel-item active">
-                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
+                                                    <section
+                                                            class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -785,7 +870,12 @@
                                                             </t>
                                                         </p>
                                                         <t t-if="len(blog.subtitle) &gt; 100">
-                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                            <p class="pt16">
+                                                                <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                                                   style="color:black;border-bottom: 1px solid;font-size:13px;">
+                                                                    Read More
+                                                                </a>
+                                                            </p>
                                                         </t>
                                                     </section>
                                                 </div>
@@ -793,7 +883,8 @@
                                             </t>
                                             <t t-else="">
                                                 <div class="carousel-item">
-                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
+                                                    <section
+                                                            class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -810,7 +901,12 @@
                                                             </t>
                                                         </p>
                                                         <t t-if="len(blog.subtitle) &gt; 100">
-                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                            <p class="pt16">
+                                                                <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                                                   style="color:black;border-bottom: 1px solid;font-size:13px;">
+                                                                    Read More
+                                                                </a>
+                                                            </p>
                                                         </t>
                                                     </section>
                                                 </div>
@@ -953,15 +1049,19 @@
 
                                 </div>
                             </div>
-
-                            <div class="row pt56">
-                                <div id="myCarouselService7" class="myCarouselService carousel slide w-100" data-ride="carousel">
+                            <div class="row pt32 pb32">
+                                <h4 class="text-black font-weight-bold">LETEST NEWS</h4>
+                            </div>
+                            <div class="row">
+                                <div id="myCarouselService7" class="myCarouselService carousel slide w-100"
+                                     data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
                                         <t t-set="count" t-value="1"/>
                                         <t t-foreach="blogs" t-as="blog">
                                             <t t-if="count == 1">
                                                 <div class="carousel-item active">
-                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
+                                                    <section
+                                                            class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -978,7 +1078,12 @@
                                                             </t>
                                                         </p>
                                                         <t t-if="len(blog.subtitle) &gt; 100">
-                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                            <p class="pt16">
+                                                                <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                                                   style="color:black;border-bottom: 1px solid;font-size:13px;">
+                                                                    Read More
+                                                                </a>
+                                                            </p>
                                                         </t>
                                                     </section>
                                                 </div>
@@ -986,7 +1091,8 @@
                                             </t>
                                             <t t-else="">
                                                 <div class="carousel-item">
-                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
+                                                    <section
+                                                            class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -1003,7 +1109,12 @@
                                                             </t>
                                                         </p>
                                                         <t t-if="len(blog.subtitle) &gt; 100">
-                                                        <p class="pt16"><a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}" style="color:black;border-bottom: 1px solid;font-size:13px;">Read More</a></p>
+                                                            <p class="pt16">
+                                                                <a t-attf-href="/blog/#{blog.blog_id.id}/post/#{blog.id}"
+                                                                   style="color:black;border-bottom: 1px solid;font-size:13px;">
+                                                                    Read More
+                                                                </a>
+                                                            </p>
                                                         </t>
                                                     </section>
                                                 </div>

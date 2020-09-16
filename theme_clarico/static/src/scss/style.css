@@ -375,8 +375,60 @@ li.service_li:before {
     }
 }
 @media (max-width: 767px){
+    #myCarouselService1 .carousel-control-prev-icon {
+        background-size: 100%, 100%;
+        border-radius: 50%;
+        background-image: none;
+        position: absolute;
+        left: -13px !important;
+    }
+    #myCarouselService1 .carousel-control-next-icon {
+        background-size: 100%, 100%;
+        border-radius: 50%;
+        background-image: none;
+        position: absolute;
+        right: -9px !important;
+        color: #868e96;
+    }
+    .s_carousel .carousel-control-prev-icon {
+        background-size: 100%, 100%;
+        border-radius: 50%;
+        background-image: none;
+        position: absolute;
+        left: 0px !important;
+    }
+    .s_carousel .carousel-control-next-icon {
+        background-size: 100%, 100%;
+        border-radius: 50%;
+        background-image: none;
+        position: absolute;
+        right: 0px !important;
+        color: #868e96;
+    }
+    .s_carousel.s_carousel_default .te_arrow_small .carousel-control-prev-icon::before {
+        font-size: 10px !important;
+        color: #ffffff;
+        margin-left: 0.5rem;
+    }
+    .s_carousel.s_carousel_default .te_arrow_small .carousel-control-next-icon::before {
+        font-size: 10px !important;
+        color: #ffffff;
+        margin-right: 0.5rem;
+    }
+    .contact_pl_phone{
+        padding-left: 0px !important;
+    }
+    .te_header_style_5_main{
+        display: none !important;
+    }
+    .oe_theme_btn_banner{
+        font-size:10px !important;
+    }
     .title_style h2{
         font-size:16px !important;
+    }
+    .tesimonial_row{
+        margin-left: 14px !important;
     }
     .card1 img{
         width: 38% !important;
@@ -386,13 +438,17 @@ li.service_li:before {
         margin-left: unset !important;
         margin-bottom: 15px !important;
     }
+    .card1 .col-md-3{
+        padding-bottom: 15px;
+    }
     .test_card .card1{
         display: initial !important;
+        text-align: center !important;
     }
     .testi_next:before {
         position: absolute;
-        top: -380px !important;
-        right: 40px !important;
+        top: -410px !important;
+        right: 50px !important;
         height: unset !important;
         width: 34px !important;
         padding: 6px !important;
@@ -404,8 +460,8 @@ li.service_li:before {
     }
     .testi_prev:before {
         position: absolute;
-        top: -380px !important;
-        left: 237px !important;
+        top: -410px !important;
+        left: 261px !important;
         height: unset !important;
         width: 34px !important;
         padding: 6px !important;
@@ -550,7 +606,10 @@ li.service_li:before {
         border-right: unset !important;
     }
     .procurement_span{
-        font-size: 16px !important;
+        font-size: 13px !important;
+    }
+    .procurement_span1{
+        font-size: 21px !important;
     }
     .global_about{
         padding-bottom: 8px !important;
@@ -596,7 +655,7 @@ li.service_li:before {
 .accordion a:hover,
 .accordion a:hover::after {
     cursor: pointer;
-    color: #03b5d2;
+    color: white;
 }
 
 .accordion a:hover::after {
@@ -708,20 +767,6 @@ li.service_li:before {
   position: absolute;
   right: -6px;
 }
-/**
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 35px;
-  color: #afabab;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 35px;
-  color: #afabab;
-}
-**/
 .carousel-item{
     min-height: 400px;
 }
@@ -829,7 +874,7 @@ li.service_li:before {
 .testi_prev:before{
     position: absolute;
     top: -150px;
-    left: 1015px;
+    left: 999px;
     height: unset !important;
     width: 34px !important;
     padding: 6px !important;

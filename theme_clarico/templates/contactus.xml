@@ -140,7 +140,7 @@
                                 </div>
                                 <div class="row pt32 text-center">
                                     <div class="col-md-2 col-sm-2"/>
-                                    <div class="col-md-8 col-sm-8">
+                                    <div class="col-md-8 col-sm-8 contact_pl_phone">
                                         <div class="form-inline">
                                             <input type="text" name="subject" size="52" class="form-control"
                                                    placeholder="Enter Email Address" style="height: 43px;border: 0;"/>
@@ -275,7 +275,7 @@
                                 </div>
                                 <div class="row pt32 text-center">
                                     <div class="col-md-2 col-sm-2"/>
-                                    <div class="col-md-8 col-sm-8">
+                                    <div class="col-md-8 col-sm-8 contact_pl_phone">
                                         <div class="form-inline">
                                             <input type="text" name="subject" size="52" class="form-control"
                                                    placeholder="Enter Email Address" style="height: 43px;border: 0;"/>

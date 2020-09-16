@@ -35,7 +35,7 @@
             <script type="text/javascript" src="/theme_clarico/static/src/js/frontend/theme_script.js"/>
             <script type="text/javascript" src="/theme_clarico/static/src/js/frontend/offer_snippent_frontend.js"/>
             <script type="text/javascript" src="/theme_clarico/static/src/js/frontend/category_carousel.js"/>
-            <script type="text/javascript" src="/theme_clarico/static/src/js/frontend/slider.js"/>
+<!--            <script type="text/javascript" src="/theme_clarico/static/src/js/frontend/slider.js"/>-->
             <script type="text/javascript" src="/theme_clarico/static/src/js/frontend/header.js"/>
         </xpath>
     </template>

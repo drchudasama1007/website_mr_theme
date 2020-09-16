@@ -28,7 +28,7 @@
                                 </h2>
                                 <div class="border_right"></div>
                             </div>
-<!--                            <h4 class="pb32 text-black font-weight-bold">ABOUT M&amp;R</h4>-->
+                            <!--                            <h4 class="pb32 text-black font-weight-bold">ABOUT M&amp;R</h4>-->
                             <p class="pb16 text-black font-weight-bold" style="font-size:12px;">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut
@@ -45,7 +45,8 @@
                         </div>
                         <div class="col-md-6 col-sm-6 pl-5">
                             <div class="decorative-title" style="height: 100%;">
-                                <div class="decorative-bar left vertical thick" style="position: absolute;border: 4px solid #fdd642;width: 24%;right: 16px;"></div>
+                                <div class="decorative-bar left vertical thick"
+                                     style="position: absolute;border: 4px solid #fdd642;width: 24%;right: 16px;"></div>
                                 <div class="decorative-bar left horizontal thick"></div>
 
                                 <iframe src="https://www.youtube.com/embed/DuF-p27Zfe8?rel=0&amp;showinfo=0&amp;vq=720"
@@ -262,18 +263,19 @@
                             </p>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 pb8 col-6 procurement_right" style="padding-right: 0;">
-                                    <div class="bg-black pl-3 pr-3 text-center pb16" style="height: 139px;">
-                                        <span class="text-white" style="font-size: 27px;">
+                                    <div class="bg-black pl-3 pr-3 pt8 text-center pb16" style="height: 139px;">
+                                        <span class="text-white procurement_span1" style="font-size: 27px;">
                                             42%
                                         </span>
-                                        <span class="procurement_span" style="font-size:19px">hit rate from RFQ to order in indirect
+                                        <span class="procurement_span" style="font-size:19px">hit rate from RFQ to order
+                                            in indirect
                                             procurement
                                         </span>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-6 pb8 procurement_right" style="padding-right: 0;">
                                     <div class="bg-black pl-3 pr-3 text-center pt8 pb16" style="height: 139px;">
-                                        <span class="text-white" style="font-size: 27px;">
+                                        <span class="text-white procurement_span1" style="font-size: 27px;">
                                             20%-30%
                                         </span>
                                         <span class="procurement_span" style="font-size:19px">
@@ -285,7 +287,7 @@
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 pb8 col-6 procurement_right" style="padding-right: 0;">
                                     <div class="bg-black pl-3 pr-3 pt32 text-center pt8 pb16" style="height: 139px;">
-                                        <span class="text-white" style="font-size: 27px;">
+                                        <span class="text-white procurement_span1" style="font-size: 27px;">
                                             25%
                                         </span>
                                         <span class="procurement_span" style="font-size:19px">
@@ -295,7 +297,7 @@
                                 </div>
                                 <div class="col-md-6 col-sm-6 pb8 col-6 procurement_right" style="padding-right: 0;">
                                     <div class="bg-black pl-3 text-center pr-3 pt8 pb16" style="height: 139px;">
-                                        <span class="text-white" style="font-size: 27px;">
+                                        <span class="text-white procurement_span1" style="font-size: 27px;">
                                             50%
                                         </span>
                                         <span class="procurement_span" style="font-size:19px">
