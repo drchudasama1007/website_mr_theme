@@ -45,7 +45,7 @@
                         </div>
                         <div class="col-md-6 col-sm-6 pl-5">
                             <div class="decorative-title" style="height: 100%;">
-                                <div class="decorative-bar left vertical thick"></div>
+                                <div class="decorative-bar left vertical thick" style="position: absolute;border: 4px solid #fdd642;width: 24%;right: 16px;"></div>
                                 <div class="decorative-bar left horizontal thick"></div>
 
                                 <iframe src="https://www.youtube.com/embed/DuF-p27Zfe8?rel=0&amp;showinfo=0&amp;vq=720"
