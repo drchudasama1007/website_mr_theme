@@ -4,11 +4,11 @@ odoo.define('theme_clarico.services', function (require) {
 $(document).ready(function(){
 
     console.log("hellooooo")
-    $('#myCarousel').carousel({
+    $('.myCarouselService').carousel({
     interval: 5000
 })
 
-$('.carousel .carousel-item').each(function() {
+$('.myCarouselService.carousel .carousel-item').each(function() {
     if(window.innerWidth <= 992){
         var minPerSlide = 2;
     }
@@ -16,7 +16,7 @@ $('.carousel .carousel-item').each(function() {
       var itemsPerSlide = 1;
     }
     var next = $(this).next();
-    console.log("------window-------", window)
+    console.log("------window-------", next)
     if (!next.length) {
         next = $(this).siblings(':first');
     }
@@ -32,7 +32,7 @@ $('.carousel .carousel-item').each(function() {
     }
 });
 
-console.log("=================",$('.owl-nav'))
+console.log("==========1111=======",$('.owl-carousel').find('.owl-nav'))
 $('.owl-carousel .owl-nav').removeClass('disabled');
 
 

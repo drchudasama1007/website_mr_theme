@@ -182,7 +182,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+                                <div id="myCarouselService1" class="myCarouselService carousel slide w-100" data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
                                         <t t-set="count" t-value="1"/>
                                         <t t-foreach="blogs" t-as="blog">
@@ -239,10 +239,10 @@
                                     </div>
 
 
-                                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                    <a class="carousel-control-prev" href="#myCarouselService1" data-slide="prev">
                                         <span class="carousel-control-prev-icon"></span>
                                     </a>
-                                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                    <a class="carousel-control-next" href="#myCarouselService1" data-slide="next">
                                         <span class="carousel-control-next-icon"></span>
                                     </a>
 
@@ -298,7 +298,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+                                <div id="myCarouselService2" class="myCarouselService carousel slide w-100" data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
                                         <t t-set="count" t-value="1"/>
                                         <t t-foreach="blogs" t-as="blog">
@@ -355,10 +355,10 @@
                                     </div>
 
 
-                                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                    <a class="carousel-control-prev" href="#myCarouselService2" data-slide="prev">
                                         <span class="carousel-control-prev-icon"></span>
                                     </a>
-                                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                    <a class="carousel-control-next" href="#myCarouselService2" data-slide="next">
                                         <span class="carousel-control-next-icon"></span>
                                     </a>
 
@@ -414,7 +414,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+                                <div id="myCarouselService3" class="myCarouselService carousel slide w-100" data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
                                         <t t-set="count" t-value="1"/>
                                         <t t-foreach="blogs" t-as="blog">
@@ -471,10 +471,10 @@
                                     </div>
 
 
-                                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                    <a class="carousel-control-prev" href="#myCarouselService3" data-slide="prev">
                                         <span class="carousel-control-prev-icon"></span>
                                     </a>
-                                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                    <a class="carousel-control-next" href="#myCarouselService3" data-slide="next">
                                         <span class="carousel-control-next-icon"></span>
                                     </a>
 
@@ -530,7 +530,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+                                <div id="myCarouselService4" class="myCarouselService carousel slide w-100" data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
                                         <t t-set="count" t-value="1"/>
                                         <t t-foreach="blogs" t-as="blog">
@@ -587,10 +587,10 @@
                                     </div>
 
 
-                                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                    <a class="carousel-control-prev" href="#myCarouselService4" data-slide="prev">
                                         <span class="carousel-control-prev-icon"></span>
                                     </a>
-                                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                    <a class="carousel-control-next" href="#myCarouselService4" data-slide="next">
                                         <span class="carousel-control-next-icon"></span>
                                     </a>
 
@@ -646,7 +646,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+                                <div id="myCarouselService5" class="myCarouselService carousel slide w-100" data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
                                         <t t-set="count" t-value="1"/>
                                         <t t-foreach="blogs" t-as="blog">
@@ -703,10 +703,10 @@
                                     </div>
 
 
-                                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                    <a class="carousel-control-prev" href="#myCarouselService5" data-slide="prev">
                                         <span class="carousel-control-prev-icon"></span>
                                     </a>
-                                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                    <a class="carousel-control-next" href="#myCarouselService5" data-slide="next">
                                         <span class="carousel-control-next-icon"></span>
                                     </a>
 
@@ -762,7 +762,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+                                <div id="myCarouselService6" class="myCarouselService carousel slide w-100" data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
                                         <t t-set="count" t-value="1"/>
                                         <t t-foreach="blogs" t-as="blog">
@@ -819,10 +819,10 @@
                                     </div>
 
 
-                                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                    <a class="carousel-control-prev" href="#myCarouselService6" data-slide="prev">
                                         <span class="carousel-control-prev-icon"></span>
                                     </a>
-                                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                    <a class="carousel-control-next" href="#myCarouselService6" data-slide="next">
                                         <span class="carousel-control-next-icon"></span>
                                     </a>
 
@@ -955,8 +955,8 @@
                             </div>
 
 
-                            <div class="row">
-                                <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+                            <div class="row pt56">
+                                <div id="myCarouselService7" class="myCarouselService carousel slide w-100" data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
                                         <t t-set="count" t-value="1"/>
                                         <t t-foreach="blogs" t-as="blog">
@@ -1013,10 +1013,10 @@
                                     </div>
 
 
-                                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                    <a class="carousel-control-prev" href="#myCarouselService7" data-slide="prev">
                                         <span class="carousel-control-prev-icon"></span>
                                     </a>
-                                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                    <a class="carousel-control-next" href="#myCarouselService7" data-slide="next">
                                         <span class="carousel-control-next-icon"></span>
                                     </a>
 
