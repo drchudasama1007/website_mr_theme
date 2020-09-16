@@ -213,7 +213,7 @@
                                             </t>
                                             <t t-else="">
                                                 <div class="carousel-item">
-                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -329,7 +329,7 @@
                                             </t>
                                             <t t-else="">
                                                 <div class="carousel-item">
-                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -445,7 +445,7 @@
                                             </t>
                                             <t t-else="">
                                                 <div class="carousel-item">
-                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -561,7 +561,7 @@
                                             </t>
                                             <t t-else="">
                                                 <div class="carousel-item">
-                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -677,7 +677,7 @@
                                             </t>
                                             <t t-else="">
                                                 <div class="carousel-item">
-                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -793,7 +793,7 @@
                                             </t>
                                             <t t-else="">
                                                 <div class="carousel-item">
-                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -986,7 +986,7 @@
                                             </t>
                                             <t t-else="">
                                                 <div class="carousel-item">
-                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
