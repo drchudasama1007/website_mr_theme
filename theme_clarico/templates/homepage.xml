@@ -7,27 +7,27 @@
                 Custom Snippets
             </div>
             <div class="o_panel_body">
-            <t t-snippet="theme_clarico.slider_style_5"
-               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
-            <t t-snippet="theme_clarico.brand_mr"
-               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
-            <t t-snippet="theme_clarico.about_mr"
-               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
-            <t t-snippet="theme_clarico.opportunities_mr"
-               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
-            <t t-snippet="theme_clarico.contact_mr"
-               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
-            <t t-snippet="theme_clarico.req_mr"
-               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
-            <t t-snippet="theme_clarico.services_mr"
-               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
-            <t t-snippet="theme_clarico.work_snippet"
-               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
-            <t t-snippet="theme_clarico.news_snippet"
-               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
-            <t t-snippet="theme_clarico.slider_style_1"
-               t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
-            </div>
+                <t t-snippet="theme_clarico.slider_style_5"
+                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+                <t t-snippet="theme_clarico.about_mr"
+                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+                <t t-snippet="theme_clarico.slider_style_1"
+                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+                <t t-snippet="theme_clarico.services_mr"
+                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+                <t t-snippet="theme_clarico.work_snippet"
+                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+                <t t-snippet="theme_clarico.brand_mr"
+                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+                <t t-snippet="theme_clarico.opportunities_mr"
+                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+                <t t-snippet="theme_clarico.news_snippet"
+                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+                <t t-snippet="theme_clarico.contact_mr"
+                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+                <t t-snippet="theme_clarico.req_mr"
+                   t-thumbnail="/theme_clarico/static/src/img/snippets/snippets_icon/space.jpg"/>
+                </div>
         </xpath>
     </template>
 
@@ -39,8 +39,8 @@
                 <li data-target="#myCarousel" data-slide-to="0"/>
             </ol>
             <div class="row">
-                <div class="col-md-2 col-sm-2"/>
-                <div class="col-md-8 col-sm-8">
+                <div class="col-md-2 col-sm-2 col-1"/>
+                <div class="col-md-8 col-sm-8 col-10">
                     <div class="col-md-12 pl-0 pt16 pb16">
                         <h6 class="mb0">Explour Our</h6>
                         <h4 class="font-weight-bold">
@@ -56,8 +56,8 @@
                      data-name="Slide">
                     <div class="">
                         <div class="row content">
-                            <div class="col-md-2 col-sm-2"/>
-                            <div class="col-md-8 col-sm-8">
+                            <div class="col-md-2 col-sm-2 col-1"/>
+                            <div class="col-md-8 col-sm-8 col-10">
                                 <div class="row">
                                     <section
                                             class="carousel-content col-md-4 col-sm-4">
@@ -67,7 +67,7 @@
                                         <h6 class="text-black pt24 pb8 font-weight-bold">
                                             GLOBAL SOURCING
                                         </h6>
-                                        <p style="font-size:12px;height: 126px">
+                                        <p style="font-size:12px;height: 110px">
                                             Lorem ipsum dolor sit amet, consectetur
                                             adipiscing elit, sed do eiusmod tempor incididunt ut
                                         </p>
@@ -83,7 +83,7 @@
                                         <h6 class="text-black pt24 pb8 font-weight-bold">
                                             INTERNATIONAL PROCUREMENT
                                         </h6>
-                                        <p style="font-size:12px;height: 126px">
+                                        <p style="font-size:12px;height: 110px">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor
                                             incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo
@@ -102,7 +102,7 @@
                                         <h6 class="text-black pt24 pb8 font-weight-bold">
                                             GLOBAL SOURCING
                                         </h6>
-                                        <p style="font-size:12px;height: 126px">
+                                        <p style="font-size:12px;height: 110px">
                                             Lorem ipsum dolor sit amet, consectetur
                                             adipiscing elit, sed do eiusmod tempor incididunt ut
                                         </p>
@@ -151,15 +151,23 @@
                                 <section class="carousel-content col-lg-4 col-md-8 te_t_slider_sm_content"
                                          style="animation: animatezoom 0.8s ease-in both;animation-delay: 1s;">
                                     <div class="s_title pb8" data-name="Title">
-                                        <h2 class="carousel_heading font-weight-bold te_t_slider_7_title">YOUR RELIABLE PARTNER FOR ALL SUPPLY CHAIN</h2>
+                                        <h2 class="carousel_heading font-weight-bold te_t_slider_7_title">YOUR RELIABLE
+                                            PARTNER FOR ALL SUPPLY CHAIN
+                                        </h2>
                                     </div>
                                     <p class="carousel_content" style="font-size: 13px !important;">
                                         Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
                                         adipisci velit abil mutoi sovali uomil mitum.
                                     </p>
                                     <div class="s_btn text-left pt8 pb16 mt32" data-name="Buttons">
-                                        <a href="#" class="btn btn-primary te_theme_button text-black" style="font-size:13px;">View Services <i class="pl-1 text-black fa fa-arrow-right"/></a>
-                                        <a href="#" class="btn btn-primary bg-black text-white" style="font-size:13px;">Get a Quote <i class="pl-1 text-white fa fa-arrow-right"/></a>
+                                        <a href="#" class="btn btn-primary te_theme_button text-black"
+                                           style="font-size:13px;">View Services
+                                            <i class="pl-1 text-black fa fa-arrow-right"/>
+                                        </a>
+                                        <a href="#" class="btn btn-primary bg-black text-white" style="font-size:13px;">
+                                            Get a Quote
+                                            <i class="pl-1 text-white fa fa-arrow-right"/>
+                                        </a>
                                     </div>
                                 </section>
                             </div>
@@ -174,15 +182,22 @@
                                 <section class="carousel-content col-lg-4 te_t_slider_sm_content"
                                          style="animation: animatezoom 0.8s ease-in both;animation-delay: 1s;">
                                     <div class="s_title pb8" data-name="Title">
-                                        <h2 class="carousel_heading font-weight-bold te_t_slider_7_title">My Heading 2</h2>
+                                        <h2 class="carousel_heading font-weight-bold te_t_slider_7_title">My Heading 2
+                                        </h2>
                                     </div>
                                     <p class="carousel_content" style="font-size: 13px !important;">
                                         Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
                                         adipisci velit abil mutoi sovali uomil mitum.
                                     </p>
                                     <div class="s_btn text-left pt8 pb16 mt32" data-name="Buttons">
-                                        <a href="#" class="btn btn-primary te_theme_button text-black" style="font-size:13px;">View Services <i class="text-black fa fa-arrow-right pl-1"/></a>
-                                        <a href="#" class="btn btn-primary bg-black text-white" style="font-size:13px;">Get a Quote <i class="text-white fa fa-arrow-right pl-1"/></a>
+                                        <a href="#" class="btn btn-primary te_theme_button text-black"
+                                           style="font-size:13px;">View Services
+                                            <i class="text-black fa fa-arrow-right pl-1"/>
+                                        </a>
+                                        <a href="#" class="btn btn-primary bg-black text-white" style="font-size:13px;">
+                                            Get a Quote
+                                            <i class="text-white fa fa-arrow-right pl-1"/>
+                                        </a>
                                     </div>
                                 </section>
                             </div>
@@ -221,7 +236,7 @@
                             <div class="owl-carousel news_prev staff-list">
                                 <t t-foreach="blogs['blogs']" t-as="blog">
                                     <div class="single-staff-item">
-                                        <img class="img-fluid"
+                                        <img class="img-fluid blog_img_phone"
                                              src="/theme_clarico/static/src/img/footer/footer_1.jpg"/>
                                         <h4 class="text-black pt24 text-truncate">
                                             <t t-esc="blog.name"/>
@@ -232,11 +247,6 @@
                                                   style="font-size:12px;text-transform: uppercase;padding-right: 10px;">
                                                 <i class="fa fa-minus pr-1" style="color:#fdd642;"/>
                                                 <t t-esc="blog.tags_name"/>
-<!--                                                <t t-foreach="blog.tag_ids" t-as="tags">-->
-<!--                                                    <span class="pr-2">-->
-<!--                                                        <t t-esc="tags.name"/>-->
-<!--                                                    </span>-->
-<!--                                                </t>-->
                                                 <i class="fa fa-pencil pl-2"
                                                    style="color:#fdd642;border-left: 1px solid gray;"/>
                                                 <t t-esc="blog.author_id.name"/>
@@ -360,19 +370,19 @@
     <template id="services_mr" name="Services">
         <div class="oe_structure"/>
         <section>
-            <div class="row" style="background:#f1f1f1;border-bottom:1px solid lightgray;">
-                <div class="pt8 pb8" style="color:#f1f1f1;border-right:1px solid lightgray;width:18%;"></div>
-                <div class="bg-white pt8 pb8 font-weight-bold pl-5 pr-5 text-center"
+            <div class="row" style="background:#f1f1f1;">
+                <div class="pt8 pb8 service_phone" style="color:#f1f1f1;border-right:1px solid lightgray;width:18%;"></div>
+                <div class="bg-white pt8 pb8 width_service_phone font-weight-bold pl-5 pr-5 text-center"
                      style="border-right:1px solid lightgray;width:25%;font-size:12px;">
                     <span class="text-center">PROCUREMENT SERVICES</span>
                 </div>
-                <div class="pt8 pb8" style="border-right:1px solid lightgray;color:#f1f1f1;width: 13%;"></div>
-                <div class="pt8 pb8" style="border-right:1px solid lightgray;color:#f1f1f1;width: 13%;"></div>
-                <div class="pt8 pb8" style="border-right:1px solid lightgray;color:#f1f1f1;width: 13%;"></div>
+                <div class="pt8 pb8 service_phone" style="border-right:1px solid lightgray;color:#f1f1f1;width: 13%;"></div>
+                <div class="pt8 pb8 service_phone" style="border-right:1px solid lightgray;color:#f1f1f1;width: 13%;"></div>
+                <div class="pt8 pb8 service_phone" style="border-right:1px solid lightgray;color:#f1f1f1;width: 13%;"></div>
             </div>
             <div class="row" style="background:#f1f1f1">
-                <div class="col-md-2 col-sm-2"/>
-                <div class="col-md-8 col-sm-8">
+                <div class="col-md-2 col-sm-2 col-1"/>
+                <div class="col-md-8 col-sm-8 col-10">
                     <div class="wrap">
                         <div class="wrapv">
                             <div class="vertical1">
@@ -384,7 +394,7 @@
                         </div>
                     </div>
                     <div class="row pt32 pb64">
-                        <div class="col-md-4 col-sm-4">
+                        <div class="div_service_phone col-md-4 col-sm-4">
                             <div style="border-bottom:1px solid lightgray;padding-left: 37px !important;">
                                 <span class="number_count">1</span>
                                 <h6 class="text-black font-weight-bold">
@@ -392,7 +402,7 @@
                                     <br/>
                                     METERIALS
                                 </h6>
-                                <p style="font-size: 12px;height: 150px;">
+                                <p class="p_service_phone" style="font-size: 12px;height: 150px;">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis
                                     ut. Ut
@@ -400,7 +410,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4">
+                        <div class="div_service_phone col-md-4 col-sm-4">
                             <div style="padding-left: 37px !important;">
                                 <span class="number_count">2</span>
                                 <span class="number_arrow">
@@ -411,7 +421,7 @@
                                     <br/>
                                     METERIALS
                                 </h6>
-                                <p style="font-size: 12px;height: 150px;border-bottom:1px solid lightgray;">
+                                <p class="p_service_phone" style="font-size: 12px;height: 150px;border-bottom:1px solid lightgray;">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis
                                     ut. Ut
@@ -428,7 +438,7 @@
                                 <h6 class="text-black font-weight-bold">
                                     HIGH CAPITAL EQUIPEMENT AND MACHINERY
                                 </h6>
-                                <p style="font-size: 12px;height: 150px;border-bottom:1px solid lightgray;">
+                                <p class="p_service_phone" style="font-size: 12px;height: 150px;border-bottom:1px solid lightgray;">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis
                                     ut. Ut
@@ -446,8 +456,8 @@
         <div class="oe_structure"/>
         <section>
             <div class="row">
-                <div class="col-md-2 col-sm-2"/>
-                <div class="col-md-8 col-sm-8">
+                <div class="col-md-2 col-sm-2 col-1"/>
+                <div class="col-md-8 col-sm-8 col-10">
                     <div class="row pt64 pb64">
                         <div class="col-md-3 col-sm-3 pb32">
                             <p class="text-center" style="font-size:12px">
@@ -455,19 +465,19 @@
                                 incididunt ut laboretae
                             </p>
                         </div>
-                        <div class="col-md-3 col-sm-3">
+                        <div class="col-md-3 col-sm-3 req_3">
                             <p class="text-center" style="font-size:12px">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut laboretae
                             </p>
                         </div>
-                        <div class="col-md-3 col-sm-3">
+                        <div class="col-md-3 col-sm-3 req_3">
                             <p class="text-center" style="font-size:12px">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut laboretae
                             </p>
                         </div>
-                        <div class="col-md-3 col-sm-3">
+                        <div class="col-md-3 col-sm-3 req_3">
                             <p class="text-center" style="font-size:12px">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut laboretae
@@ -480,8 +490,8 @@
         <section
                 style="background-image: url('/theme_clarico/static/src/img/Layer 2.jpg');background-size: cover;height:400px">
             <div class="row">
-                <div class="col-md-2 col-sm-2"/>
-                <div class="col-md-8 col-sm-8 pl-5">
+                <div class="col-md-2 col-sm-2 col-1"/>
+                <div class="col-md-8 col-sm-8 col-10 pl-5">
                     <div class="row">
                         <div class="col-md-3 col-sm-3 pt40 bg-black quote_1">
                             <h4 class="text-white font-weight-bold pb8">
@@ -515,13 +525,9 @@
     <template id="contact_mr" name="Locations MR">
         <div class="oe_structure"/>
         <section style="background-image: url('/theme_clarico/static/src/img/Layer 711.jpg');background-size: cover;">
-            <!--            <div class="row">-->
-            <!--                <iframe src="https://maps.google.com/maps?q=22.2736307,70.7510838&amp;z=15&amp;output=embed"-->
-            <!--                        width="100%" height="350" frameborder="0" style="border:0"></iframe>-->
-            <!--            </div>-->
             <div class="row">
-                <div class="col-md-2 col-sm-2"/>
-                <div class="col-md-8 col-sm-8">
+                <div class="col-md-2 col-sm-2 col-1"/>
+                <div class="col-md-8 col-sm-8 col-10">
                     <div class="row pt64 pb88">
                         <h4 class="text-black col-md-12 text-center pb32">
                             WE ARE EXCATLY LOCATED WHERE YOU NEES US
@@ -552,8 +558,8 @@
         <div class="oe_structure"/>
         <section style="background-image: url('/theme_clarico/static/src/img/Layer 711.jpg');background-size: cover;">
             <div class="row">
-                <div class="col-md-2 col-sm-2"/>
-                <div class="col-md-8 col-sm-8">
+                <div class="col-md-2 col-sm-2 col-1"/>
+                <div class="col-md-8 col-sm-8 col-10">
                     <div class="row pt64 pb64">
                         <div class="col-md-4 col-sm-4"/>
                         <div class="col-md-8 col-sm-8 bg-black-50 pt32 pb32" style="padding-left: 35px;">
@@ -579,19 +585,19 @@
         <div class="oe_structure"/>
         <section>
             <div class="row">
-                <div class="col-md-2 col-sm-2"/>
-                <div class="col-md-8 col-sm-8">
+                <div class="col-md-2 col-sm-2 col-1"/>
+                <div class="col-md-8 col-sm-8 col-10">
                     <div class="row pt32 pb32">
-                        <div class="brand_img col" style="border-right:1px solid #f1f1f1;">
+                        <div class="brand_img col" style="border-right:2px solid #f1f1f1;">
                             <img src="/theme_clarico/static/src/img/logo.png" width="100%"/>
                         </div>
-                        <div class="brand_img col" style="border-right:1px solid #f1f1f1;">
+                        <div class="brand_img col" style="border-right:2px solid #f1f1f1;">
                             <img src="/theme_clarico/static/src/img/logo.png" width="100%"/>
                         </div>
-                        <div class="brand_img col" style="border-right:1px solid #f1f1f1;">
+                        <div class="brand_img col" style="border-right:2px solid #f1f1f1;">
                             <img src="/theme_clarico/static/src/img/logo.png" width="100%"/>
                         </div>
-                        <div class="brand_img col" style="border-right:1px solid #f1f1f1;">
+                        <div class="brand_img col" style="border-right:2px solid #f1f1f1;">
                             <img src="/theme_clarico/static/src/img/logo.png" width="100%"/>
                         </div>
                         <div class="brand_img col">
@@ -607,8 +613,8 @@
         <div class="oe_structure"/>
         <section>
             <div class="row">
-                <div class="col-md-2 col-sm-2"/>
-                <div class="col-md-8 col-sm-8">
+                <div class="col-md-2 col-sm-2 col-1"/>
+                <div class="col-md-8 col-sm-8 col-10">
                     <div class="row pt64">
                         <div class="col-md-7 col-sm-7">
                             <div class="row">

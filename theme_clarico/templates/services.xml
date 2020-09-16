@@ -188,7 +188,7 @@
                                         <t t-foreach="blogs" t-as="blog">
                                             <t t-if="count == 1">
                                                 <div class="carousel-item active">
-                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -304,7 +304,7 @@
                                         <t t-foreach="blogs" t-as="blog">
                                             <t t-if="count == 1">
                                                 <div class="carousel-item active">
-                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -420,7 +420,7 @@
                                         <t t-foreach="blogs" t-as="blog">
                                             <t t-if="count == 1">
                                                 <div class="carousel-item active">
-                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -536,7 +536,7 @@
                                         <t t-foreach="blogs" t-as="blog">
                                             <t t-if="count == 1">
                                                 <div class="carousel-item active">
-                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -652,7 +652,7 @@
                                         <t t-foreach="blogs" t-as="blog">
                                             <t t-if="count == 1">
                                                 <div class="carousel-item active">
-                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -768,7 +768,7 @@
                                         <t t-foreach="blogs" t-as="blog">
                                             <t t-if="count == 1">
                                                 <div class="carousel-item active">
-                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>
@@ -954,7 +954,6 @@
                                 </div>
                             </div>
 
-
                             <div class="row pt56">
                                 <div id="myCarouselService7" class="myCarouselService carousel slide w-100" data-ride="carousel">
                                     <div class="carousel-inner w-100" role="listbox">
@@ -962,7 +961,7 @@
                                         <t t-foreach="blogs" t-as="blog">
                                             <t t-if="count == 1">
                                                 <div class="carousel-item active">
-                                                    <section class="col-lg-6 col-sm-4 te_employee_main te_emp_img_name">
+                                                    <section class="col-lg-6 col-sm-4 col-12 te_employee_main te_emp_img_name">
                                                         <img alt="Clarico-Customer-2"
                                                              src="/theme_clarico/static/src/img/074u4zdYFr.jpg"
                                                              width="100%"/>

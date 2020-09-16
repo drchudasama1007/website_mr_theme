@@ -344,6 +344,39 @@ li.service_li:before {
     }
 }
 @media (max-width: 767px){
+    .owl-carousel .owl-item .single-staff-item .blog_img_phone{
+        max-width: unset !important;
+        width: 295px !important;
+        border-radius:0 !important;
+        height: 190px;
+        margin-top: 25px;
+    }
+    .quote_1{
+        position: relative !important;
+        left: -17px !important;
+    }
+    .req_3{
+        padding-bottom: 32px !important;
+    }
+    .owl-carousel .owl-item .single-staff-item .staff_img img{
+        max-width: unset !important;
+        width: 295px !important;
+        border-radius:0 !important;
+        height: 190px;
+        margin-top: 25px;
+    }
+    .service_phone{
+        display: none !important;
+    }
+    .p_service_phone{
+        height:130 !important;
+    }
+    .div_service_phone{
+        padding-bottom: 32px !important;
+    }
+    .width_service_phone{
+        width: 100% !important;
+    }
     .be_a_partner_head{
         padding-left: 3rem !important;
         padding-right: 1.5rem !important;
@@ -590,19 +623,19 @@ li.service_li:before {
   transform: translateX(0);
 }
 
-.carousel-control-prev-icon{
+.te_ts_style_7_inner .carousel-control-prev-icon{
   background-size: 100%, 100%;
   border-radius: 50%;
   background-image: none;
   position: absolute;
-  left: -25px;
+  left: -6px;
 }
-.carousel-control-next-icon {
+.te_ts_style_7_inner .carousel-control-next-icon {
   background-size: 100%, 100%;
   border-radius: 50%;
   background-image: none;
   position: absolute;
-  right: -25px;
+  right: -6px;
 }
 /**
 .carousel-control-next-icon:after
