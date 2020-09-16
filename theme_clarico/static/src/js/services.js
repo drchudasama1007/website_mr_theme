@@ -32,13 +32,17 @@ $('.carousel .carousel-item').each(function() {
     }
 });
 
+console.log("=================",$('.owl-nav'))
+$('.owl-carousel .owl-nav').removeClass('disabled');
+
+
 $(".owl-carousel").owlCarousel({
       items:3,
       autoplay:false,
       margin:30,
       loop:true,
       nav:true,
-      navText:["<i class='fas fa-long-arrow-alt-left'></i>","<i class='fas fa-long-arrow-alt-right'></i>" ],
+      navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>" ],
       responsiveClass:true,
         responsive:{
             0:{
@@ -52,7 +56,6 @@ $(".owl-carousel").owlCarousel({
             1000:{
                 items:3,
                 nav:true,
-                loop:true
             }
         }
   });
