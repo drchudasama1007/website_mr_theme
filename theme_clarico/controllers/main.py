@@ -43,9 +43,6 @@ class StaticContent(http.Controller):
     def cookie_page(self, **kwargs):
         return request.render('theme_clarico.cookie_policy_template', {})
 
-    @http.route(["/contact-us"], type='http', auth="public", website=True)
-    def contactus_page(self, **kwargs):
-        return request.render('theme_clarico.contactus_template', {})
 
     @http.route(["/contactus-submit"], type='http', auth="public", website=True)
     def contactus_submit_page(self, **kwargs):
