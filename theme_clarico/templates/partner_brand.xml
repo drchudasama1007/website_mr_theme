@@ -147,26 +147,31 @@
                 </div>
 
                 <div class="oe_structure"/>
-                <section style="background:#fdd642">
+                <section>
                     <div class="row no-gutters">
-                        <div class="col-md-2 col-sm-2"/>
-                        <div class="col-md-8 col-sm-8">
+                        <div class="col-md-6 col-sm-6" style="background:#fdd642">
                             <div class="row no-gutters text-center">
+                                <div class="col-md-4 col-sm-4"/>
                                 <div class="col-md-2 col-sm-2">
                                     <img class="img-fluid" style="width: 83px;height: 100px;"
                                              src="/theme_clarico/static/src/img/footer/user.png"/>
                                 </div>
-                                <div class="col-md-4 col-sm-4 pt32">
-                                    <h5 class="te_slider_title o_default_snippet_text text-black text-uppercase text-left">
+                                <div class="col-md-6 col-sm-6 brand_div pt40">
+                                    <h5 class="te_slider_title brand_h5 o_default_snippet_text text-black text-uppercase text-left">
                                         Support: +49 (0) 89 520566-0
                                     </h5>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6" style="background:#f0ca3d">
+                            <div class="row no-gutters text-center">
+                                <div class="col-md-2 col-sm-2"/>
                                  <div class="col-md-2 col-sm-2">
                                     <img class="img-fluid" style="width: 83px;height: 100px;"
                                              src="/theme_clarico/static/src/img/footer/mail.png"/>
                                 </div>
-                                <div class="col-md-4 col-sm-4 pt32">
-                                    <h5 class="te_slider_title o_default_snippet_text text-black text-uppercase text-left">
+                                <div class="col-md-6 col-sm-6 brand_div pt40">
+                                    <h5 class="te_slider_title brand_h5 o_default_snippet_text text-black text-uppercase text-left">
                                         Email: info@buildcos.com
                                     </h5>
                                 </div>
